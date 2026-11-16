@@ -1,0 +1,85 @@
+{
+ "rule": "wrong among hits under 1% at the 95% upper bound, sets B and C together",
+ "as_labelled": {
+  "hit_rate": {
+   "k": 853,
+   "n": 1777,
+   "rate": 0.4800225098480585,
+   "low": 0.45199046398034887,
+   "high": 0.5065790415147772,
+   "high_from": "family bootstrap"
+  },
+  "wrong_among_hits": {
+   "k": 3,
+   "n": 853,
+   "rate": 0.0035169988276670576,
+   "low": 0.0,
+   "high": 0.010289122866370029,
+   "high_from": "wilson"
+  },
+  "wrong_among_all": {
+   "k": 3,
+   "n": 1777,
+   "rate": 0.0016882386043894203,
+   "low": 0.0,
+   "high": 0.004952070330574656,
+   "high_from": "wilson"
+  },
+  "recall": {
+   "k": 850,
+   "n": 1024,
+   "rate": 0.830078125,
+   "low": 0.7942081410023498,
+   "high": 0.8644404510284079,
+   "high_from": "family bootstrap"
+  },
+  "passes": false
+ },
+ "corrected": {
+  "hit_rate": {
+   "k": 853,
+   "n": 1777,
+   "rate": 0.4800225098480585,
+   "low": 0.45199046398034887,
+   "high": 0.5065790415147772,
+   "high_from": "family bootstrap"
+  },
+  "wrong_among_hits": {
+   "k": 1,
+   "n": 853,
+   "rate": 0.0011723329425556857,
+   "low": 0.0,
+   "high": 0.0066106259472823795,
+   "high_from": "wilson"
+  },
+  "wrong_among_all": {
+   "k": 1,
+   "n": 1777,
+   "rate": 0.0005627462014631402,
+   "low": 0.0,
+   "high": 0.0031809039474897864,
+   "high_from": "wilson"
+  },
+  "recall": {
+   "k": 852,
+   "n": 1024,
+   "rate": 0.83203125,
+   "low": 0.7966783388357402,
+   "high": 0.8664732377793152,
+   "high_from": "family bootstrap"
+  },
+  "passes": true
+ },
+ "b_and_c_ranges_overlap": {
+  "hit_rate": true,
+  "wrong_among_hits": true,
+  "wrong_among_all": true,
+  "recall": true
+ },
+ "hand_check": {
+  "different: label wrong": 4,
+  "different: Jev wrong": 2,
+  "same: Jev wrong": 36,
+  "same: label wrong": 8
+ }
+}

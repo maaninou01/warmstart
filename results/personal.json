@@ -1,0 +1,274 @@
+{
+ "v2": {
+  "lowest_personal": 0.31,
+  "wobble": 0.07999999999999996,
+  "wording": "v2",
+  "tune": {
+   "bar": 0.23000000000000004,
+   "leaks": {
+    "k": 0,
+    "n": 483,
+    "rate": 0.0,
+    "low": 0.0,
+    "high": 0.007890862243489461,
+    "high_from": "wilson"
+   },
+   "general_kept": {
+    "k": 253,
+    "n": 361,
+    "rate": 0.7008310249307479,
+    "low": 0.6026485709306378,
+    "high": 0.7847044084078725,
+    "high_from": "family bootstrap"
+   },
+   "unsure_shared": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "low": 0.0,
+    "high": 1.0,
+    "high_from": "wilson"
+   }
+  },
+  "grailqa_kept": {
+   "k": 879,
+   "n": 931
+  },
+  "test": {
+   "bar": 0.23000000000000004,
+   "leaks": {
+    "k": 1,
+    "n": 505,
+    "rate": 0.0019801980198019802,
+    "low": 0.0,
+    "high": 0.011130563299752788,
+    "high_from": "wilson"
+   },
+   "general_kept": {
+    "k": 236,
+    "n": 331,
+    "rate": 0.7129909365558912,
+    "low": 0.5924528301886792,
+    "high": 0.8169014084507042,
+    "high_from": "family bootstrap"
+   },
+   "unsure_shared": {
+    "k": 6,
+    "n": 23,
+    "rate": 0.2608695652173913,
+    "low": 0.11538461538461538,
+    "high": 0.4647039054375056,
+    "high_from": "wilson"
+   }
+  },
+  "test_without_later_review": {
+   "bar": 0.23000000000000004,
+   "leaks": {
+    "k": 4,
+    "n": 508,
+    "rate": 0.007874015748031496,
+    "low": 0.00187257166859183,
+    "high": 0.020069143369731476,
+    "high_from": "wilson"
+   },
+   "general_kept": {
+    "k": 235,
+    "n": 330,
+    "rate": 0.7121212121212122,
+    "low": 0.5907437483579736,
+    "high": 0.8163265306122449,
+    "high_from": "family bootstrap"
+   },
+   "unsure_shared": {
+    "k": 4,
+    "n": 21,
+    "rate": 0.19047619047619047,
+    "low": 0.055555555555555546,
+    "high": 0.40000986539273287,
+    "high_from": "wilson"
+   }
+  }
+ },
+ "v3": {
+  "lowest_personal": 0.07,
+  "wobble": 0.08999999999999997,
+  "wording": "v3",
+  "tune": {
+   "bar": 0.0,
+   "leaks": {
+    "k": 0,
+    "n": 483,
+    "rate": 0.0,
+    "low": 0.0,
+    "high": 0.007890862243489461,
+    "high_from": "wilson"
+   },
+   "general_kept": {
+    "k": 0,
+    "n": 361,
+    "rate": 0.0,
+    "low": 0.0,
+    "high": 0.010529501021813301,
+    "high_from": "wilson"
+   },
+   "unsure_shared": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "low": 0.0,
+    "high": 1.0,
+    "high_from": "wilson"
+   }
+  },
+  "grailqa_kept": {
+   "k": 0,
+   "n": 931
+  },
+  "test": {
+   "bar": 0.0,
+   "leaks": {
+    "k": 0,
+    "n": 505,
+    "rate": 0.0,
+    "low": 0.0,
+    "high": 0.0075496971945689965,
+    "high_from": "wilson"
+   },
+   "general_kept": {
+    "k": 0,
+    "n": 331,
+    "rate": 0.0,
+    "low": 0.0,
+    "high": 0.011472887478736215,
+    "high_from": "wilson"
+   },
+   "unsure_shared": {
+    "k": 0,
+    "n": 23,
+    "rate": 0.0,
+    "low": 0.0,
+    "high": 0.14312112541726274,
+    "high_from": "wilson"
+   }
+  },
+  "test_without_later_review": {
+   "bar": 0.0,
+   "leaks": {
+    "k": 0,
+    "n": 508,
+    "rate": 0.0,
+    "low": 0.0,
+    "high": 0.007505446997664902,
+    "high_from": "wilson"
+   },
+   "general_kept": {
+    "k": 0,
+    "n": 330,
+    "rate": 0.0,
+    "low": 0.0,
+    "high": 0.011507253739498012,
+    "high_from": "wilson"
+   },
+   "unsure_shared": {
+    "k": 0,
+    "n": 21,
+    "rate": 0.0,
+    "low": 0.0,
+    "high": 0.15464382326420195,
+    "high_from": "wilson"
+   }
+  }
+ },
+ "strict": {
+  "wording": "v2",
+  "tune": {
+   "bar": 0.2,
+   "leaks": {
+    "k": 0,
+    "n": 483,
+    "rate": 0.0,
+    "low": 0.0,
+    "high": 0.007890862243489461,
+    "high_from": "wilson"
+   },
+   "general_kept": {
+    "k": 248,
+    "n": 361,
+    "rate": 0.6869806094182825,
+    "low": 0.588230115990058,
+    "high": 0.772828943925288,
+    "high_from": "family bootstrap"
+   },
+   "unsure_shared": {
+    "k": 0,
+    "n": 0,
+    "rate": null,
+    "low": 0.0,
+    "high": 1.0,
+    "high_from": "wilson"
+   }
+  },
+  "grailqa_kept": {
+   "k": 871,
+   "n": 931
+  },
+  "test": {
+   "bar": 0.2,
+   "leaks": {
+    "k": 0,
+    "n": 505,
+    "rate": 0.0,
+    "low": 0.0,
+    "high": 0.0075496971945689965,
+    "high_from": "wilson"
+   },
+   "general_kept": {
+    "k": 221,
+    "n": 331,
+    "rate": 0.6676737160120846,
+    "low": 0.5365818104245184,
+    "high": 0.7823968552751379,
+    "high_from": "family bootstrap"
+   },
+   "unsure_shared": {
+    "k": 2,
+    "n": 23,
+    "rate": 0.08695652173913043,
+    "low": 0.0,
+    "high": 0.2679640429809402,
+    "high_from": "wilson"
+   }
+  },
+  "test_without_later_review": {
+   "bar": 0.2,
+   "leaks": {
+    "k": 0,
+    "n": 508,
+    "rate": 0.0,
+    "low": 0.0,
+    "high": 0.007505446997664902,
+    "high_from": "wilson"
+   },
+   "general_kept": {
+    "k": 221,
+    "n": 330,
+    "rate": 0.6696969696969697,
+    "low": 0.5379289737601318,
+    "high": 0.7847777334795176,
+    "high_from": "family bootstrap"
+   },
+   "unsure_shared": {
+    "k": 2,
+    "n": 21,
+    "rate": 0.09523809523809523,
+    "low": 0.0,
+    "high": 0.2891458386074067,
+    "high_from": "wilson"
+   }
+  }
+ },
+ "chosen": {
+  "personal_wording": "v2",
+  "personal_bar": 0.2
+ }
+}

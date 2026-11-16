@@ -1,0 +1,337 @@
+{
+ "set": "b",
+ "bars": {
+  "personal_wording": "v2",
+  "personal_bar": 0.2,
+  "same_bar": 0.542,
+  "floor": 0.66,
+  "top": 1.01,
+  "set": "a"
+ },
+ "prices": {
+  "haiku": {
+   "input": 0.11,
+   "cache_write": 0.1375,
+   "cache_read": 0.011,
+   "output": 0.55
+  },
+  "titan": {
+   "input": 0.026004
+  },
+  "jev": {
+   "input": 0.042,
+   "output": 0.0
+  },
+  "sources": {
+   "checked": "2026-11-03",
+   "haiku": "AWS Price List API, AmazonBedrockFoundationModels, eu-west-1, published 2026-10-12: Claude Haiku 5.5, 'Standard' (regional) prices, which the eu. profile pays; global endpoints are 10% less. Cache writes are the 5-minute ones.",
+   "titan": "AWS Price List API, AmazonBedrock, eu-west-1, published 2026-11-02: TitanEmbeddingsV2-Text input tokens, $0.000026004 per 1,000.",
+   "jev": "typesafe.ai: '$42 per billion input tokens'; launch post 'Introducing System One models and Jev': 'Output tokens: FREE'."
+  }
+ },
+ "window_utc": [
+  "2026-11-03T17:19:48.182938+00:00",
+  "2026-11-03T17:38:07.647233+00:00"
+ ],
+ "paths": {
+  "miss": 467,
+  "checked": 405,
+  "personal_error": 2
+ },
+ "errors": {
+  "k": 2,
+  "n": 874,
+  "low": 0.0006277538182664199,
+  "high": 0.008305065041081324
+ },
+ "replay": {
+  "paths": {
+   "miss": 467,
+   "checked": 405,
+   "personal_error": 2
+  },
+  "wrong_by_path": {
+   "checked": 2
+  },
+  "all": {
+   "questions": 874,
+   "hits": 405,
+   "wrong": 2,
+   "hit_rate": 0.4633867276887872,
+   "wrong_among_hits": 0.0049382716049382715,
+   "wrong_among_all": 0.002288329519450801,
+   "recall": 0.8011928429423459
+  },
+  "kinds": {
+   "near_miss": {
+    "questions": 185,
+    "hits": 68,
+    "wrong": 2,
+    "hit_rate": 0.3675675675675676,
+    "wrong_among_hits": 0.029411764705882353,
+    "wrong_among_all": 0.010810810810810811,
+    "recall": 0.7764705882352941
+   },
+   "repeat": {
+    "questions": 529,
+    "hits": 337,
+    "wrong": 0,
+    "hit_rate": 0.6370510396975425,
+    "wrong_among_hits": 0.0,
+    "wrong_among_all": 0.0,
+    "recall": 0.80622009569378
+   },
+   "singleton": {
+    "questions": 160,
+    "hits": 0,
+    "wrong": 0,
+    "hit_rate": 0.0,
+    "wrong_among_hits": 0.0,
+    "wrong_among_all": 0.0,
+    "recall": null
+   }
+  },
+  "jev": {
+   "checks": 451,
+   "wrong_passes": 2,
+   "good_blocked": 19
+  },
+  "ranges": {
+   "hit_rate": {
+    "k": 405,
+    "n": 874,
+    "rate": 0.4633867276887872,
+    "low": 0.42238246542373437,
+    "high": 0.501103813807654,
+    "high_from": "family bootstrap"
+   },
+   "wrong_among_hits": {
+    "k": 2,
+    "n": 405,
+    "rate": 0.0049382716049382715,
+    "low": 0.0,
+    "high": 0.017824774218244053,
+    "high_from": "wilson"
+   },
+   "wrong_among_all": {
+    "k": 2,
+    "n": 874,
+    "rate": 0.002288329519450801,
+    "low": 0.0,
+    "high": 0.008305065041081324,
+    "high_from": "wilson"
+   },
+   "recall": {
+    "k": 403,
+    "n": 503,
+    "rate": 0.8011928429423459,
+    "low": 0.7454535029190993,
+    "high": 0.8531914893617021,
+    "high_from": "family bootstrap"
+   }
+  }
+ },
+ "agreement_with_sweep": {
+  "hit_or_miss_agrees": 0.9874141876430206,
+  "hit_in_replay_only": 5,
+  "hit_in_sweep_only": 6,
+  "both_hit_same_group": 400,
+  "both_hit": 400,
+  "personal_decision_flips": {
+   "k": 10,
+   "n": 872
+  },
+  "sweep_gate": {
+   "hit_rate": {
+    "k": 406,
+    "n": 874,
+    "rate": 0.4645308924485126,
+    "low": 0.4232035056097592,
+    "high": 0.5027750041140959,
+    "high_from": "family bootstrap"
+   },
+   "wrong_among_hits": {
+    "k": 2,
+    "n": 406,
+    "rate": 0.0049261083743842365,
+    "low": 0.0,
+    "high": 0.017781316220487897,
+    "high_from": "wilson"
+   },
+   "recall": {
+    "k": 404,
+    "n": 503,
+    "rate": 0.8031809145129225,
+    "low": 0.7467649494682767,
+    "high": 0.8545454545454545,
+    "high_from": "family bootstrap"
+   }
+  },
+  "ranges_overlap": {
+   "hit_rate": true,
+   "wrong_among_hits": true,
+   "wrong_among_all": true,
+   "recall": true
+  }
+ },
+ "cost_per_1000": {
+  "no_cache": 0.290700447761194,
+  "prompt_cache": 0.07280272601279318,
+  "prompt_cache_and_exact": 0.0915820241779308,
+  "all_three_measured": 0.0680176799771167,
+  "all_three_without_prompt_cache": 0.18494448947368422
+ },
+ "per_call": {
+  "titan": {
+   "calls": 874,
+   "mean_cost": 3.555466819221968e-07,
+   "p50_s": 0.102
+  },
+  "personal": {
+   "calls": 872,
+   "mean_cost": 1.8779298165137614e-05,
+   "p50_s": 0.177
+  },
+  "same": {
+   "calls": 451,
+   "mean_cost": 1.9105716186252773e-05,
+   "p50_s": 0.166
+  },
+  "haiku": {
+   "calls": 469,
+   "mean_cost": 7.280272601279318e-05,
+   "p50_s": 1.443
+  }
+ },
+ "latency": {
+  "miss": {
+   "n": 467,
+   "p50": 1.582,
+   "p95": 2.4927,
+   "p95_range": [
+    2.271,
+    2.6466000000000003
+   ]
+  },
+  "checked": {
+   "n": 405,
+   "p50": 0.28,
+   "p95": 0.43499999999999994,
+   "p95_range": [
+    0.4084,
+    0.465
+   ]
+  },
+  "personal_error": {
+   "n": 2,
+   "p50": 2.13,
+   "p95": 2.2155,
+   "p95_range": [
+    2.035,
+    2.225
+   ]
+  },
+  "all": {
+   "n": 874,
+   "p50": 1.2309999999999999,
+   "p95": 2.2041,
+   "p95_range": [
+    2.1060499999999998,
+    2.28925
+   ]
+  },
+  "haiku_alone": {
+   "n": 469,
+   "p50": 1.443,
+   "p95": 2.3176,
+   "p95_range": [
+    2.1426000000000003,
+    2.54
+   ]
+  },
+  "miss_penalty": {
+   "n": 467,
+   "p50": 0.11500000000000021,
+   "p95": 0.28480000000000005,
+   "p95_range": [
+    0.266,
+    0.30469999999999986
+   ]
+  }
+ },
+ "warmup": [
+  {
+   "questions": "1-100",
+   "hit_rate": 0.12
+  },
+  {
+   "questions": "101-200",
+   "hit_rate": 0.2
+  },
+  {
+   "questions": "201-300",
+   "hit_rate": 0.44
+  },
+  {
+   "questions": "301-400",
+   "hit_rate": 0.49
+  },
+  {
+   "questions": "401-500",
+   "hit_rate": 0.44
+  },
+  {
+   "questions": "501-600",
+   "hit_rate": 0.58
+  },
+  {
+   "questions": "601-700",
+   "hit_rate": 0.6
+  },
+  {
+   "questions": "701-800",
+   "hit_rate": 0.66
+  },
+  {
+   "questions": "801-874",
+   "hit_rate": 0.7027027027027027
+  }
+ ],
+ "bedrock_check": {
+  "haiku input": {
+   "log": 19298,
+   "bedrock": 19298,
+   "match": true
+  },
+  "haiku cache_write": {
+   "log": 2207,
+   "bedrock": 2207,
+   "match": true
+  },
+  "haiku cache_read": {
+   "log": 1032876,
+   "bedrock": 1032876,
+   "match": true
+  },
+  "haiku output": {
+   "log": 37012,
+   "bedrock": 37012,
+   "match": true
+  },
+  "titan input": {
+   "log": 11950,
+   "bedrock": 11950,
+   "match": true
+  },
+  "haiku calls": {
+   "log": 469,
+   "bedrock": 469,
+   "match": true
+  },
+  "titan calls": {
+   "log": 874,
+   "bedrock": 874,
+   "match": true
+  }
+ }
+}

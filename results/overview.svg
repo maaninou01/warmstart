@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="404" viewBox="0 0 960 404" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="Warmstart: the cache layers and its headline results">
+<defs><marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<rect x="0.75" y="0.75" width="958.5" height="402.5" rx="14" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1.5"/>
+<text x="32" y="46" font-size="22" fill="#0b0b0b" font-weight="700" text-anchor="start" letter-spacing="0">Warmstart</text>
+<text x="32" y="70" font-size="14" fill="#52514e" font-weight="400" text-anchor="start" letter-spacing="0">Reuses an earlier answer when a new support question means the same thing: cheaper, faster, and checked.</text>
+<rect x="32" y="92" width="194" height="78" rx="8" fill="#ffffff" stroke="#e1e0d9" stroke-width="1.5"/>
+<text x="48" y="120" font-size="15" fill="#0b0b0b" font-weight="600" text-anchor="start" letter-spacing="0">Question + scope</text>
+<text x="48" y="141" font-size="12" fill="#52514e" font-weight="400" text-anchor="start" letter-spacing="0">key: model, prompt,</text>
+<text x="48" y="157" font-size="12" fill="#52514e" font-weight="400" text-anchor="start" letter-spacing="0">tools, customer tier</text>
+<rect x="266" y="92" width="194" height="78" rx="8" fill="#ffffff" stroke="#e1e0d9" stroke-width="1.5"/>
+<text x="282" y="120" font-size="15" fill="#0b0b0b" font-weight="600" text-anchor="start" letter-spacing="0">1: Exact match</text>
+<text x="282" y="141" font-size="12" fill="#52514e" font-weight="400" text-anchor="start" letter-spacing="0">same text, same scope</text>
+<text x="282" y="157" font-size="12" fill="#52514e" font-weight="400" text-anchor="start" letter-spacing="0">one Redis read</text>
+<line x1="230" y1="131.0" x2="260" y2="131.0" stroke="#52514e" stroke-width="1.5" marker-end="url(#head)"/>
+<rect x="500" y="92" width="194" height="78" rx="8" fill="#ffffff" stroke="#e1e0d9" stroke-width="1.5"/>
+<text x="516" y="120" font-size="15" fill="#0b0b0b" font-weight="600" text-anchor="start" letter-spacing="0">2: Meaning match</text>
+<text x="516" y="141" font-size="12" fill="#52514e" font-weight="400" text-anchor="start" letter-spacing="0">nearest stored question</text>
+<text x="516" y="157" font-size="12" fill="#52514e" font-weight="400" text-anchor="start" letter-spacing="0">Jev check: same answer?</text>
+<line x1="464" y1="131.0" x2="494" y2="131.0" stroke="#52514e" stroke-width="1.5" marker-end="url(#head)"/>
+<text x="480" y="124.0" font-size="11" fill="#898781" font-weight="400" text-anchor="middle" letter-spacing="0">miss</text>
+<rect x="734" y="92" width="194" height="78" rx="8" fill="#ffffff" stroke="#e1e0d9" stroke-width="1.5"/>
+<text x="750" y="120" font-size="15" fill="#0b0b0b" font-weight="600" text-anchor="start" letter-spacing="0">3: Haiku answers</text>
+<text x="750" y="141" font-size="12" fill="#52514e" font-weight="400" text-anchor="start" letter-spacing="0">system prompt read from</text>
+<text x="750" y="157" font-size="12" fill="#52514e" font-weight="400" text-anchor="start" letter-spacing="0">prompt cache: 1/10 price</text>
+<line x1="698" y1="131.0" x2="728" y2="131.0" stroke="#52514e" stroke-width="1.5" marker-end="url(#head)"/>
+<text x="714" y="124.0" font-size="11" fill="#898781" font-weight="400" text-anchor="middle" letter-spacing="0">miss</text>
+<line x1="363.0" y1="172" x2="363.0" y2="202" stroke="#52514e" stroke-width="1.5" marker-end="url(#head)"/>
+<text x="371.0" y="193" font-size="11" fill="#898781" font-weight="400" text-anchor="start" letter-spacing="0">hit</text>
+<line x1="597.0" y1="172" x2="597.0" y2="202" stroke="#52514e" stroke-width="1.5" marker-end="url(#head)"/>
+<text x="605.0" y="193" font-size="11" fill="#898781" font-weight="400" text-anchor="start" letter-spacing="0">hit</text>
+<rect x="266" y="206" width="428" height="48" rx="8" fill="#eaf2fc" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="480" y="235" font-size="14" fill="#0b0b0b" font-weight="600" text-anchor="middle" letter-spacing="0">Served from the cache in 0.28 s instead of 1.44 s</text>
+<line x1="831.0" y1="172" x2="831.0" y2="202" stroke="#52514e" stroke-width="1.5" marker-end="url(#head)"/>
+<rect x="734" y="206" width="194" height="48" rx="8" fill="#fdf0ea" stroke="#eb6834" stroke-width="1.5"/>
+<text x="831.0" y="226" font-size="12" fill="#0b0b0b" font-weight="400" text-anchor="middle" letter-spacing="0">Stored for 24 h, only if</text>
+<text x="831.0" y="243" font-size="12" fill="#0b0b0b" font-weight="400" text-anchor="middle" letter-spacing="0">Jev finds no customer data</text>
+<rect x="32.0" y="280" width="169.6" height="104" rx="8" fill="#ffffff" stroke="#e1e0d9" stroke-width="1.5"/>
+<text x="46.0" y="304" font-size="11" fill="#898781" font-weight="600" text-anchor="start" letter-spacing="1">HIT RATE</text>
+<text x="46.0" y="338" font-size="28" fill="#2a78d6" font-weight="700" text-anchor="start" letter-spacing="0">48%</text>
+<text x="46.0" y="358" font-size="12" fill="#52514e" font-weight="400" text-anchor="start" letter-spacing="0">of questions answered</text>
+<text x="46.0" y="374" font-size="12" fill="#52514e" font-weight="400" text-anchor="start" letter-spacing="0">from the cache</text>
+<rect x="213.6" y="280" width="169.6" height="104" rx="8" fill="#ffffff" stroke="#e1e0d9" stroke-width="1.5"/>
+<text x="227.6" y="304" font-size="11" fill="#898781" font-weight="600" text-anchor="start" letter-spacing="1">COST</text>
+<text x="227.6" y="338" font-size="28" fill="#2a78d6" font-weight="700" text-anchor="start" letter-spacing="0">−77%</text>
+<text x="227.6" y="358" font-size="12" fill="#52514e" font-weight="400" text-anchor="start" letter-spacing="0">per 1,000 questions</text>
+<text x="227.6" y="374" font-size="12" fill="#52514e" font-weight="400" text-anchor="start" letter-spacing="0">$0.291 → $0.068</text>
+<rect x="395.2" y="280" width="169.6" height="104" rx="8" fill="#ffffff" stroke="#e1e0d9" stroke-width="1.5"/>
+<text x="409.2" y="304" font-size="11" fill="#898781" font-weight="600" text-anchor="start" letter-spacing="1">SPEED</text>
+<text x="409.2" y="338" font-size="28" fill="#2a78d6" font-weight="700" text-anchor="start" letter-spacing="0">×5.3</text>
+<text x="409.2" y="358" font-size="12" fill="#52514e" font-weight="400" text-anchor="start" letter-spacing="0">faster when cached</text>
+<text x="409.2" y="374" font-size="12" fill="#52514e" font-weight="400" text-anchor="start" letter-spacing="0">p95 2.32 s → 0.43 s</text>
+<rect x="576.8" y="280" width="169.6" height="104" rx="8" fill="#ffffff" stroke="#e1e0d9" stroke-width="1.5"/>
+<text x="590.8" y="304" font-size="11" fill="#898781" font-weight="600" text-anchor="start" letter-spacing="1">PRECISION</text>
+<text x="590.8" y="338" font-size="28" fill="#2a78d6" font-weight="700" text-anchor="start" letter-spacing="0">99.6%</text>
+<text x="590.8" y="358" font-size="12" fill="#52514e" font-weight="400" text-anchor="start" letter-spacing="0">of cached answers right</text>
+<text x="590.8" y="374" font-size="12" fill="#52514e" font-weight="400" text-anchor="start" letter-spacing="0">3 wrong in 853</text>
+<rect x="758.4" y="280" width="169.6" height="104" rx="8" fill="#ffffff" stroke="#e1e0d9" stroke-width="1.5"/>
+<text x="772.4" y="304" font-size="11" fill="#898781" font-weight="600" text-anchor="start" letter-spacing="1">PRIVACY</text>
+<text x="772.4" y="338" font-size="28" fill="#2a78d6" font-weight="700" text-anchor="start" letter-spacing="0">0 leaks</text>
+<text x="772.4" y="358" font-size="12" fill="#52514e" font-weight="400" text-anchor="start" letter-spacing="0">of 505 personal test</text>
+<text x="772.4" y="374" font-size="12" fill="#52514e" font-weight="400" text-anchor="start" letter-spacing="0">questions let through</text>
+</svg>

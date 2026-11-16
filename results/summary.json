@@ -1,0 +1,619 @@
+{
+ "sets": "b and c, summed bar by bar",
+ "curves": {
+  "alone": [
+   {
+    "bar": 0.6,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 974,
+    "wrong": 122
+   },
+   {
+    "bar": 0.61,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 971,
+    "wrong": 114
+   },
+   {
+    "bar": 0.62,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 970,
+    "wrong": 112
+   },
+   {
+    "bar": 0.63,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 966,
+    "wrong": 105
+   },
+   {
+    "bar": 0.64,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 962,
+    "wrong": 98
+   },
+   {
+    "bar": 0.65,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 958,
+    "wrong": 94
+   },
+   {
+    "bar": 0.66,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 954,
+    "wrong": 91
+   },
+   {
+    "bar": 0.67,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 950,
+    "wrong": 85
+   },
+   {
+    "bar": 0.68,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 945,
+    "wrong": 75
+   },
+   {
+    "bar": 0.69,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 938,
+    "wrong": 71
+   },
+   {
+    "bar": 0.7,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 932,
+    "wrong": 64
+   },
+   {
+    "bar": 0.71,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 927,
+    "wrong": 62
+   },
+   {
+    "bar": 0.72,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 926,
+    "wrong": 60
+   },
+   {
+    "bar": 0.73,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 917,
+    "wrong": 50
+   },
+   {
+    "bar": 0.74,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 910,
+    "wrong": 40
+   },
+   {
+    "bar": 0.75,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 905,
+    "wrong": 33
+   },
+   {
+    "bar": 0.76,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 898,
+    "wrong": 31
+   },
+   {
+    "bar": 0.77,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 889,
+    "wrong": 23
+   },
+   {
+    "bar": 0.78,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 885,
+    "wrong": 23
+   },
+   {
+    "bar": 0.79,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 882,
+    "wrong": 22
+   },
+   {
+    "bar": 0.8,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 873,
+    "wrong": 20
+   },
+   {
+    "bar": 0.81,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 864,
+    "wrong": 18
+   },
+   {
+    "bar": 0.82,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 859,
+    "wrong": 16
+   },
+   {
+    "bar": 0.83,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 848,
+    "wrong": 16
+   },
+   {
+    "bar": 0.84,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 845,
+    "wrong": 16
+   },
+   {
+    "bar": 0.85,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 833,
+    "wrong": 11
+   },
+   {
+    "bar": 0.86,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 823,
+    "wrong": 6
+   },
+   {
+    "bar": 0.87,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 815,
+    "wrong": 6
+   },
+   {
+    "bar": 0.88,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 800,
+    "wrong": 5
+   },
+   {
+    "bar": 0.89,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 784,
+    "wrong": 5
+   },
+   {
+    "bar": 0.9,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 759,
+    "wrong": 5
+   },
+   {
+    "bar": 0.91,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 729,
+    "wrong": 3
+   },
+   {
+    "bar": 0.92,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 704,
+    "wrong": 1
+   },
+   {
+    "bar": 0.93,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 676,
+    "wrong": 1
+   },
+   {
+    "bar": 0.94,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 637,
+    "wrong": 1
+   },
+   {
+    "bar": 0.95,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 585,
+    "wrong": 1
+   },
+   {
+    "bar": 0.96,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 505,
+    "wrong": 1
+   },
+   {
+    "bar": 0.97,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 412,
+    "wrong": 0
+   },
+   {
+    "bar": 0.98,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 311,
+    "wrong": 0
+   },
+   {
+    "bar": 0.99,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 157,
+    "wrong": 0
+   },
+   {
+    "bar": 1.0,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 1,
+    "wrong": 0
+   }
+  ],
+  "checked": [
+   {
+    "bar": 0.6,
+    "checks": 981,
+    "questions": 1777,
+    "hits": 857,
+    "wrong": 6
+   },
+   {
+    "bar": 0.61,
+    "checks": 977,
+    "questions": 1777,
+    "hits": 857,
+    "wrong": 5
+   },
+   {
+    "bar": 0.62,
+    "checks": 976,
+    "questions": 1777,
+    "hits": 857,
+    "wrong": 5
+   },
+   {
+    "bar": 0.63,
+    "checks": 971,
+    "questions": 1777,
+    "hits": 857,
+    "wrong": 5
+   },
+   {
+    "bar": 0.64,
+    "checks": 969,
+    "questions": 1777,
+    "hits": 857,
+    "wrong": 5
+   },
+   {
+    "bar": 0.65,
+    "checks": 964,
+    "questions": 1777,
+    "hits": 855,
+    "wrong": 3
+   },
+   {
+    "bar": 0.66,
+    "checks": 961,
+    "questions": 1777,
+    "hits": 853,
+    "wrong": 3
+   },
+   {
+    "bar": 0.67,
+    "checks": 956,
+    "questions": 1777,
+    "hits": 852,
+    "wrong": 3
+   },
+   {
+    "bar": 0.68,
+    "checks": 951,
+    "questions": 1777,
+    "hits": 850,
+    "wrong": 3
+   },
+   {
+    "bar": 0.69,
+    "checks": 945,
+    "questions": 1777,
+    "hits": 846,
+    "wrong": 3
+   },
+   {
+    "bar": 0.7,
+    "checks": 938,
+    "questions": 1777,
+    "hits": 843,
+    "wrong": 3
+   },
+   {
+    "bar": 0.71,
+    "checks": 935,
+    "questions": 1777,
+    "hits": 840,
+    "wrong": 3
+   },
+   {
+    "bar": 0.72,
+    "checks": 933,
+    "questions": 1777,
+    "hits": 840,
+    "wrong": 3
+   },
+   {
+    "bar": 0.73,
+    "checks": 923,
+    "questions": 1777,
+    "hits": 836,
+    "wrong": 3
+   },
+   {
+    "bar": 0.74,
+    "checks": 918,
+    "questions": 1777,
+    "hits": 835,
+    "wrong": 3
+   },
+   {
+    "bar": 0.75,
+    "checks": 912,
+    "questions": 1777,
+    "hits": 833,
+    "wrong": 3
+   },
+   {
+    "bar": 0.76,
+    "checks": 904,
+    "questions": 1777,
+    "hits": 827,
+    "wrong": 3
+   },
+   {
+    "bar": 0.77,
+    "checks": 896,
+    "questions": 1777,
+    "hits": 824,
+    "wrong": 3
+   },
+   {
+    "bar": 0.78,
+    "checks": 892,
+    "questions": 1777,
+    "hits": 820,
+    "wrong": 3
+   },
+   {
+    "bar": 0.79,
+    "checks": 890,
+    "questions": 1777,
+    "hits": 819,
+    "wrong": 3
+   },
+   {
+    "bar": 0.8,
+    "checks": 882,
+    "questions": 1777,
+    "hits": 813,
+    "wrong": 3
+   },
+   {
+    "bar": 0.81,
+    "checks": 871,
+    "questions": 1777,
+    "hits": 805,
+    "wrong": 3
+   },
+   {
+    "bar": 0.82,
+    "checks": 865,
+    "questions": 1777,
+    "hits": 800,
+    "wrong": 2
+   },
+   {
+    "bar": 0.83,
+    "checks": 855,
+    "questions": 1777,
+    "hits": 792,
+    "wrong": 2
+   },
+   {
+    "bar": 0.84,
+    "checks": 848,
+    "questions": 1777,
+    "hits": 788,
+    "wrong": 2
+   },
+   {
+    "bar": 0.85,
+    "checks": 836,
+    "questions": 1777,
+    "hits": 780,
+    "wrong": 2
+   },
+   {
+    "bar": 0.86,
+    "checks": 825,
+    "questions": 1777,
+    "hits": 774,
+    "wrong": 2
+   },
+   {
+    "bar": 0.87,
+    "checks": 817,
+    "questions": 1777,
+    "hits": 767,
+    "wrong": 2
+   },
+   {
+    "bar": 0.88,
+    "checks": 800,
+    "questions": 1777,
+    "hits": 753,
+    "wrong": 2
+   },
+   {
+    "bar": 0.89,
+    "checks": 784,
+    "questions": 1777,
+    "hits": 740,
+    "wrong": 2
+   },
+   {
+    "bar": 0.9,
+    "checks": 760,
+    "questions": 1777,
+    "hits": 717,
+    "wrong": 2
+   },
+   {
+    "bar": 0.91,
+    "checks": 731,
+    "questions": 1777,
+    "hits": 693,
+    "wrong": 2
+   },
+   {
+    "bar": 0.92,
+    "checks": 705,
+    "questions": 1777,
+    "hits": 670,
+    "wrong": 0
+   },
+   {
+    "bar": 0.93,
+    "checks": 675,
+    "questions": 1777,
+    "hits": 644,
+    "wrong": 0
+   },
+   {
+    "bar": 0.94,
+    "checks": 637,
+    "questions": 1777,
+    "hits": 611,
+    "wrong": 0
+   },
+   {
+    "bar": 0.95,
+    "checks": 585,
+    "questions": 1777,
+    "hits": 563,
+    "wrong": 0
+   },
+   {
+    "bar": 0.96,
+    "checks": 505,
+    "questions": 1777,
+    "hits": 486,
+    "wrong": 0
+   },
+   {
+    "bar": 0.97,
+    "checks": 411,
+    "questions": 1777,
+    "hits": 398,
+    "wrong": 0
+   },
+   {
+    "bar": 0.98,
+    "checks": 310,
+    "questions": 1777,
+    "hits": 300,
+    "wrong": 0
+   },
+   {
+    "bar": 0.99,
+    "checks": 156,
+    "questions": 1777,
+    "hits": 152,
+    "wrong": 0
+   },
+   {
+    "bar": 1.0,
+    "checks": 0,
+    "questions": 1777,
+    "hits": 1,
+    "wrong": 0
+   }
+  ]
+ },
+ "chosen": {
+  "bar": 0.66,
+  "checks": 961,
+  "questions": 1777,
+  "hits": 853,
+  "wrong": 3
+ },
+ "alone_same_share_served": {
+  "bar": 0.83,
+  "checks": 0,
+  "questions": 1777,
+  "hits": 848,
+  "wrong": 16
+ },
+ "alone_same_share_wrong": {
+  "bar": 0.92,
+  "checks": 0,
+  "questions": 1777,
+  "hits": 704,
+  "wrong": 1
+ },
+ "semantic_layer": {
+  "extra_cost_per_question": 2.8950770938215104e-05,
+  "answer_cost": {
+   "with_prompt_cache": 7.280272601279318e-05,
+   "without_prompt_cache": 0.000290700447761194
+  },
+  "break_even_hit_rate": {
+   "with_prompt_cache": 0.39766053448503785,
+   "without_prompt_cache": 0.09958970191197546
+  }
+ },
+ "same_check_break_even": {
+  "time": 0.113,
+  "money": 0.2624313296028976
+ }
+}

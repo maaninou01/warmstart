@@ -1,0 +1,1003 @@
+qid,question,group,family,kind
+2104998003000,what american football head coach has the largest weight?,(ARGMAX american_football.football_coach people.person.weight_kg),2104998,repeat
+2100406000000,which unit represents 1.0 grams per mole?,(AND measurement_unit.unit_of_molar_mass (JOIN measurement_unit.unit_of_molar_mass.molar_mass_in_grams_per_mole 1.0^^http://www.w3.org/2001/XMLSchema#float)),2100406,repeat
+2101740001000,in which measurement system pascal second is a viscosity unit?,(AND measurement_unit.measurement_system (JOIN measurement_unit.measurement_system.viscosity_units m.02sj4qd)),2101740,repeat
+2102772003000,external combustion engine is included in which engine category?,(AND engineering.engine_category (JOIN engineering.engine_category.category_of m.01h_jf)),2102772,singleton
+2100260003000,"in international system of units, what is the unit of angular frequency?",(AND measurement_unit.angular_velocity_unit (JOIN measurement_unit.angular_velocity_unit.measurement_system m.0c13h)),2100260,repeat
+3204670001000,what is the name of the guitarist that has education of specialization in audio production?,(AND music.guitarist (JOIN people.person.education (JOIN education.education.specialization m.04j55j0))),3204670,repeat
+2104914001000,what is the name of the video game expansion that has the latest initial date of release?,(ARGMAX cvg.computer_game_expansion cvg.computer_videogame.release_date),2104914,repeat
+2103598002000,which tennis tournament is the earliest final occurrence date?,(ARGMIN tennis.tennis_tournament time.recurring_event.date_of_final_occurance),2103598,repeat
+2100303001000,in the international system of units is this included of the data transmission speed units of the measurement system?,(AND measurement_unit.unit_of_data_transmission_rate (JOIN measurement_unit.unit_of_data_transmission_rate.measurement_system m.0c13h)),2100303,repeat
+2103036000000,what is the last day of the year?,(ARGMAX time.day_of_year time.day_of_year.day),2103036,repeat
+2104498004000,which digital camera has the smallest optical zoom available?,(ARGMIN digicams.digital_camera digicams.digital_camera.optical_zoom),2104498,repeat
+2104868003000,which meteorite fell last?,(ARGMAX astronomy.meteorite astronomy.meteorite.meteorite_fall_date),2104868,repeat
+2102086001000,church parish is the size or type of which religious jurisdiction?,(AND religion.religious_leadership_jurisdiction (JOIN religion.religious_leadership_jurisdiction.size_or_type m.05wqv)),2102086,singleton
+2102373002000,who is the player that played ibanez rg?,(AND music.guitarist (JOIN music.guitarist.guitars_played m.0c_3vn)),2102373,near_miss
+3200574009000,what is the genre on netflix of the suite life movie and melody time?,(AND media_common.netflix_genre (AND (JOIN media_common.netflix_genre.titles m.0dgqzyr) (JOIN (R media_common.netflix_title.netflix_genres) m.05grgm))),3200574,near_miss
+2105484002000,the maximum height is had by which disney ride?,(ARGMAX amusement_parks.disney_ride amusement_parks.ride.height),2105484,repeat
+3203342008000,in the fictional world of coffee a go-go how many species are they?,(COUNT (AND fictional_universe.character_species (JOIN (R fictional_universe.fictional_universe.species) (JOIN (R fictional_universe.fictional_setting.universe) m.0gyrq0p)))),3203342,near_miss
+2104287001000,which owned animal is the tallest?,(ARGMAX biology.owned_animal biology.organism.height_meters),2104287,repeat
+3203824003000,the telescope in the palomar observatory has what operational platform?,(AND astronomy.telescope_platform (JOIN (R astronomy.telescope.operational_platform) (JOIN (R astronomy.astronomical_observatory.telescope_s) m.022tzk))),3203824,near_miss
+3201478002000,what video game engine preceded ue2?,(AND cvg.computer_game_engine (JOIN cvg.computer_game_engine.predecessor_engine (JOIN (R cvg.computer_game_engine_family.engines_in_this_family) m.025wnp))),3201478,singleton
+3200333001000,what stage of a disease has a survival rate below 5.0 years?,(AND medicine.disease_stage (JOIN (R medicine.survival_rate.disease_stage) (le medicine.survival_rate.years 5.0^^http://www.w3.org/2001/XMLSchema#float))),3200333,repeat
+3206064001000,who manufactured the latest discontinued computer?,(ARGMAX computer.computer_manufacturer_brand (JOIN computer.computer_manufacturer_brand.computer_models computer.computer.discontinued)),3206064,repeat
+2105411005000,"among dissertations, which has the most recent defense date?",(ARGMAX education.dissertation education.dissertation.defense_date),2105411,repeat
+3205561004000,who is addressed in the quote by obi-wan kenobi?,(AND media_common.quotation_addressee (JOIN (R media_common.quotation.addressee) (JOIN (R fictional_universe.fictional_character.quotations) m.0fkm7))),3205561,singleton
+2100372001000,the international system of units coins the unit of radiant intensity as?,(AND measurement_unit.radiant_intensity_unit (JOIN measurement_unit.radiant_intensity_unit.measurement_system m.0c13h)),2100372,repeat
+3205375005000,"when the radiance unit is watt per square metre per steradian, what unit of measurement for length?",(AND measurement_unit.distance_unit (JOIN measurement_unit.distance_unit.measurement_system (JOIN measurement_unit.measurement_system.radiance_units m.02sj5gj))),3205375,repeat
+2104400000000,what's the currency sub-unit with a denomination of more than 100?,(AND business.currency_sub_unit (gt business.currency_sub_unit.quantity 100^^http://www.w3.org/2001/XMLSchema#integer)),2104400,singleton
+4301671005000,what is ja a. jahannes's religion?,(AND religion.religion (JOIN religion.religion.collective_term_for_adherents (JOIN religion.adherents.religion (JOIN (R people.person.religion) m.0bghvcw)))),4301671,repeat
+2100059006000,which heraldic helm was on the former coat of arms of republika srpska?,(AND symbols.heraldic_helm (JOIN symbols.heraldic_helm.coat_of_arms m.01zlq2)),2100059,repeat
+2104461001000,which war ended the earliest?,(ARGMIN military.war time.event.end_date),2104461,repeat
+2100944012000,facegen is developed by which software developers?,(AND computer.software_developer (JOIN computer.software_developer.software m.027763y)),2100944,near_miss
+2105484001000,what ride has the maximum height at disney?,(ARGMAX amusement_parks.disney_ride amusement_parks.ride.height),2105484,repeat
+2100650001000,what bowling pace in cricket has 113 as the max speed?,(AND cricket.cricket_bowling_pace (JOIN cricket.cricket_bowling_pace.max_speed_kmph 113^^http://www.w3.org/2001/XMLSchema#integer)),2100650,singleton
+3205825003000,the youngest star system body is what?,(ARGMAX astronomy.star_system_body (JOIN astronomy.celestial_object.celestial_age astronomy.celestial_object_age.age)),3205825,repeat
+3205428001000,"heat shock protein 90kda alpha (cytosolic), member a1 is assocaited with what cytogenetic band that has a genomic locus?",(AND biology.cytogenetic_band (JOIN biology.cytogenetic_band.locus (JOIN (R biology.gene.locus) m.03ct2rq))),3205428,repeat
+2102449009000,the gene pa0477 is part of which chromosome?,(AND biology.chromosome (JOIN biology.chromosome.gene m.0l1dqp7)),2102449,near_miss
+2102716000000,droplet contact transmission is the transmission route for which infections diseases?,(AND medicine.infectious_disease (JOIN medicine.infectious_disease.transmission m.05c9sbw)),2102716,singleton
+2101371003000,what is the three-day automobile competition fivb world grand prix?,(AND sports.sports_championship_event (JOIN sports.sports_championship_event.championship m.0574jz)),2101371,near_miss
+2101811001000,"for which unit of potential, the potential in volt is 1.0?",(AND measurement_unit.potential_unit (JOIN measurement_unit.potential_unit.potential_in_volts 1.0^^http://www.w3.org/2001/XMLSchema#float)),2101811,repeat
+3203233003000,hotel grades have been awarded for the fewest number of years from which hotel grading authority?,(ARGMIN travel.hotel_grading_authority (JOIN travel.hotel_grading_authority.grades_awarded travel.hotel_grade.years_awarded)),3203233,repeat
+2105478005000,find the tropical cyclone with fewest total fatalities,(ARGMIN meteorology.tropical_cyclone meteorology.tropical_cyclone.total_fatalities),2105478,repeat
+2100372000000,the international system of units uses what unit as its measure of radiant intensity?,(AND measurement_unit.radiant_intensity_unit (JOIN measurement_unit.radiant_intensity_unit.measurement_system m.0c13h)),2100372,repeat
+2104795007000,which is the satellite that ceased to operate most recently?,(ARGMAX spaceflight.satellite spaceflight.satellite.ceased_operating),2104795,repeat
+2102119008000,"electrokinetic instability micromixer: u.s. patent no. 7,070,681 is a patent of what invention?",(AND law.invention (JOIN law.invention.patents m.0j3n6jv)),2102119,singleton
+2101603004000,what exoplanet exhibits an atmospheric temperature of 900.0?,(AND base.exoplanetology.exoplanet (JOIN base.exoplanetology.exoplanet.atmospheric_temperature 900.0^^http://www.w3.org/2001/XMLSchema#float)),2101603,repeat
+2100391007000,what meteorological service does jtwc provide?,(AND meteorology.tropical_cyclone_category (JOIN meteorology.tropical_cyclone_category.meteorological_service m.03yxmc)),2100391,singleton
+3203950000000,how many exhibition subjects are the subject of an exhibition curated by genevieve lacambre?,(COUNT (AND exhibitions.exhibition_subject (JOIN exhibitions.exhibition_subject.exhibitions_created_about_this_subject (JOIN (R exhibitions.exhibition_curator.exhibitions_curated) m.05vw143)))),3203950,near_miss
+2102938005000,what's the unit of specific energy in measurement system international system of units?,(AND measurement_unit.specific_energy_unit (JOIN measurement_unit.specific_energy_unit.measurement_system m.0c13h)),2102938,repeat
+2101944004000,e-coli has what genome?,(AND biology.genome (JOIN biology.genome.taxon m.09_yl)),2101944,repeat
+2103598001000,name the tennis tournament with the earliest date of final occurrence.,(ARGMIN tennis.tennis_tournament time.recurring_event.date_of_final_occurance),2103598,repeat
+2102702006000,aquila is part of which asterism?,(AND astronomy.asterism (JOIN astronomy.asterism.constellations m.01npxs)),2102702,singleton
+2101341004000,name the measurement system that uses newton per metre as a surface tension unit.,(AND measurement_unit.measurement_system (JOIN measurement_unit.measurement_system.surface_tension_units m.02sj4sk)),2101341,repeat
+2102353012000,71217 is the facility id of which tv station?,(AND broadcast.tv_station (JOIN broadcast.tv_station.facility_id 71217^^http://www.w3.org/2001/XMLSchema#integer)),2102353,singleton
+4303145003000,was the fattest character created by ken akamatsu male or female?,(ARGMAX fictional_universe.character_gender (JOIN (R fictional_universe.fictional_character.gender) (JOIN fictional_universe.fictional_character.character_created_by people.person.weight_kg))),4303145,repeat
+2103036003000,the last day of the year is when?,(ARGMAX time.day_of_year time.day_of_year.day),2103036,repeat
+2104597005000,what is the name of the oldest football player?,(ARGMIN soccer.football_player people.person.date_of_birth),2104597,repeat
+2100686011000,which ship's keel was laid on the date of 01/06/1969?,(AND boats.ship (JOIN boats.ship.keel_laid 1969-01-06^^http://www.w3.org/2001/XMLSchema#date)),2100686,near_miss
+2102938000000,in measurement system international system of units what is the unit of specific energy?,(AND measurement_unit.specific_energy_unit (JOIN measurement_unit.specific_energy_unit.measurement_system m.0c13h)),2102938,repeat
+2104779001000,which roller coaster last closed?,(ARGMAX amusement_parks.roller_coaster amusement_parks.ride.closed),2104779,repeat
+3200083008000,what album did bern symphony orchestra release and what is the release type?,(AND music.album (AND (JOIN music.album.release_type m.02lx2r) (JOIN (R music.artist.album) m.0b91nw))),3200083,near_miss
+3204670005000,what is the name of the guitarist that has education that specializes in audio production?,(AND music.guitarist (JOIN people.person.education (JOIN education.education.specialization m.04j55j0))),3204670,repeat
+3201085000000,which hadron is the antiparticle of π⁻?,(AND physics.hadron (JOIN physics.particle.antiparticle (JOIN physics.particle_antiparticle.particle m.093bp9b))),3201085,singleton
+3206065005000,"which ships have imo/ir number after 9384552, and were also built by perini navi?",(AND boats.ship (AND (ge boats.ship.imo_lr_identification_number 9384552^^http://www.w3.org/2001/XMLSchema#integer) (JOIN (R boats.ship_builder.ships_built) m.0kqt0t))),3206065,near_miss
+2104150001000,the shortest golf course is what?,(ARGMIN sports.golf_course sports.golf_course.length),2104150,repeat
+3206488003000,what video game character is also the parent of a fictitious tv character of xuan zang?,(AND cvg.game_character (JOIN fictional_universe.fictional_character.parents (JOIN (R fictional_universe.person_in_fiction.representations_in_fiction) m.01hsnl))),3206488,singleton
+2104413005000,what's the oldest architect's name?,(ARGMIN architecture.architect people.person.date_of_birth),2104413,repeat
+3200333000000,survival rates of less than 5.0 years are associated with which disease stage?,(AND medicine.disease_stage (JOIN (R medicine.survival_rate.disease_stage) (le medicine.survival_rate.years 5.0^^http://www.w3.org/2001/XMLSchema#float))),3200333,repeat
+2104597001000,who is the oldest football player?,(ARGMIN soccer.football_player people.person.date_of_birth),2104597,repeat
+3202702003000,what music video director belongs to the group that also has the member blue source?,(AND music.music_video_director (JOIN people.person.group (JOIN (R people.group.member) m.010l4fv7))),3202702,singleton
+4300585004000,which unit of inverse temperature with a temperature coefficient in inverse kelvins lower than 1e-06 shares the same measurement system with joule per kelvin?,(AND measurement_unit.inverse_temperature_unit (AND (JOIN measurement_unit.inverse_temperature_unit.measurement_system (JOIN (R measurement_unit.heat_capacity_unit.measurement_system) m.02sj4xx)) (le measurement_unit.inverse_temperature_unit.temperature_coefficient_in_inverse_kelvins 1e-06^^http://www.w3.org/2001/XMLSchema#float))),4300585,near_miss
+2102261000000,the league of ohl belongs to what ice hockey conference?,(AND ice_hockey.hockey_conference (JOIN ice_hockey.hockey_conference.league m.01f_pk)),2102261,singleton
+2104998000000,which american football head coach weighs the most?,(ARGMAX american_football.football_coach people.person.weight_kg),2104998,repeat
+2105427004000,identify the beer that has the lowest color srm?,(ARGMIN food.beer food.beer.color_srm),2105427,repeat
+2101713006000,church cove was the set location for which tv episode?,(AND tv.tv_series_episode (JOIN tv.tv_series_episode.filming_locations m.0fqpc88)),2101713,near_miss
+2104183005000,name the exoplanets which has an orbital period no more than 993.0?,(AND base.exoplanetology.exoplanet (le base.exoplanetology.exoplanet.orbital_period 993.0^^http://www.w3.org/2001/XMLSchema#float)),2104183,singleton
+2104995005000,name the satellite which orbits at the highest altitude.,(ARGMAX spaceflight.satellite spaceflight.satellite.altitude),2104995,repeat
+2100406002000,1.0 grams per mole is represented by which unit?,(AND measurement_unit.unit_of_molar_mass (JOIN measurement_unit.unit_of_molar_mass.molar_mass_in_grams_per_mole 1.0^^http://www.w3.org/2001/XMLSchema#float)),2100406,repeat
+2101944000000,escheria coli is the genome of what?,(AND biology.genome (JOIN biology.genome.taxon m.09_yl)),2101944,repeat
+2104336005000,what is the name of the ship class that travels at the maximum top speed?,(ARGMAX boats.ship_class boats.ship_class.max_speed_knots),2104336,repeat
+3205883003000,what type of format is the most recent tennis match in?,(ARGMAX tennis.tennis_match_type (JOIN (R tennis.tennis_match.match_format) tennis.tennis_match.date)),3205883,repeat
+2105332000000,who is the oldest mountaineer?,(ARGMIN geography.mountaineer people.person.date_of_birth),2105332,repeat
+2102412003000,which tennis player uses one-handed backhand?,(AND tennis.tennis_player (JOIN tennis.tennis_player.tennis_grip m.025df67)),2102412,near_miss
+2103873005000,what was the first comet discovered?,(ARGMIN astronomy.comet astronomy.astronomical_discovery.discovery_date),2103873,repeat
+2104312002000,which file format has the latest creation date?,(ARGMAX computer.file_format computer.file_format.creation_date),2104312,repeat
+3202103004000,the medical trial with the most recent end date is what trail design?,(ARGMAX medicine.medical_trial_design (JOIN (R medicine.medical_trial.design) medicine.medical_trial.end_date)),3202103,repeat
+2104543002000,what is the most recently formed organization committee?,(ARGMAX organization.organization_committee organization.organization_committee.date_formed),2104543,repeat
+3206227001000,which is the battery size of cell variation with maximum capacity?,(ARGMAX engineering.battery_size (JOIN (R engineering.battery_size_cell_variation.size) engineering.battery_size_cell_variation.capacity)),3206227,repeat
+2103665000000,what is the name of the wine having the largest percent new oak?,(ARGMAX wine.wine wine.wine.percent_new_oak),2103665,repeat
+3201558007000,which organization member joined after 1970?,(AND organization.organization_member (JOIN organization.organization_member.member_of (gt organization.organization_membership.from 1970^^http://www.w3.org/2001/XMLSchema#gYear))),3201558,near_miss
+3201526000000,mustonen died on what type of glacier?,(AND geography.glacier_type (JOIN (R geography.glacier.glacier_type) (JOIN (R people.deceased_person.place_of_death) m.0b9hds))),3201526,repeat
+4303145005000,what gender is the fattest character created by hideki anno?,(ARGMAX fictional_universe.character_gender (JOIN (R fictional_universe.fictional_character.gender) (JOIN fictional_universe.fictional_character.character_created_by people.person.weight_kg))),4303145,repeat
+2102829006000,madame xanadu has which characters that appeared in it?,(AND comic_books.comic_book_character (JOIN comic_books.comic_book_character.regular_featured_appearances m.0yq00c_)),2102829,singleton
+4303707003000,which disney roller coasters rides have the fewest number of inversions?,(ARGMIN amusement_parks.disney_ride (JOIN (R amusement_parks.ride_type.rides) (JOIN (R amusement_parks.ride.ride_type) amusement_parks.ride.inversions))),4303707,repeat
+2101683010000,cpl influences what programming language?,(AND computer.programming_language (JOIN computer.programming_language.influenced_by m.03ff_9)),2101683,singleton
+2104775004000,what is the name of the film set decorator who weighs less than 135.0?,(AND film.film_set_designer (lt people.person.weight_kg 135.0^^http://www.w3.org/2001/XMLSchema#float)),2104775,singleton
+2101133001000,the accommodation has a price range of which midrange?,(AND travel.accommodation (JOIN travel.accommodation.price_range m.03ywbf6)),2101133,singleton
+2100218000000,3 is the score of what manufactured drug?,(AND medicine.manufactured_drug_form (JOIN medicine.manufactured_drug_form.scoring 3^^http://www.w3.org/2001/XMLSchema#integer)),2100218,singleton
+2103181000000,which defunct time zone's usage ceased the latest?,(ARGMAX time.defunct_time_zone time.defunct_time_zone.usage_ceased),2103181,repeat
+2100679002000,name the cricket team that rajan sharma coaches.,(AND cricket.cricket_team (JOIN cricket.cricket_team.coach m.0j7ft9h)),2100679,near_miss
+2102938002000,the international system of units measurement system specifies what unit of specific energy?,(AND measurement_unit.specific_energy_unit (JOIN measurement_unit.specific_energy_unit.measurement_system m.0c13h)),2102938,repeat
+2101341002000,newton per metre is the unit of measurement for surface tension in which system of measurement?,(AND measurement_unit.measurement_system (JOIN measurement_unit.measurement_system.surface_tension_units m.02sj4sk)),2101341,repeat
+2103465001000,what beer has the maximum original gravity?,(ARGMAX food.beer food.beer.original_gravity),2103465,repeat
+2103886005000,which unit of radioactivity has the biggest radioactivity in becquerels?,(ARGMAX measurement_unit.radioactivity_unit measurement_unit.radioactivity_unit.radioactivity_in_becquerels),2103886,repeat
+2102522002000,shotokan karate is practiced by what martial artists?,(AND martial_arts.martial_artist (JOIN martial_arts.martial_artist.martial_art m.01dnfp)),2102522,singleton
+2104995000000,what is the satellite with the maximum altitude?,(ARGMAX spaceflight.satellite spaceflight.satellite.altitude),2104995,repeat
+3200336002000,directionality of attacker replaces what fictional calendar system?,(AND fictional_universe.fictional_calendar_system (JOIN (R fictional_universe.fictional_calendar_system.replaced_with) (JOIN (R fictional_universe.calendar_system_directionality.calendars) m.03bvlhf))),3200336,near_miss
+2104795001000,what's the satellite that ceased operating most recently?,(ARGMAX spaceflight.satellite spaceflight.satellite.ceased_operating),2104795,repeat
+2100303000000,what is the unit of data transmission speed found in the measurement system of international system of units?,(AND measurement_unit.unit_of_data_transmission_rate (JOIN measurement_unit.unit_of_data_transmission_rate.measurement_system m.0c13h)),2100303,repeat
+2102521009000,which ski area has 50 many number of runs?,(AND skiing.ski_area (JOIN skiing.ski_area.number_of_runs 50^^http://www.w3.org/2001/XMLSchema#integer)),2102521,singleton
+3205915006000,name the ship chantiers de l'atlantique built with displacement more than 50764.0.,(AND boats.ship (AND (gt boats.ship.displacement 50764.0^^http://www.w3.org/2001/XMLSchema#float) (JOIN boats.ship.ship_builder m.07yg73))),3205915,singleton
+3202193005000,what fictional universe has a fictional calendar system preceded by bby?,(AND fictional_universe.fictional_universe (JOIN (R fictional_universe.fictional_calendar_system.used_in_fictional_universes) (JOIN fictional_universe.fictional_calendar_system.preceded_by m.03bvl87))),3202193,near_miss
+4302283002000,"besides outdoor sculpture, what other art forms were made by andy goldsworthy?",(AND visual_art.visual_art_form (JOIN (R visual_art.artwork.art_form) (AND (JOIN visual_art.artwork.artist m.027rbq) (JOIN visual_art.artwork.art_form m.06msq)))),4302283,near_miss
+2104245004000,which film producer is the shortest?,(ARGMIN film.producer people.person.height_meters),2104245,repeat
+3200289006000,who created the appearance of triforce with the fictional universe?,(AND fictional_universe.fictional_universe_creator (JOIN fictional_universe.fictional_universe_creator.fictional_universes_created (JOIN (R fictional_universe.fictional_substance.appears_in_fictional_universe) m.01_jd3))),3200289,singleton
+2104543001000,what is the most recent formed organization committee?,(ARGMAX organization.organization_committee organization.organization_committee.date_formed),2104543,repeat
+3205211004000,name the profession with a corresponding type which seo expert extends.,(AND people.profession (JOIN people.profession.corresponding_type (JOIN (R type.type.extends) m.011th644))),3205211,repeat
+3205555002000,"in the measurement system used by microsiemens, what is the unit of frequency?",(AND measurement_unit.unit_of_frequency (JOIN measurement_unit.unit_of_frequency.measurement_system (JOIN (R measurement_unit.conductance_unit.measurement_system) m.0gvb8gp))),3205555,near_miss
+2100780003000,what monarch performs a coronation of elizabeth i of england?,(AND royalty.monarch (JOIN royalty.monarch.coronation_event m.0528jpv)),2100780,singleton
+2105113004000,which judge is tallest?,(ARGMAX law.judge people.person.height_meters),2105113,repeat
+2101630012000,what was the theater production that used translation in philip vellacott?,(AND theater.theater_production (JOIN theater.theater_production.translation_used m.05vdgy3)),2101630,near_miss
+4303393003000,what is the most distant stars?,(ARGMAX (AND astronomy.celestial_object (JOIN (R astronomy.celestial_object_category.objects) (JOIN (R astronomy.celestial_object_category.subcategories) m.06ngk))) astronomy.celestial_object.cosmological_distance),4303393,near_miss
+2103886003000,in becquerels which unit of radioactivity is the largest?,(ARGMAX measurement_unit.radioactivity_unit measurement_unit.radioactivity_unit.radioactivity_in_becquerels),2103886,repeat
+3202765005000,what arrangement was made during the discussion of the the latest date of completion?,(ARGMAX music.arrangement (JOIN (R music.composition.includes) music.composition.date_completed)),3202765,repeat
+2105332001000,which mountaineer is the oldest?,(ARGMIN geography.mountaineer people.person.date_of_birth),2105332,repeat
+2104990005000,what was the first musical release that was released?,(ARGMIN music.release music.release.release_date),2104990,repeat
+2104888001000,the max speed of at most 97 applies to what cricket bowling pace?,(AND cricket.cricket_bowling_pace (le cricket.cricket_bowling_pace.max_speed_kmph 97^^http://www.w3.org/2001/XMLSchema#integer)),2104888,singleton
+2100260001000,what is the unit of angular frequency in international system of units?,(AND measurement_unit.angular_velocity_unit (JOIN measurement_unit.angular_velocity_unit.measurement_system m.0c13h)),2100260,repeat
+2105096004000,what book is published first?,(ARGMIN book.book book.written_work.date_of_first_publication),2105096,repeat
+3202765000000,what arrangement is featured in the arrangement with the latest date of completion?,(ARGMAX music.arrangement (JOIN (R music.composition.includes) music.composition.date_completed)),3202765,repeat
+2103539005000,what is the first example of an aviation accident?,(ARGMIN aviation.airliner_accident time.event.start_date),2103539,repeat
+2105327005000,what is the moon with the maximum inclination?,(ARGMAX astronomy.moon astronomy.orbital_relationship.inclination),2105327,repeat
+2104312005000,which file format was most recently created?,(ARGMAX computer.file_format computer.file_format.creation_date),2104312,repeat
+2103618003000,a fictional object that has the smallest date of creation is what?,(ARGMIN fictional_universe.fictional_object fictional_universe.fictional_object.date_created),2103618,repeat
+4304016018000,who designed the fastest amusement park ride as well as the sewerage ride?,(ARGMAX (AND amusement_parks.ride_designer (JOIN (R amusement_parks.ride.designer) (JOIN (R amusement_parks.ride_theme.rides) m.01d2tp))) (JOIN (R amusement_parks.ride.designer) amusement_parks.ride.max_speed)),4304016,near_miss
+2100002000000,what genome build is ncbi known for?,(AND biology.genome_build (JOIN biology.genome_build.curator m.01358j)),2100002,repeat
+2100686002000,which ship has keel laid in 01/06/1969,(AND boats.ship (JOIN boats.ship.keel_laid 1969-01-06^^http://www.w3.org/2001/XMLSchema#date)),2100686,near_miss
+2104797004000,what is the name of the star with the highest declination?,(ARGMAX astronomy.star astronomy.celestial_object.decllnation),2104797,repeat
+2104148003000,which tropical cyclone has been responsible for the most direct fatalities?,(ARGMAX meteorology.tropical_cyclone meteorology.tropical_cyclone.direct_fatalities),2104148,repeat
+3204670002000,name the guitarist who specialized in audio production.,(AND music.guitarist (JOIN people.person.education (JOIN education.education.specialization m.04j55j0))),3204670,repeat
+2100343000000,international system of units utilizes capacitance as its measurement system?,(AND measurement_unit.capacitance_unit (JOIN measurement_unit.capacitance_unit.measurement_system m.0c13h)),2100343,repeat
+2100679008000,what's the name of the cricket team that rajan sharma coaches?,(AND cricket.cricket_team (JOIN cricket.cricket_team.coach m.0j7ft9h)),2100679,near_miss
+3200729000000,which tv location is region of a multi-part musical release with the label nettwerk uk?,(AND tv.tv_location (JOIN (R music.release.region) (JOIN music.release.label m.0g5wz_6))),3200729,near_miss
+2105332005000,provide the name of the oldest mountaineer.,(ARGMIN geography.mountaineer people.person.date_of_birth),2105332,repeat
+2105385000000,the maximum distance in meters comes from which unit of length?,(ARGMAX measurement_unit.distance_unit measurement_unit.distance_unit.distance_in_meters),2105385,repeat
+3202650002000,the medical trial that is finished last is called what?,(ARGMIN medicine.medical_trial_type (JOIN (R medicine.medical_trial.type_of_trial) medicine.medical_trial.end_date)),3202650,repeat
+2102683002000,"in which measurement system, wavenumber unit is reciprocal metre?",(AND measurement_unit.measurement_system (JOIN measurement_unit.measurement_system.wavenumber_units m.02sj3xb)),2102683,repeat
+2105084003000,describe the latest primary election.,(ARGMAX government.primary_election government.election.election_year),2105084,repeat
+3202103005000,find the medical trial design of the medical trial with the latest end date.,(ARGMAX medicine.medical_trial_design (JOIN (R medicine.medical_trial.design) medicine.medical_trial.end_date)),3202103,repeat
+2101213000000,which genomic locus has the start base of 52002683?,(AND biology.genomic_locus (JOIN biology.genomic_locus.start_base 52002683^^http://www.w3.org/2001/XMLSchema#integer)),2101213,near_miss
+2101533004000,a western honeybee is included in what type of animal breed?,(AND biology.animal_breed (JOIN biology.animal_breed.breed_of m.04v81y)),2101533,near_miss
+2103018001000,what kind of battery has a total of 228 cells?,(AND engineering.battery (JOIN engineering.battery.number_of_cells 228^^http://www.w3.org/2001/XMLSchema#integer)),2103018,repeat
+2102849001000,1.0 amperes per square meter is the measurement of what density unit?,(AND measurement_unit.current_density_unit (JOIN measurement_unit.current_density_unit.density_in_amperes_per_square_meter 1.0^^http://www.w3.org/2001/XMLSchema#float)),2102849,repeat
+2105389003000,which olympic games has had the largest number of participating countries?,(ARGMAX olympics.olympic_games olympics.olympic_games.number_of_countries),2105389,repeat
+2104461002000,which war has the earliest end date?,(ARGMIN military.war time.event.end_date),2104461,repeat
+3200100003000,who is the visual artist married at bildt?,(AND visual_art.visual_artist (JOIN (R people.marriage.spouse) (JOIN people.marriage.location_of_ceremony m.0vhss))),3200100,repeat
+2100934005000,what genre is medical romance?,(AND media_common.media_genre (JOIN media_common.media_genre.child_genres m.07xyg67)),2100934,singleton
+2103869004000,find the smallest unit of mass in terms of weightmass of kilograms,(ARGMIN measurement_unit.mass_unit measurement_unit.mass_unit.weightmass_in_kilograms),2103869,repeat
+4303327002000,how many artists recorded the contribution by lso?,(COUNT (AND music.featured_artist (JOIN (R music.recording.featured_artists) (JOIN (R music.track_contribution.track) (JOIN (R music.artist.track_contributions) m.014hr0))))),4303327,singleton
+2101583004000,which organism classification has the latest fossil record of miocene period?,(AND biology.organism_classification (JOIN biology.organism_classification.latest_fossil_record m.04syc)),2101583,singleton
+2103465000000,what is the name of the beer that has the maximum original gravity?,(ARGMAX food.beer food.beer.original_gravity),2103465,repeat
+2104779005000,which roller coaster closed last?,(ARGMAX amusement_parks.roller_coaster amusement_parks.ride.closed),2104779,repeat
+2102927002000,the month of muharram?] is in what calendar system?,(AND time.calendar (JOIN time.calendar.months m.0296bf)),2102927,near_miss
+2105484005000,what ride at disney has the highest height requirement?,(ARGMAX amusement_parks.disney_ride amusement_parks.ride.height),2105484,repeat
+3203479003000,red burgundy style wine is of what color?,(AND wine.wine_color (JOIN wine.wine_color.wines (JOIN wine.wine.wine_style m.07yf21q))),3203479,singleton
+2104742001000,who was the lightest deceased person?,(ARGMIN people.deceased_person people.person.weight_kg),2104742,repeat
+2105389002000,what olympic game has the biggest number of countries that participate?,(ARGMAX olympics.olympic_games olympics.olympic_games.number_of_countries),2105389,repeat
+2105478002000,which tropical cyclone has had the fewest total fatalities?,(ARGMIN meteorology.tropical_cyclone meteorology.tropical_cyclone.total_fatalities),2105478,repeat
+3206529007000,what style of wine does domaine de la romanée-conti produce?,(AND food.wine_style (JOIN food.wine_style.wines (JOIN wine.wine.wine_producer m.027ldkl))),3206529,singleton
+2100303005000,which unit of data transmission rate is in the measurement system of international system of units?,(AND measurement_unit.unit_of_data_transmission_rate (JOIN measurement_unit.unit_of_data_transmission_rate.measurement_system m.0c13h)),2100303,repeat
+2100033014000,what literary series was authored by patricia barnes-svarney?,(AND book.literary_series (JOIN book.literary_series.author_s m.05qft82)),2100033,near_miss
+3200405003000,what is the legislative committee title of the session 2nd session of the 14th canadian parliament?,(AND government.legislative_committee_title (JOIN (R government.legislative_committee_membership.title) (JOIN government.legislative_committee_membership.session m.0gkvljm))),3200405,singleton
+2102603004000,driving is a contradiction for which medical treatment?,(AND medicine.medical_treatment (JOIN medicine.medical_treatment.contraindications m.02z1hl3)),2102603,singleton
+4303008014000,how many contents about technology are produced by the producer of let the good times roll?,(COUNT (AND broadcast.content (AND (JOIN (R broadcast.genre.content) m.07c1v) (JOIN (R broadcast.producer.produces) (JOIN broadcast.producer.produces m.05v8gm9))))),4303008,near_miss
+2104413003000,the oldest architect was named?,(ARGMIN architecture.architect people.person.date_of_birth),2104413,repeat
+2101816011000,the translation el moderno sistema mundial is attributed to what translated work?,(AND book.translated_work (JOIN book.translated_work.translations m.06713_l)),2101816,near_miss
+2101402003000,tennessee has what government?,(AND government.government (JOIN government.government.government_for m.07h34)),2101402,near_miss
+4302283008000,which visual art form is made by andy goldsworthy besides outdoor sculpture?,(AND visual_art.visual_art_form (JOIN (R visual_art.artwork.art_form) (AND (JOIN visual_art.artwork.artist m.027rbq) (JOIN visual_art.artwork.art_form m.06msq)))),4302283,near_miss
+3203592012000,what routed drug that a marketed formulation that has a reference form of neurontin 250 solution?,(AND medicine.routed_drug (JOIN medicine.routed_drug.marketed_formulations (JOIN medicine.drug_formulation.reference_form m.0jxlnks))),3203592,near_miss
+3206064002000,who is the manufacturer of the latest discontinued computer?,(ARGMAX computer.computer_manufacturer_brand (JOIN computer.computer_manufacturer_brand.computer_models computer.computer.discontinued)),3206064,repeat
+2104402000000,the largest thrust is accomplished by which reaction engine?,(ARGMAX engineering.reaction_engine engineering.reaction_engine.thrust),2104402,repeat
+3201457009000,what is the name of the exhibition that has the same exhibition curator with venice biennale of architecture taiwan pavillion 2006?,(AND exhibitions.exhibition (JOIN (R exhibitions.exhibition_curator.exhibitions_curated) (JOIN exhibitions.exhibition_curator.exhibitions_curated m.064dsyn))),3201457,near_miss
+2102680003000,"in the international system of units, what unit is used for amount of concentration?",(AND measurement_unit.amount_concentration_unit (JOIN measurement_unit.amount_concentration_unit.measurement_system m.0c13h)),2102680,repeat
+2102872004000,international system of units states that what unit is used for the unit of conductance?,(AND measurement_unit.conductance_unit (JOIN measurement_unit.conductance_unit.measurement_system m.0c13h)),2102872,repeat
+2100260002000,which unit is angular frequency in international system of units?,(AND measurement_unit.angular_velocity_unit (JOIN measurement_unit.angular_velocity_unit.measurement_system m.0c13h)),2100260,repeat
+2100303002000,the measurement system of international system of units is part of which data transmission rate?,(AND measurement_unit.unit_of_data_transmission_rate (JOIN measurement_unit.unit_of_data_transmission_rate.measurement_system m.0c13h)),2100303,repeat
+3202075003000,which musical instrument is in a musical contribution associated with basso buffo?,(AND music.instrument (JOIN music.performance_role.guest_performances (JOIN music.recording_contribution.performance_role m.037c9s))),3202075,repeat
+2100679012000,what's the name of the cricket team that trevor bayliss coaches?,(AND cricket.cricket_team (JOIN cricket.cricket_team.coach m.02rgp16)),2100679,near_miss
+2100134005000,international system of units has which unit of viscosity?,(AND measurement_unit.viscosity_unit (JOIN measurement_unit.viscosity_unit.measurement_system m.0c13h)),2100134,repeat
+2101449000000,find pistons that use v engine,(AND engineering.piston_engine (JOIN engineering.piston_engine.piston_configuration m.01cd9z)),2101449,singleton
+2102372007000,2002-09-09 is the date what organization was founded?,(AND organization.organization (JOIN organization.organization.date_founded 2002-09-09^^http://www.w3.org/2001/XMLSchema#date)),2102372,singleton
+2100686010000,"which ship has keel laid in jul. the 10th, 1917",(AND boats.ship (JOIN boats.ship.keel_laid 1917-07-10^^http://www.w3.org/2001/XMLSchema#date)),2100686,near_miss
+2103691002000,the galaxy that has the longest distance is what?,(ARGMAX astronomy.galaxy astronomy.celestial_object.cosmological_distance),2103691,repeat
+2103181001000,the defunct time zone's usage that ceased the latest is what?,(ARGMAX time.defunct_time_zone time.defunct_time_zone.usage_ceased),2103181,repeat
+3200336004000,which fictional calendar system replaces the other with directionality of reverse?,(AND fictional_universe.fictional_calendar_system (JOIN (R fictional_universe.fictional_calendar_system.replaced_with) (JOIN (R fictional_universe.calendar_system_directionality.calendars) m.03bvlhl))),3200336,near_miss
+3206401002000,tennis belongs to the same demonstration competition as what olympic event?,(AND olympics.olympic_demonstration_competition (JOIN olympics.olympic_demonstration_competition.event (JOIN (R olympics.olympic_sport.events) m.07bs0))),3206401,singleton
+3200083006000,what album did orchester der deutschen oper berlin release and what is the release type?,(AND music.album (AND (JOIN music.album.release_type m.02lx2r) (JOIN (R music.artist.album) m.03f12kp))),3200083,near_miss
+2105099004000,which rail gauge has the most maximum width?,(ARGMAX rail.rail_gauge rail.rail_gauge.maximum_width),2105099,repeat
+3200336000000,what fictional calendar system can replace a fictional calendar system with a directionality of attacker?,(AND fictional_universe.fictional_calendar_system (JOIN (R fictional_universe.fictional_calendar_system.replaced_with) (JOIN (R fictional_universe.calendar_system_directionality.calendars) m.03bvlhf))),3200336,near_miss
+3203592014000,what marketed drug formulation has a reference form of fibricor 105 tablet?,(AND medicine.routed_drug (JOIN medicine.routed_drug.marketed_formulations (JOIN medicine.drug_formulation.reference_form m.0hqjn_2))),3203592,near_miss
+2102925004000,the name of the locomotive class that has a weight of 129.0 is called what?,(AND rail.locomotive_class (JOIN rail.locomotive_class.weight 129.0^^http://www.w3.org/2001/XMLSchema#float)),2102925,repeat
+2100253003000,which cricket bowler uses a medium slow pace?,(AND cricket.cricket_bowler (JOIN cricket.cricket_bowler.pace m.02k87pd)),2100253,singleton
+2104062001000,which opera house is the one with the most floors?,(ARGMAX opera.opera_house architecture.building.floors),2104062,repeat
+3201607001000,the author of i dream a lot about football and a lot of them have come true for me. plays what position in football?,(AND soccer.football_position (JOIN (R soccer.football_player.position_s) (JOIN (R media_common.quotation.author) m.04dylvk))),3201607,singleton
+3201457010000,what exhibition has the same exhibition curator with snowclones?,(AND exhibitions.exhibition (JOIN (R exhibitions.exhibition_curator.exhibitions_curated) (JOIN exhibitions.exhibition_curator.exhibitions_curated m.0v4m8gh))),3201457,near_miss
+3200632016000,how do you make tonic water?,(AND food.recipe (JOIN (R food.recipe_ingredient.recipe) (JOIN food.recipe_ingredient.ingredient m.0pg96))),3200632,near_miss
+2102755003000,which type of writing system does romic alphabet fall under?,(AND language.language_writing_system (JOIN language.language_writing_system.parent_writing_systems m.0gzs43)),2102755,near_miss
+2104779002000,"of all the roller coasters, which one was closed last?",(ARGMAX amusement_parks.roller_coaster amusement_parks.ride.closed),2104779,repeat
+3202145004000,what is the unit of pressure that uses gray per second?,(AND measurement_unit.pressure_unit (JOIN measurement_unit.pressure_unit.measurement_system (JOIN (R measurement_unit.absorbed_dose_rate_unit.measurement_system) m.02sj5d4))),3202145,repeat
+2101532001000,plunge waterfall is a type of which waterfalls?,(AND geography.waterfall (JOIN geography.waterfall.waterfall_type m.01xxv7y)),2101532,repeat
+2104543005000,what is the latest formed organization committee?,(ARGMAX organization.organization_committee organization.organization_committee.date_formed),2104543,repeat
+2103061004000,what planet has the darkest star system body?,(ARGMIN astronomy.star_system_body astronomy.celestial_object.magnitude),2103061,repeat
+2103765001000,what is the newest government body to have been created?,(ARGMIN government.governmental_body government.governmental_body.date_formed),2103765,repeat
+2101816003000,hell has no limits is what translated work?,(AND book.translated_work (JOIN book.translated_work.translations m.06j34wl)),2101816,near_miss
+3204059000000,what type of airport is shown in alexander marks photo?,(AND aviation.airport_type (JOIN aviation.airport_type.airports_of_this_type (JOIN (R common.image.image_location) m.022qd_m))),3204059,repeat
+2105009003000,identify the shortest film cinematographer.,(ARGMIN film.cinematographer people.person.height_meters),2105009,repeat
+2102849003000,1.0 amperes per square meter belongs to what density unit?,(AND measurement_unit.current_density_unit (JOIN measurement_unit.current_density_unit.density_in_amperes_per_square_meter 1.0^^http://www.w3.org/2001/XMLSchema#float)),2102849,repeat
+2102290002000,what kind of recipe is low-carb diet suitable for?,(AND food.recipe (JOIN food.recipe.suitable_for_diets m.02c3sn)),2102290,singleton
+2104336000000,what is the ship class with the highest max speed?,(ARGMAX boats.ship_class boats.ship_class.max_speed_knots),2104336,repeat
+2104446004000,which disaster survivor was the tallest?,(ARGMAX event.disaster_survivor people.person.height_meters),2104446,repeat
+3200083012000,the bern symphony orchestra released what type of musical album?,(AND music.album (AND (JOIN music.album.release_type m.02lx2r) (JOIN (R music.artist.album) m.0b91nw))),3200083,near_miss
+3204002001000,who is the politician with favorite freebase topic of babylon 5?,(AND government.politician (JOIN (R freebase.user_profile.person) (JOIN freebase.user_profile.favorite_topics m.05k7mr6))),3204002,singleton
+2102872001000,the international system of units includes which unit of conductance in its system of measurements?,(AND measurement_unit.conductance_unit (JOIN measurement_unit.conductance_unit.measurement_system m.0c13h)),2102872,repeat
+3205375002000,radiance unit watt per square metre per steradian uses what unit of length in the measurement system?,(AND measurement_unit.distance_unit (JOIN measurement_unit.distance_unit.measurement_system (JOIN measurement_unit.measurement_system.radiance_units m.02sj5gj))),3205375,repeat
+2104312003000,what is the file format with the most recent creation date?,(ARGMAX computer.file_format computer.file_format.creation_date),2104312,repeat
+3200729012000,what are the locations that release a tv multipart musical with the label navigator records?,(AND tv.tv_location (JOIN (R music.release.region) (JOIN music.release.label m.0dtgxxm))),3200729,near_miss
+2100134002000,what is the unit of viscosity in the international system of units system?,(AND measurement_unit.viscosity_unit (JOIN measurement_unit.viscosity_unit.measurement_system m.0c13h)),2100134,repeat
+3200100000000,which visual artist was married at bildt?,(AND visual_art.visual_artist (JOIN (R people.marriage.spouse) (JOIN people.marriage.location_of_ceremony m.0vhss))),3200100,repeat
+2102552000000,name the privately owned automobile which has a model of foose hemisfear coupe.,(AND automotive.privately_owned_vehicle (JOIN automotive.privately_owned_vehicle.model m.02n96m3)),2102552,near_miss
+4300311009000,who owns the sports team whose captain is terry harper?,(AND sports.sports_team_owner (JOIN (R sports.professional_sports_team.owner_s) (JOIN (R sports.sports_team_captain_tenure.team) (JOIN (R sports.sports_team_captain.team) m.09cbpm)))),4300311,singleton
+2101739004000,what medical trial has been tested for azidothymidine?,(AND medicine.medical_trial (JOIN medicine.medical_trial.treatment_being_tested m.01bqth)),2101739,near_miss
+2104150007000,what golf course takes the least amount of time to play through?,(ARGMIN sports.golf_course sports.golf_course.length),2104150,repeat
+3206254005000,the camera with digital zoom over 3.0 uses what uncompressed format?,(AND digicams.camera_uncompressed_format (JOIN (R digicams.digital_camera.uncompressed_formats) (gt digicams.digital_camera.digital_zoom 3.0^^http://www.w3.org/2001/XMLSchema#float))),3206254,singleton
+2103765002000,what was the last government body that was formed?,(ARGMIN government.governmental_body government.governmental_body.date_formed),2103765,repeat
+2105096000000,what is the book that is published first?,(ARGMIN book.book book.written_work.date_of_first_publication),2105096,repeat
+2100247003000,webkit is the layout engine of which browser?,(AND computer.web_browser (JOIN computer.web_browser.layout_engine m.032z87)),2100247,near_miss
+2102016009000,which video games comes after id tech 2?,(AND cvg.computer_game_engine (JOIN cvg.computer_game_engine.predecessor_engine m.06fbdb)),2102016,near_miss
+2104797002000,which star has the highest declination?,(ARGMAX astronomy.star astronomy.celestial_object.decllnation),2104797,repeat
+2101740005000,pascal second is the viscosity unit in what measurement system?,(AND measurement_unit.measurement_system (JOIN measurement_unit.measurement_system.viscosity_units m.02sj4qd)),2101740,repeat
+2105133017000,what time zone has a dst offset more than 2.0 from utc?,(AND time.time_zone (gt time.time_zone.dst_offset_from_utc 2.0^^http://www.w3.org/2001/XMLSchema#float)),2105133,near_miss
+3203342007000,the fictional world of grayson contains how many different species?,(COUNT (AND fictional_universe.character_species (JOIN (R fictional_universe.fictional_universe.species) (JOIN (R fictional_universe.fictional_setting.universe) m.0bdwn3p)))),3203342,near_miss
+2104797005000,what star has the highest declination?,(ARGMAX astronomy.star astronomy.celestial_object.decllnation),2104797,repeat
+2102927000000,in which calendar system is the month of month 4?],(AND time.calendar (JOIN time.calendar.months m.010wtdkt)),2102927,near_miss
+2105411004000,which dissertation has the most recent defense date?,(ARGMAX education.dissertation education.dissertation.defense_date),2105411,repeat
+2102680000000,what unit of amount concentration is used to measure in international system of units?,(AND measurement_unit.amount_concentration_unit (JOIN measurement_unit.amount_concentration_unit.measurement_system m.0c13h)),2102680,repeat
+3203233006000,which hotel grading authority has been awarding hotel grades for the least amount of year?,(ARGMIN travel.hotel_grading_authority (JOIN travel.hotel_grading_authority.grades_awarded travel.hotel_grade.years_awarded)),3203233,repeat
+2103869003000,which is the smallest unit of mass in terms of weightmass of kilograms?,(ARGMIN measurement_unit.mass_unit measurement_unit.mass_unit.weightmass_in_kilograms),2103869,repeat
+2105484000000,what ride at disney has the maximum height?,(ARGMAX amusement_parks.disney_ride amusement_parks.ride.height),2105484,repeat
+3203233002000,what hotel grading authority has been grading hotels for the shortest amount of time?,(ARGMIN travel.hotel_grading_authority (JOIN travel.hotel_grading_authority.grades_awarded travel.hotel_grade.years_awarded)),3203233,repeat
+2100372004000,what is the unit of radiant intensity in international system of units?,(AND measurement_unit.radiant_intensity_unit (JOIN measurement_unit.radiant_intensity_unit.measurement_system m.0c13h)),2100372,repeat
+2104742004000,which deceased person is the lightest?,(ARGMIN people.deceased_person people.person.weight_kg),2104742,repeat
+3203233001000,which hotel grading authority has awarded hotel grades for the fewest number of years?,(ARGMIN travel.hotel_grading_authority (JOIN travel.hotel_grading_authority.grades_awarded travel.hotel_grade.years_awarded)),3203233,repeat
+2101326011000,the shrewsbury abbey belongs to which religious order?,(AND religion.religious_order (JOIN religion.religious_order.monasteries m.01j_r2)),2101326,near_miss
+2103765003000,what was the most recent government body formed?,(ARGMIN government.governmental_body government.governmental_body.date_formed),2103765,repeat
+4303725001000,"in order to provide a maximum thrust of 2 in a bipropellant rocket engine, what fuel do you need to combine with nitric acid?",(ARGMAX (AND spaceflight.rocket_engine_fuel (JOIN spaceflight.rocket_engine_fuel.rocket_engines (JOIN (R spaceflight.rocket_engine_oxidizer.rocket_engines) m.05fmf))) (JOIN spaceflight.rocket_engine_fuel.rocket_engines spaceflight.rocket_engine.thrust_sea_level)),4303725,singleton
+2100146001000,in what galactic cluster has the local group of galaxies?,(AND astronomy.galactic_cluster (JOIN astronomy.galactic_cluster.galaxy_groups m.04llv)),2100146,repeat
+2103465002000,the maximum original gravity title belongs to which beer?,(ARGMAX food.beer food.beer.original_gravity),2103465,repeat
+3202145003000,what unit of pressure measures gray per second?,(AND measurement_unit.pressure_unit (JOIN measurement_unit.pressure_unit.measurement_system (JOIN (R measurement_unit.absorbed_dose_rate_unit.measurement_system) m.02sj5d4))),3202145,repeat
+3206221013000,how many religious texts do catholic faith and church of god share?,(COUNT (AND religion.religious_text (AND (JOIN religion.religious_text.religious_text_of m.02q21kx) (JOIN (R religion.religion.texts) m.0c8wxp)))),3206221,singleton
+2103618004000,name the fictional object that has the smallest creation date.,(ARGMIN fictional_universe.fictional_object fictional_universe.fictional_object.date_created),2103618,repeat
+2101264006000,what unit is used in the international system of units?,(AND measurement_unit.catalytic_concentration_unit (JOIN measurement_unit.catalytic_concentration_unit.measurement_system m.0c13h)),2101264,repeat
+3200574012000,what is the netflix genre that has titles be my guest and rim of the canyon?,(AND media_common.netflix_genre (AND (JOIN media_common.netflix_genre.titles m.03cfjzz) (JOIN (R media_common.netflix_title.netflix_genres) m.04j11tb))),3200574,near_miss
+2102373004000,who is the player that played esp horizon?,(AND music.guitarist (JOIN music.guitarist.guitars_played m.0g6_pt)),2102373,near_miss
+3202650003000,which type of medical trial is finished last?,(ARGMIN medicine.medical_trial_type (JOIN (R medicine.medical_trial.type_of_trial) medicine.medical_trial.end_date)),3202650,repeat
+3202992000000,ian flooks productions were staged in which theater?,(AND theater.theater (JOIN theater.theater.theatrical_productions_staged_here (JOIN (R theater.theater_producer.plays_produced) m.0jwmxj))),3202992,near_miss
+2104488007000,the latest date of final occurrence is found at which film festival,(ARGMAX film.film_festival time.recurring_event.date_of_final_occurance),2104488,repeat
+2105099000000,the rail gauge that has the most maximum width is called what?,(ARGMAX rail.rail_gauge rail.rail_gauge.maximum_width),2105099,repeat
+2101444009000,which armed force has the sub-divisions romanian naval forces?,(AND military.armed_force (JOIN military.armed_force.sub_divisions m.03xfzy)),2101444,singleton
+2102552007000,foose hemisfear coupe is the model of which privately owned vehicle?,(AND automotive.privately_owned_vehicle (JOIN automotive.privately_owned_vehicle.model m.02n96m3)),2102552,near_miss
+3203645005000,which guidebook has an author that was the editor of the edition earth is the strangest planet?,(AND travel.guidebook (JOIN book.written_work.author (JOIN (R book.book_edition.editor_of_this_edition) m.0hj02p1))),3203645,repeat
+3205555001000,what is the unit used for frequency in the measurement system for millisiemens?,(AND measurement_unit.unit_of_frequency (JOIN measurement_unit.unit_of_frequency.measurement_system (JOIN (R measurement_unit.conductance_unit.measurement_system) m.0gvb8ml))),3205555,near_miss
+2102924006000,which coat of arms has the baronial coronet?,(AND symbols.coat_of_arms (JOIN symbols.coat_of_arms.coronet m.0668p87)),2102924,repeat
+3206227002000,what is the battery size of cell variation with maximum capacity?,(ARGMAX engineering.battery_size (JOIN (R engineering.battery_size_cell_variation.size) engineering.battery_size_cell_variation.capacity)),3206227,repeat
+2103181003000,which defunct timezone's usage cease last?,(ARGMAX time.defunct_time_zone time.defunct_time_zone.usage_ceased),2103181,repeat
+2100327010000,the danbury ice arena is home to which sports team?,(AND sports.sports_team (JOIN sports.sports_team.arena_stadium m.06425m)),2100327,singleton
+2105099005000,which rail measure has the greatest width?,(ARGMAX rail.rail_gauge rail.rail_gauge.maximum_width),2105099,repeat
+2102680004000,name the unit of amount concentration that was used to measure in international system of units.,(AND measurement_unit.amount_concentration_unit (JOIN measurement_unit.amount_concentration_unit.measurement_system m.0c13h)),2102680,repeat
+2100260004000,international system of units classifies angular frequency utilizing which units?,(AND measurement_unit.angular_velocity_unit (JOIN measurement_unit.angular_velocity_unit.measurement_system m.0c13h)),2100260,repeat
+2100493016000,what is a building complex with 60800.0 of floor space?,(AND architecture.building_complex (JOIN architecture.building_complex.floor_space_square_meters 60800.0^^http://www.w3.org/2001/XMLSchema#float)),2100493,near_miss
+3201251000000,what plant disease is involved in a plant disease triangle that involves cool wet soil?,(AND biology.plant_disease (JOIN (R biology.plant_disease_triangle.plant_disease) (JOIN (R biology.plant_disease_conditions.plant_disease_triangle) m.0d25t5l))),3201251,repeat
+3201526002000,the death of mustonen occurred on what type of glacier?,(AND geography.glacier_type (JOIN (R geography.glacier.glacier_type) (JOIN (R people.deceased_person.place_of_death) m.0b9hds))),3201526,repeat
+2103182001000,which planet has the highest average orbital speed?,(ARGMAX astronomy.planet astronomy.orbital_relationship.mean_orbital_speed),2103182,repeat
+2100534000000,the permittivity in farads per meter 1.0 has which unit of permittivity?,(AND measurement_unit.permittivity_unit (JOIN measurement_unit.permittivity_unit.permittivity_in_farads_per_meter 1.0^^http://www.w3.org/2001/XMLSchema#float)),2100534,repeat
+4300443003000,tell me the subject of the following quote gracefulness is to the body what understanding is to the mind. which was quoted by angel of remembrance,(AND media_common.quotation_subject (AND (JOIN (R media_common.quotation.subjects) (JOIN media_common.quotation.spoken_by_character m.0h3grm9)) (JOIN (R media_common.quotation.subjects) m.048gk7g))),4300443,near_miss
+2102508014000,which interviewee gave harlem renaissance dialogues (part 6): publishing trends and modern readers?,(AND book.interviewee (JOIN book.interviewee.interviews_given m.0gxq34z)),2102508,singleton
+3202682002000,christian religion has the same type of place of worship as which other religion?,(AND religion.religion (JOIN religion.religion.types_of_places_of_worship (JOIN (R religion.religion.types_of_places_of_worship) m.01lp8))),3202682,singleton
+3205428004000,"what is the name of the cytogenetic band with a genomic locus that is associated with heat shock protein 90kda alpha (cytosolic), member a1?",(AND biology.cytogenetic_band (JOIN biology.cytogenetic_band.locus (JOIN (R biology.gene.locus) m.03ct2rq))),3205428,repeat
+2103842000000,what is the first blog?,(ARGMIN internet.blog internet.blog.started),2103842,repeat
+2105385003000,what is the largest unit of length in meters?,(ARGMAX measurement_unit.distance_unit measurement_unit.distance_unit.distance_in_meters),2105385,repeat
+2103616002000,which language writing system did people stop using first?,(ARGMIN language.language_writing_system language.language_writing_system.used_until),2103616,repeat
+2101532002000,which waterfalls are considered a plunge waterfall type?,(AND geography.waterfall (JOIN geography.waterfall.waterfall_type m.01xxv7y)),2101532,repeat
+2104312006000,what file format has the latest creation date?,(ARGMAX computer.file_format computer.file_format.creation_date),2104312,repeat
+2101740004000,what measurement system has the pascal second as a viscosity unit?,(AND measurement_unit.measurement_system (JOIN measurement_unit.measurement_system.viscosity_units m.02sj4qd)),2101740,repeat
+2100002002000,ncbi is the curator of which genome build?,(AND biology.genome_build (JOIN biology.genome_build.curator m.01358j)),2100002,repeat
+2105009004000,who is the shortest film cinematographer?,(ARGMIN film.cinematographer people.person.height_meters),2105009,repeat
+2105368006000,what is the image that was created the earliest?,(ARGMIN common.image common.image.creation_date),2105368,repeat
+2105315000000,which cyclist is oldest?,(ARGMIN sports.cyclist people.person.date_of_birth),2105315,repeat
+2100063005000,what are the rail gauges for the locomotive class of british rail class 50?,(AND rail.rail_gauge (JOIN rail.rail_gauge.locomotive_classes m.052dz1)),2100063,repeat
+2100146005000,the local group of galaxies is in what galactic cluster?,(AND astronomy.galactic_cluster (JOIN astronomy.galactic_cluster.galaxy_groups m.04llv)),2100146,repeat
+2104048004000,what privately owned vehicle has the smallest milage?,(ARGMIN automotive.privately_owned_vehicle automotive.privately_owned_vehicle.milage),2104048,repeat
+2104498005000,the smallest optical zoom is a characteristics of which digital camera?,(ARGMIN digicams.digital_camera digicams.digital_camera.optical_zoom),2104498,repeat
+3204059001000,the alexander marks photo is located at what type of airport?,(AND aviation.airport_type (JOIN aviation.airport_type.airports_of_this_type (JOIN (R common.image.image_location) m.022qd_m))),3204059,repeat
+2104062005000,what is the name of the opera house that has the most number of floors?,(ARGMAX opera.opera_house architecture.building.floors),2104062,repeat
+2103535003000,can you tell me what the unit of the data transmission rate with a bits per second maximum?,(ARGMAX measurement_unit.unit_of_data_transmission_rate measurement_unit.unit_of_data_transmission_rate.rate_in_bits_per_second),2103535,repeat
+2104998002000,which american football head coach weighed the most?,(ARGMAX american_football.football_coach people.person.weight_kg),2104998,repeat
+2105411001000,the most recent defense date is from which dissertation?,(ARGMAX education.dissertation education.dissertation.defense_date),2105411,repeat
+2104998001000,find the american football head coach who has the largest weight.,(ARGMAX american_football.football_coach people.person.weight_kg),2104998,repeat
+2100033015000,what books did cynthia defelice write?,(AND book.literary_series (JOIN book.literary_series.author_s m.0h1db91)),2100033,near_miss
+3205955002000,who built warship v1.1 with a draught of more than 12.0?,(AND boats.ship_builder (JOIN boats.ship_builder.ships_built (ge boats.ship.draught 12.0^^http://www.w3.org/2001/XMLSchema#float))),3205955,singleton
+3202145000000,what unit of pressure uses gray per second?,(AND measurement_unit.pressure_unit (JOIN measurement_unit.pressure_unit.measurement_system (JOIN (R measurement_unit.absorbed_dose_rate_unit.measurement_system) m.02sj5d4))),3202145,repeat
+2104402004000,"out of reaction engines, which has the largest thrust?",(ARGMAX engineering.reaction_engine engineering.reaction_engine.thrust),2104402,repeat
+3204390009000,what does el contrabajo/the contrabass translate to?,(AND book.translation (JOIN book.translation.translation_of (JOIN (R book.translation.translation_of) m.069cwyp))),3204390,near_miss
+2100473008000,in what mountain range is fremrinámur?,(AND geography.mountain_listing (JOIN geography.mountain_listing.mountains m.0j_79bl)),2100473,near_miss
+2104914005000,which video game expansion has the most recent initial release date?,(ARGMAX cvg.computer_game_expansion cvg.computer_videogame.release_date),2104914,repeat
+2105389000000,which one of the olympic games has the largest number of countries playing?,(ARGMAX olympics.olympic_games olympics.olympic_games.number_of_countries),2105389,repeat
+2102454012000,which consumer product is in category contemporary design?,(AND business.consumer_product (JOIN business.consumer_product.category m.0c1xd7w)),2102454,near_miss
+2102924005000,baronial coronet is a part of which coat of arms?,(AND symbols.coat_of_arms (JOIN symbols.coat_of_arms.coronet m.0668p87)),2102924,repeat
+2104062003000,which opera house contains the most number of floors?,(ARGMAX opera.opera_house architecture.building.floors),2104062,repeat
+2101713010000,covent garden was the location of filming for which tv episode?,(AND tv.tv_series_episode (JOIN tv.tv_series_episode.filming_locations m.015g2s)),2101713,near_miss
+2101532003000,plunge waterfall is the type of which waterfall?,(AND geography.waterfall (JOIN geography.waterfall.waterfall_type m.01xxv7y)),2101532,repeat
+2100686012000,"on 1917-07-10, which ship had it's keel laid?",(AND boats.ship (JOIN boats.ship.keel_laid 1917-07-10^^http://www.w3.org/2001/XMLSchema#date)),2100686,near_miss
+2100473006000,stob a' choire mheadhoin is part of what mountain series?,(AND geography.mountain_listing (JOIN geography.mountain_listing.mountains m.03m4l4r)),2100473,near_miss
+2104402003000,what reaction engine has the largest thrust?,(ARGMAX engineering.reaction_engine engineering.reaction_engine.thrust),2104402,repeat
+2105133018000,what time zone has a dst difference of more than 4.5 from utc?,(AND time.time_zone (gt time.time_zone.dst_offset_from_utc 4.5^^http://www.w3.org/2001/XMLSchema#float)),2105133,near_miss
+2101326014000,the shrewsbury abbey is a monastery to what religious order?,(AND religion.religious_order (JOIN religion.religious_order.monasteries m.01j_r2)),2101326,near_miss
+2100247004000,presto uses what browser as the layout engine?,(AND computer.web_browser (JOIN computer.web_browser.layout_engine m.02v2wn)),2100247,near_miss
+2100642004000,the parent classification of other bacterial food poisoningalso has what icd-9-cm classification?,(AND medicine.icd_9_cm_classification (JOIN medicine.icd_9_cm_classification.parent_classification m.07vt1lv)),2100642,near_miss
+3203950013000,what is the number of exhibition subjects that has the subject of an exhibition curated by genevieve lacambre?,(COUNT (AND exhibitions.exhibition_subject (JOIN exhibitions.exhibition_subject.exhibitions_created_about_this_subject (JOIN (R exhibitions.exhibition_curator.exhibitions_curated) m.05vw143)))),3203950,near_miss
+2100642005000,which classification is the parent classification of parkinson's disease according to icd-9-cm?,(AND medicine.icd_9_cm_classification (JOIN medicine.icd_9_cm_classification.parent_classification m.0g02vk)),2100642,near_miss
+2104262002000,which serial installment has a number greater than 3?,(AND book.serial_installment (ge book.serial_installment.installment_number 3^^http://www.w3.org/2001/XMLSchema#integer)),2104262,singleton
+2103061005000,what is the darkest star in the star system body?,(ARGMIN astronomy.star_system_body astronomy.celestial_object.magnitude),2103061,repeat
+2100247000000,what browser is the layout engine of webkit?,(AND computer.web_browser (JOIN computer.web_browser.layout_engine m.032z87)),2100247,near_miss
+2101944002000,escherichia coli o is part of what genome?,(AND biology.genome (JOIN biology.genome.taxon m.09_yl)),2101944,repeat
+2101402000000,what is the government of tennessee?,(AND government.government (JOIN government.government.government_for m.07h34)),2101402,near_miss
+2100961004000,on which government service channel is the english-language available?,(AND government.government_service_channel (JOIN government.government_service_channel.available_language m.02h40lc)),2100961,near_miss
+3205347000000,what is the episode of a radio program whose artist is edward murrow?,(AND radio.radio_program_episode (JOIN (R radio.radio_program.episodes) (JOIN broadcast.content.artist m.014428))),3205347,near_miss
+2104287006000,what is the tallest owned animal?,(ARGMAX biology.owned_animal biology.organism.height_meters),2104287,repeat
+3205428003000,"which cytogenetic band has a genomic locus that is affiliated with heat shock protein 90kda alpha (cytosolic), member a1?",(AND biology.cytogenetic_band (JOIN biology.cytogenetic_band.locus (JOIN (R biology.gene.locus) m.03ct2rq))),3205428,repeat
+3205211002000,which profession has a corresponding type which seo expert extends?,(AND people.profession (JOIN people.profession.corresponding_type (JOIN (R type.type.extends) m.011th644))),3205211,repeat
+2104048002000,the smallest mileage belongs to which privately owned vehicle?,(ARGMIN automotive.privately_owned_vehicle automotive.privately_owned_vehicle.milage),2104048,repeat
+3205825005000,find the youngest star system body,(ARGMAX astronomy.star_system_body (JOIN astronomy.celestial_object.celestial_age astronomy.celestial_object_age.age)),3205825,repeat
+4301780005000,the roller coaster with an accident after 08/14/1979 was designed by whom?,(AND amusement_parks.ride_designer (JOIN amusement_parks.ride_designer.rides (JOIN (R amusement_parks.accident.ride) (ge amusement_parks.accident.date 1979-08-14^^http://www.w3.org/2001/XMLSchema#date)))),4301780,singleton
+3203233005000,who is the hotel grading authority with the fewest number of years awarding hotel grades?,(ARGMIN travel.hotel_grading_authority (JOIN travel.hotel_grading_authority.grades_awarded travel.hotel_grade.years_awarded)),3203233,repeat
+2104446001000,"of the disaster survivors, who is the tallest?",(ARGMAX event.disaster_survivor people.person.height_meters),2104446,repeat
+2103462004000,the smalles maximum wind speed (gust) are found in which tropical cyclone category?,(ARGMIN meteorology.tropical_cyclone_category meteorology.tropical_cyclone_category.maximum_wind_speed_gust_km_h),2103462,repeat
+2101532005000,which waterfalls are plunge waterfall type?,(AND geography.waterfall (JOIN geography.waterfall.waterfall_type m.01xxv7y)),2101532,repeat
+3206065011000,find all ships built by perini navi with imo/ir number grater than 9384552,(AND boats.ship (AND (ge boats.ship.imo_lr_identification_number 9384552^^http://www.w3.org/2001/XMLSchema#integer) (JOIN (R boats.ship_builder.ships_built) m.0kqt0t))),3206065,near_miss
+3200928006000,jinggangshan airport has the same type as which airport?,(AND aviation.airport (JOIN (R aviation.airport_type.airports_of_this_type) (JOIN (R aviation.airport.airport_type) m.03d2q7w))),3200928,singleton
+3203824002000,what is the name of the operational platform of the telescope in the paranal observatory?,(AND astronomy.telescope_platform (JOIN (R astronomy.telescope.operational_platform) (JOIN (R astronomy.astronomical_observatory.telescope_s) m.03y4zr))),3203824,near_miss
+4303008011000,how much content about technology is produced by the person that produces let the good times roll?,(COUNT (AND broadcast.content (AND (JOIN (R broadcast.genre.content) m.07c1v) (JOIN (R broadcast.producer.produces) (JOIN broadcast.producer.produces m.05v8gm9))))),4303008,near_miss
+2103462000000,in which tropical cyclone category does the smallest maximum wind speed (gust) occur?,(ARGMIN meteorology.tropical_cyclone_category meteorology.tropical_cyclone_category.maximum_wind_speed_gust_km_h),2103462,repeat
+3205347001000,christopher glenn is in what radio program episode?,(AND radio.radio_program_episode (JOIN (R radio.radio_program.episodes) (JOIN broadcast.content.artist m.0bn6w4))),3205347,near_miss
+2104990004000,what was the very first musical release released?,(ARGMIN music.release music.release.release_date),2104990,repeat
+2105368003000,the first image created was what?,(ARGMIN common.image common.image.creation_date),2105368,repeat
+3201558013000,"of the members of the organization listed, which one attained their membership after 2002-07-23?",(AND organization.organization_member (JOIN organization.organization_member.member_of (gt organization.organization_membership.from 2002-07-23^^http://www.w3.org/2001/XMLSchema#date))),3201558,near_miss
+3203645000000,the editor of the edition of earth is the strangest planet is the author of what guidebook?,(AND travel.guidebook (JOIN book.written_work.author (JOIN (R book.book_edition.editor_of_this_edition) m.0hj02p1))),3203645,repeat
+3200083004000,which musical album is the album from orchester der deutschen oper berlin and the release type of album?,(AND music.album (AND (JOIN music.album.release_type m.02lx2r) (JOIN (R music.artist.album) m.03f12kp))),3200083,near_miss
+2102925006000,129.0 is the weight of which locomotive class?,(AND rail.locomotive_class (JOIN rail.locomotive_class.weight 129.0^^http://www.w3.org/2001/XMLSchema#float)),2102925,repeat
+2104498001000,which digital camera has the smallest optical zoom?,(ARGMIN digicams.digital_camera digicams.digital_camera.optical_zoom),2104498,repeat
+2103869000000,find the smallest unit of mass in terms of kilograms.,(ARGMIN measurement_unit.mass_unit measurement_unit.mass_unit.weightmass_in_kilograms),2103869,repeat
+2102499001000,sirius xm channel 12 hosts which radio station?,(AND base.lightweight.radio_station (JOIN base.lightweight.radio_station.sirius_xm_channel 12^^http://www.w3.org/2001/XMLSchema#integer)),2102499,repeat
+2103008003000,what users have internet protocol as their favorite type?,(AND freebase.user_profile (JOIN freebase.user_profile.favorite_types m.02h76y7)),2103008,near_miss
+2104259000000,which invention has the earliest date?,(ARGMIN law.invention law.invention.date_of_invention),2104259,repeat
+2102552006000,a model of the rolls-royce phantom v is privately owned by which vehicle,(AND automotive.privately_owned_vehicle (JOIN automotive.privately_owned_vehicle.model m.0b201n)),2102552,near_miss
+2102540000000,which aircraft model's range is 1770.0?,(AND aviation.aircraft_model (JOIN aviation.aircraft_model.range 1770.0^^http://www.w3.org/2001/XMLSchema#float)),2102540,singleton
+3205211005000,what profession has a corresponding type that is extended by seo expert?,(AND people.profession (JOIN people.profession.corresponding_type (JOIN (R type.type.extends) m.011th644))),3205211,repeat
+3205428000000,"what genomic locus is associated with heat shock protein 90kda alpha (cytosolic), member a1 and is a cytogenetic band?",(AND biology.cytogenetic_band (JOIN biology.cytogenetic_band.locus (JOIN (R biology.gene.locus) m.03ct2rq))),3205428,repeat
+2104461000000,which war ended longest ago?,(ARGMIN military.war time.event.end_date),2104461,repeat
+2105257004000,what award ceremony has the earliest end date?,(ARGMIN award.award_ceremony time.event.end_date),2105257,repeat
+3204115005000,what unit of mass is associated with the measurement system of picofarad?,(AND measurement_unit.mass_unit (JOIN measurement_unit.mass_unit.measurement_system (JOIN (R measurement_unit.capacitance_unit.measurement_system) m.0l4l0))),3204115,repeat
+3200609003000,what are the medical treatments with side effect of symptoms including sludge syndrome?,(AND medicine.medical_treatment (JOIN (R medicine.symptom.side_effect_of) (JOIN (R medicine.symptom.includes_symptoms) m.025yc7f))),3200609,singleton
+4304016002000,the sewerage ride and the fastest amusement park ride were designed by who?,(ARGMAX (AND amusement_parks.ride_designer (JOIN (R amusement_parks.ride.designer) (JOIN (R amusement_parks.ride_theme.rides) m.01d2tp))) (JOIN (R amusement_parks.ride.designer) amusement_parks.ride.max_speed)),4304016,near_miss
+2105257001000,what is the award ceremony with the earliest end date?,(ARGMIN award.award_ceremony time.event.end_date),2105257,repeat
+2102924002000,on which coat of arms is the baronial coronet included?,(AND symbols.coat_of_arms (JOIN symbols.coat_of_arms.coronet m.0668p87)),2102924,repeat
+2101739012000,name the medical trial that alendronate sodium has been tested for.,(AND medicine.medical_trial (JOIN medicine.medical_trial.treatment_being_tested m.03x8l5)),2101739,near_miss
+3202145001000,gray per second is used by what unit of pressure?,(AND measurement_unit.pressure_unit (JOIN measurement_unit.pressure_unit.measurement_system (JOIN (R measurement_unit.absorbed_dose_rate_unit.measurement_system) m.02sj5d4))),3202145,repeat
+2100146002000,which galactic cluster has local group of galaxies?,(AND astronomy.galactic_cluster (JOIN astronomy.galactic_cluster.galaxy_groups m.04llv)),2100146,repeat
+2102925003000,which locomotive class has a weight of 129.0?,(AND rail.locomotive_class (JOIN rail.locomotive_class.weight 129.0^^http://www.w3.org/2001/XMLSchema#float)),2102925,repeat
+2103535006000,what is the ultimate rate in bits per second when using the unit data transmission rate?,(ARGMAX measurement_unit.unit_of_data_transmission_rate measurement_unit.unit_of_data_transmission_rate.rate_in_bits_per_second),2103535,repeat
+2104874003000,which theater director weighs the most?,(ARGMAX theater.theater_director people.person.weight_kg),2104874,repeat
+3200729007000,which tv location is belongs to the region of a multi-part musical release with the label navigator records?,(AND tv.tv_location (JOIN (R music.release.region) (JOIN music.release.label m.0dtgxxm))),3200729,near_miss
+2105315005000,which cyclist is the oldest of them all?,(ARGMIN sports.cyclist people.person.date_of_birth),2105315,repeat
+2102755015000,which writing system does phoenician alphabet fall under?,(AND language.language_writing_system (JOIN language.language_writing_system.parent_writing_systems m.0j59b)),2102755,near_miss
+3202912006000,which medical trial with open-label trial design also has the health authority paul-ehrlich-institut?,(AND medicine.medical_trial (AND (JOIN medicine.medical_trial.health_authority m.063hpkg) (JOIN medicine.medical_trial.design m.059ns1))),3202912,singleton
+2105478000000,what is the fewest total fatalities from a tropical cyclone?,(ARGMIN meteorology.tropical_cyclone meteorology.tropical_cyclone.total_fatalities),2105478,repeat
+2101739018000,azidothymidine has been tested for what medical trial?,(AND medicine.medical_trial (JOIN medicine.medical_trial.treatment_being_tested m.01bqth)),2101739,near_miss
+2102755018000,the phoenician alphabet falls under what type of writing system?,(AND language.language_writing_system (JOIN language.language_writing_system.parent_writing_systems m.0j59b)),2102755,near_miss
+2103036005000,when is the last day of the year?,(ARGMAX time.day_of_year time.day_of_year.day),2103036,repeat
+2104083010000,what are the names of tropical cyclone seasons that caused more than 29 fatalities?,(AND meteorology.tropical_cyclone_season (gt meteorology.tropical_cyclone_season.total_fatalities 29^^http://www.w3.org/2001/XMLSchema#integer)),2104083,singleton
+3205555003000,the measurement system used by microsiemens includes what unit of frequency?,(AND measurement_unit.unit_of_frequency (JOIN measurement_unit.unit_of_frequency.measurement_system (JOIN (R measurement_unit.conductance_unit.measurement_system) m.0gvb8gp))),3205555,near_miss
+3205211000000,what profession has a corresponding type which seo expert extends?,(AND people.profession (JOIN people.profession.corresponding_type (JOIN (R type.type.extends) m.011th644))),3205211,repeat
+2103182000000,find the planet with highest average orbital speed,(ARGMAX astronomy.planet astronomy.orbital_relationship.mean_orbital_speed),2103182,repeat
+4301671003000,name the religion that ja a. jahannes holds beliefs in.,(AND religion.religion (JOIN religion.religion.collective_term_for_adherents (JOIN religion.adherents.religion (JOIN (R people.person.religion) m.0bghvcw)))),4301671,repeat
+2102925001000,whats the locomotive class with a weight of 129.0?,(AND rail.locomotive_class (JOIN rail.locomotive_class.weight 129.0^^http://www.w3.org/2001/XMLSchema#float)),2102925,repeat
+2102499005000,sirius xm channel 12 would be what radio station?,(AND base.lightweight.radio_station (JOIN base.lightweight.radio_station.sirius_xm_channel 12^^http://www.w3.org/2001/XMLSchema#integer)),2102499,repeat
+2105427000000,"in terms of color srm, which beer has the lowest?",(ARGMIN food.beer food.beer.color_srm),2105427,repeat
+2102499004000,sirius xm channel 12 in which radio station?,(AND base.lightweight.radio_station (JOIN base.lightweight.radio_station.sirius_xm_channel 12^^http://www.w3.org/2001/XMLSchema#integer)),2102499,repeat
+3201916000000,questioning the millennium: a rationalist's guide to a precisely arbitrary countdown is a featured subject on what radio episode?,(AND radio.radio_program_episode (JOIN radio.radio_program_episode.segments (JOIN radio.radio_episode_segment.subjects m.0261h5x))),3201916,singleton
+2100059002000,former coat of arms of republika srpska was on which heraldic helm?,(AND symbols.heraldic_helm (JOIN symbols.heraldic_helm.coat_of_arms m.01zlq2)),2100059,repeat
+2101207012000,which architect designed 4 structures?,(AND architecture.architect (JOIN architecture.architect.structure_count 4^^http://www.w3.org/2001/XMLSchema#integer)),2101207,near_miss
+2104914002000,the latest initial release date applies to what video game expansion?,(ARGMAX cvg.computer_game_expansion cvg.computer_videogame.release_date),2104914,repeat
+2100192005000,what system is the thermal conductivity unit withwatt per meter per kelvin located in?,(AND measurement_unit.measurement_system (JOIN measurement_unit.measurement_system.thermal_conductivity_units m.02sj509)),2100192,repeat
+2103616001000,what language writing system was the first abandoned?,(ARGMIN language.language_writing_system language.language_writing_system.used_until),2103616,repeat
+2102683004000,reciprocal metre is the wavenumber unit in what measurement system?,(AND measurement_unit.measurement_system (JOIN measurement_unit.measurement_system.wavenumber_units m.02sj3xb)),2102683,repeat
+2104742003000,which deceased person weighed the least?,(ARGMIN people.deceased_person people.person.weight_kg),2104742,repeat
+2104995001000,which is the satellite with the maximum altitude?,(ARGMAX spaceflight.satellite spaceflight.satellite.altitude),2104995,repeat
+4303447006000,what season of star trek spinoff has more than 16 episodes?,(AND tv.tv_series_season (AND (JOIN tv.tv_series_season.series (JOIN tv.tv_program.spun_off_from m.06qv_)) (gt tv.tv_series_season.number_of_episodes 16^^http://www.w3.org/2001/XMLSchema#integer))),4303447,singleton
+2105123006000,what is the most recently founded student organization?,(ARGMAX education.student_organization organization.organization.date_founded),2105123,repeat
+2101277013000,andrew webber is a tag of which image?,(AND common.image (JOIN common.image.image_tags m.0f8pz)),2101277,singleton
+3202992012000,"in which theater, the productions of brisa trinchero staged?",(AND theater.theater (JOIN theater.theater.theatrical_productions_staged_here (JOIN (R theater.theater_producer.plays_produced) m.0k3d4qc))),3202992,near_miss
+2100002003000,what genome build was the result from the curator of the ncbi?,(AND biology.genome_build (JOIN biology.genome_build.curator m.01358j)),2100002,repeat
+2103886002000,which unit of radioactivity has the largest radioactivity in becquerels?,(ARGMAX measurement_unit.radioactivity_unit measurement_unit.radioactivity_unit.radioactivity_in_becquerels),2103886,repeat
+2100303004000,what does the international system of units use for its data transmission rate?,(AND measurement_unit.unit_of_data_transmission_rate (JOIN measurement_unit.unit_of_data_transmission_rate.measurement_system m.0c13h)),2100303,repeat
+2102454000000,what consumer product is in category plate?,(AND business.consumer_product (JOIN business.consumer_product.category m.050gv4)),2102454,near_miss
+2100659012000,honorverse is the fictional universe of which literary series?,(AND book.literary_series (JOIN book.literary_series.fictional_universe m.0hprq1z)),2100659,near_miss
+3205705000000,the latest buried person died in which court jurisdiction area?,(ARGMAX law.court_jurisdiction_area (JOIN (R people.deceased_person.place_of_death) people.deceased_person.date_of_burial)),3205705,repeat
+2104804007000,the largest ibu scale is found in what type of beer?,(ARGMAX food.beer food.beer.ibu_scale),2104804,repeat
+2101044002000,can you tell me the plants that appear in the fiction harrypotter?,(AND fictional_universe.fictional_plant (JOIN fictional_universe.fictional_plant.featured_in_fictional_universe m.06xltj)),2101044,singleton
+4304016010000,the the mummy ride and the fastest amusement park ride were designed by who?,(ARGMAX (AND amusement_parks.ride_designer (JOIN (R amusement_parks.ride.designer) (JOIN (R amusement_parks.ride_theme.rides) m.01ln5z))) (JOIN (R amusement_parks.ride.designer) amusement_parks.ride.max_speed)),4304016,near_miss
+2105315002000,which cyclist is the oldest?,(ARGMIN sports.cyclist people.person.date_of_birth),2105315,repeat
+2104543006000,which organization committee was the latest to form?,(ARGMAX organization.organization_committee organization.organization_committee.date_formed),2104543,repeat
+2100134000000,which unit of viscosity is a part of the international system of units system?,(AND measurement_unit.viscosity_unit (JOIN measurement_unit.viscosity_unit.measurement_system m.0c13h)),2100134,repeat
+2100594000000,what is the fraternity type of national multicultural greek council?,(AND education.fraternity_sorority (JOIN education.fraternity_sorority.fraternity_sorority_type m.0c1417)),2100594,singleton
+2100146000000,what galactic cluster has local group of galaxies?,(AND astronomy.galactic_cluster (JOIN astronomy.galactic_cluster.galaxy_groups m.04llv)),2100146,repeat
+2103618005000,the fictional object that has the smallest date of creation is called what?,(ARGMIN fictional_universe.fictional_object fictional_universe.fictional_object.date_created),2103618,repeat
+2103665001000,what wine has the maximum percentage of new oak?,(ARGMAX wine.wine wine.wine.percent_new_oak),2103665,repeat
+2102373014000,esp horizon was played by who?,(AND music.guitarist (JOIN music.guitarist.guitars_played m.0g6_pt)),2102373,near_miss
+2101207002000,303 structures are attributed to which architect?,(AND architecture.architect (JOIN architecture.architect.structure_count 303^^http://www.w3.org/2001/XMLSchema#integer)),2101207,near_miss
+2103873003000,what is the earliest discovered comet?,(ARGMIN astronomy.comet astronomy.astronomical_discovery.discovery_date),2103873,repeat
+2101957013000,córdoba airport is known to be operated by who?,(AND aviation.airport_operator (JOIN aviation.airport_operator.airports_operated m.0414gnl)),2101957,near_miss
+4301748001000,which exoplanets were discovered by an astronomer with a bachelor of arts degree degree?,(AND base.exoplanetology.exoplanet (JOIN astronomy.astronomical_discovery.discoverer (JOIN (R education.education.student) (JOIN education.education.degree m.014mlp)))),4301748,singleton
+2103933002000,please tell me an infused spirit that has an alcohol content under 44.0?,(AND distilled_spirits.infused_spirit (lt distilled_spirits.infused_spirit.abv 44.0^^http://www.w3.org/2001/XMLSchema#float)),2103933,singleton
+2105096002000,which book is published first?,(ARGMIN book.book book.written_work.date_of_first_publication),2105096,repeat
+2103036006000,what date is at the end of the year?,(ARGMAX time.day_of_year time.day_of_year.day),2103036,repeat
+2104275016000,what was the total amount of meteor showers that 55p/tempel–tuttle caused?,(COUNT (AND astronomy.meteor_shower (JOIN (R astronomy.comet.meteor_shower_spawned) m.02sd5r))),2104275,singleton
+2103462006000,what tropical cyclone category has the smallest maximum wind speed (gust)?,(ARGMIN meteorology.tropical_cyclone_category meteorology.tropical_cyclone_category.maximum_wind_speed_gust_km_h),2103462,repeat
+2105123004000,which student organization was most recently founded?,(ARGMAX education.student_organization organization.organization.date_founded),2105123,repeat
+3206227004000,name the battery size of cell variation with maximum capacity.,(ARGMAX engineering.battery_size (JOIN (R engineering.battery_size_cell_variation.size) engineering.battery_size_cell_variation.capacity)),3206227,repeat
+2101392001000,1160.0 is used as the frequency for which am terrestrial broadcast facility?,(AND broadcast.am_terrestrial_broadcast_facility (JOIN broadcast.am_terrestrial_broadcast_facility.frequency 1160.0^^http://www.w3.org/2001/XMLSchema#float)),2101392,singleton
+2102499000000,sirius xm channel 12 is which radio station?,(AND base.lightweight.radio_station (JOIN base.lightweight.radio_station.sirius_xm_channel 12^^http://www.w3.org/2001/XMLSchema#integer)),2102499,repeat
+3205437000000,what sports equipment is a related equipment of a sport in 2009 australian open?,(AND sports.sports_equipment (JOIN (R sports.sport.related_equipment) (JOIN (R sports.multi_event_tournament.sports) m.03hlw0t))),3205437,singleton
+2100192000000,the thermal conductivity unit watt per meter per kelvin is in what measurement system?,(AND measurement_unit.measurement_system (JOIN measurement_unit.measurement_system.thermal_conductivity_units m.02sj509)),2100192,repeat
+2105332003000,what person is the oldest mountaineer?,(ARGMIN geography.mountaineer people.person.date_of_birth),2105332,repeat
+4300853004000,"which celebrity has the most completed rehab stay at california substance abuse treatment facility and state prison, corcoran?",(ARGMAX (AND celebrities.celebrity (JOIN (R celebrities.rehab.celebrity) (JOIN (R celebrities.rehab_facility.celebrity_patients) m.02621l5))) (JOIN (R celebrities.rehab.celebrity) celebrities.rehab.completed)),4300853,singleton
+3202075000000,what musical instrument is in a musical contribution associated with basso buffo?,(AND music.instrument (JOIN music.performance_role.guest_performances (JOIN music.recording_contribution.performance_role m.037c9s))),3202075,repeat
+2104048000000,find the privately owned vehicle that has the smallest mileage.,(ARGMIN automotive.privately_owned_vehicle automotive.privately_owned_vehicle.milage),2104048,repeat
+2102849002000,name what density unit has 1.0 as amperes per square meter.,(AND measurement_unit.current_density_unit (JOIN measurement_unit.current_density_unit.density_in_amperes_per_square_meter 1.0^^http://www.w3.org/2001/XMLSchema#float)),2102849,repeat
+2102109004000,"which book edition's height is aug. the 29th, 2012?",(AND book.book_edition (JOIN book.book_edition.publication_date 2012-08-29^^http://www.w3.org/2001/XMLSchema#date)),2102109,singleton
+2104543004000,the organizational committee formed latest is what?,(ARGMAX organization.organization_committee organization.organization_committee.date_formed),2104543,repeat
+2103182003000,the highest average orbital speed belongs to which planet?,(ARGMAX astronomy.planet astronomy.orbital_relationship.mean_orbital_speed),2103182,repeat
+2101326004000,the swineshead abbey is a monastery to what religious order?,(AND religion.religious_order (JOIN religion.religious_order.monasteries m.0dd9mnz)),2101326,near_miss
+2104148005000,which tropical cyclone caused the most direct fatalities?,(ARGMAX meteorology.tropical_cyclone meteorology.tropical_cyclone.direct_fatalities),2104148,repeat
+2101533013000,which animal breed is the breed of western honeybee?,(AND biology.animal_breed (JOIN biology.animal_breed.breed_of m.04v81y)),2101533,near_miss
+3202992002000,in which theater are brisa trinchero's productions staged?,(AND theater.theater (JOIN theater.theater.theatrical_productions_staged_here (JOIN (R theater.theater_producer.plays_produced) m.0k3d4qc))),3202992,near_miss
+2105021003000,which month has 28 days?,(AND time.month (lt time.month.number_of_days_in_month 28^^http://www.w3.org/2001/XMLSchema#integer)),2105021,singleton
+2103181005000,which of the defunct time zone's usage ceased the latest?,(ARGMAX time.defunct_time_zone time.defunct_time_zone.usage_ceased),2103181,repeat
+2104150005000,what's the shortest golf course?,(ARGMIN sports.golf_course sports.golf_course.length),2104150,repeat
+2102552008000,name the privately owned automobile which has a model of rolls-royce phantom v.,(AND automotive.privately_owned_vehicle (JOIN automotive.privately_owned_vehicle.model m.0b201n)),2102552,near_miss
+3200574010000,the suite life movie and melody time are in which netflix genre?,(AND media_common.netflix_genre (AND (JOIN media_common.netflix_genre.titles m.0dgqzyr) (JOIN (R media_common.netflix_title.netflix_genres) m.05grgm))),3200574,near_miss
+3205883004000,which type of format is the latest tennis match in?,(ARGMAX tennis.tennis_match_type (JOIN (R tennis.tennis_match.match_format) tennis.tennis_match.date)),3205883,repeat
+3200632006000,what is the recipe for tonic water?,(AND food.recipe (JOIN (R food.recipe_ingredient.recipe) (JOIN food.recipe_ingredient.ingredient m.0pg96))),3200632,near_miss
+2105314003000,which is the most recently founded tournament team?,(ARGMAX sports.tournament_team sports.sports_team.founded),2105314,repeat
+2103842001000,what was the first blog ever started?,(ARGMIN internet.blog internet.blog.started),2103842,repeat
+2100247001000,presto is the layout engine of what browser?,(AND computer.web_browser (JOIN computer.web_browser.layout_engine m.02v2wn)),2100247,near_miss
+2104498003000,the smallest optical zoom belongs to which digital camera?,(ARGMIN digicams.digital_camera digicams.digital_camera.optical_zoom),2104498,repeat
+3202267005000,moominpappa is married to what fictional comic strip character?,(AND comic_strips.comic_strip_character (JOIN fictional_universe.fictional_character.married_to (JOIN (R fictional_universe.fictional_character.married_to) m.02p5nd8))),3202267,singleton
+3204092014000,what is the isbn of the book edition with gilbert hernandez on its cover?,(AND book.isbn (JOIN (R book.book_edition.isbn) (JOIN (R book.illustrator.book_edition_covers) m.019_c7))),3204092,singleton
+4302283013000,"besides metal working, which visual art form did martin desjardins make?",(AND visual_art.visual_art_form (JOIN (R visual_art.artwork.art_form) (AND (JOIN visual_art.artwork.artist m.026cht2) (JOIN visual_art.artwork.art_form m.01ng72)))),4302283,near_miss
+3202765001000,what arrangement is included by the arrangement with the latest date of completion?,(ARGMAX music.arrangement (JOIN (R music.composition.includes) music.composition.date_completed)),3202765,repeat
+2101141004000,what is the coat of arms of royal coat of arms of scotland?,(AND symbols.coat_of_arms (JOIN symbols.coat_of_arms.marshalled_coats_of_arms m.07xx5h)),2101141,singleton
+3203342005000,how many different species are in the fictional world of grayson?,(COUNT (AND fictional_universe.character_species (JOIN (R fictional_universe.fictional_universe.species) (JOIN (R fictional_universe.fictional_setting.universe) m.0bdwn3p)))),3203342,near_miss
+2101630014000,which theater production used translation in aida?,(AND theater.theater_production (JOIN theater.theater_production.translation_used m.08nm72n)),2101630,near_miss
+2104336003000,which ship class has the maximum max speed?,(ARGMAX boats.ship_class boats.ship_class.max_speed_knots),2104336,repeat
+3202193000000,the fictional calendar system preceded by bby is in what fictional universe?,(AND fictional_universe.fictional_universe (JOIN (R fictional_universe.fictional_calendar_system.used_in_fictional_universes) (JOIN fictional_universe.fictional_calendar_system.preceded_by m.03bvl87))),3202193,near_miss
+3204139000000,locate all exoplanets of stars with spectral type of k0iiib.,(AND base.exoplanetology.exoplanet (JOIN (R astronomy.star.planet_s) (JOIN astronomy.star.spectral_type m.0hng1n3))),3204139,singleton
+2104287002000,which animal is the tallest owned?,(ARGMAX biology.owned_animal biology.organism.height_meters),2104287,repeat
+2104804000000,what beer has the biggest ibu scale?,(ARGMAX food.beer food.beer.ibu_scale),2104804,repeat
+2100906004000,the energy source of aviation fuel is used by which engine?,(AND engineering.engine (JOIN engineering.engine.energy_source m.02zt4d)),2100906,singleton
+3203645006000,the editor of the edition earth is the strangest planet is also the author of what guidebook?,(AND travel.guidebook (JOIN book.written_work.author (JOIN (R book.book_edition.editor_of_this_edition) m.0hj02p1))),3203645,repeat
+3201251002000,what is the plant disease which is commonly involved in the plant disease triangle which involves cool wet soil?,(AND biology.plant_disease (JOIN (R biology.plant_disease_triangle.plant_disease) (JOIN (R biology.plant_disease_conditions.plant_disease_triangle) m.0d25t5l))),3201251,repeat
+4303008007000,what number of contents about interview tips are produced by the same producer as npr all things considered?,(COUNT (AND broadcast.content (AND (JOIN (R broadcast.genre.content) m.01jdpf) (JOIN (R broadcast.producer.produces) (JOIN broadcast.producer.produces m.01ysm8))))),4303008,near_miss
+2102924003000,what's the coat of arms that has the baronial coronet?,(AND symbols.coat_of_arms (JOIN symbols.coat_of_arms.coronet m.0668p87)),2102924,repeat
+2104990003000,which musical release was released first?,(ARGMIN music.release music.release.release_date),2104990,repeat
+3203071002000,which top level domain registry has the status active; in transition from former cctld [[.tp]]?,(AND internet.top_level_domain_registry (JOIN internet.top_level_domain_registry.domains (JOIN internet.top_level_domain.status m.02hsn5k))),3203071,singleton
+2102091012000,white dwarf star is a subcategory of what celestial object category?,(AND astronomy.celestial_object_category (JOIN astronomy.celestial_object_category.subcategories m.083l8)),2102091,near_miss
+2101603003000,900.0 is the atmospheric temperature of which exoplanet ?,(AND base.exoplanetology.exoplanet (JOIN base.exoplanetology.exoplanet.atmospheric_temperature 900.0^^http://www.w3.org/2001/XMLSchema#float)),2101603,repeat
+4300585002000,the measurement system that includes joule per kelvin also includes which unit of inverse temperature with a temperature coefficient in inverse kelvins lower than 1e-06?,(AND measurement_unit.inverse_temperature_unit (AND (JOIN measurement_unit.inverse_temperature_unit.measurement_system (JOIN (R measurement_unit.heat_capacity_unit.measurement_system) m.02sj4xx)) (le measurement_unit.inverse_temperature_unit.temperature_coefficient_in_inverse_kelvins 1e-06^^http://www.w3.org/2001/XMLSchema#float))),4300585,near_miss
+4301886003000,which comic book publisher has published a series in the martial art genre?,(AND comic_books.comic_book_publisher (JOIN comic_books.comic_book_publisher.comic_book_series_published (JOIN comic_books.comic_book_series.genre (JOIN media_common.media_genre.equivalent_topic m.04xsv)))),4301886,repeat
+2104150004000,what is the name of the shortest golf course?,(ARGMIN sports.golf_course sports.golf_course.length),2104150,repeat
+2103008011000,film actor is the favorite type of which users?,(AND freebase.user_profile (JOIN freebase.user_profile.favorite_types m.0jsg4j)),2103008,near_miss
+2101371013000,what is the championship game for european beach volleyball championships in sports league?,(AND sports.sports_championship_event (JOIN sports.sports_championship_event.championship m.04cyt9c)),2101371,near_miss
+2104742002000,which dead person weighed the least?,(ARGMIN people.deceased_person people.person.weight_kg),2104742,repeat
+2100406001000,1.0 grams per mole represents which unit?,(AND measurement_unit.unit_of_molar_mass (JOIN measurement_unit.unit_of_molar_mass.molar_mass_in_grams_per_mole 1.0^^http://www.w3.org/2001/XMLSchema#float)),2100406,repeat
+2101739007000,alendronate sodium has been tested for which medical trial?,(AND medicine.medical_trial (JOIN medicine.medical_trial.treatment_being_tested m.03x8l5)),2101739,near_miss
+2100642000000,what icd-9-cm classification is the parent classification of other bacterial food poisoning?,(AND medicine.icd_9_cm_classification (JOIN medicine.icd_9_cm_classification.parent_classification m.07vt1lv)),2100642,near_miss
+2102412001000,the maneuver one-handed backhand is used by what tennis players?,(AND tennis.tennis_player (JOIN tennis.tennis_player.tennis_grip m.025df67)),2102412,near_miss
+3205883002000,"in the latest tennis match, what format are they using?",(ARGMAX tennis.tennis_match_type (JOIN (R tennis.tennis_match.match_format) tennis.tennis_match.date)),3205883,repeat
+2100473004000,in which mountain range would one be able to find stob a' choire mheadhoin?,(AND geography.mountain_listing (JOIN geography.mountain_listing.mountains m.03m4l4r)),2100473,near_miss
+2103598004000,which tennis tournament has the earliest final occurrence?,(ARGMIN tennis.tennis_tournament time.recurring_event.date_of_final_occurance),2103598,repeat
+2102412005000,what is the name of the tennis player who uses two-handed backhand?,(AND tennis.tennis_player (JOIN tennis.tennis_player.tennis_grip m.025df62)),2102412,near_miss
+2105133010000,"of time zones, which has a dst offset from utc of more than 4.5?",(AND time.time_zone (gt time.time_zone.dst_offset_from_utc 4.5^^http://www.w3.org/2001/XMLSchema#float)),2105133,near_miss
+3201457011000,which exhibition has the same exhibition curator with venice biennale of architecture taiwan pavillion 2006?,(AND exhibitions.exhibition (JOIN (R exhibitions.exhibition_curator.exhibitions_curated) (JOIN exhibitions.exhibition_curator.exhibitions_curated m.064dsyn))),3201457,near_miss
+3204115000000,what unit of mass is associated with the measurement system of microfarads?,(AND measurement_unit.mass_unit (JOIN measurement_unit.mass_unit.measurement_system (JOIN (R measurement_unit.capacitance_unit.measurement_system) m.0l4l0))),3204115,repeat
+2101213014000,the start base of 52002683 belongs to which genomic locus?,(AND biology.genomic_locus (JOIN biology.genomic_locus.start_base 52002683^^http://www.w3.org/2001/XMLSchema#integer)),2101213,near_miss
+4300585001000,the measurement system with joule per kelvin is shared by which unit of inverse temperature with a temperature coefficient in inverse kelvins lower than 1.0?,(AND measurement_unit.inverse_temperature_unit (AND (JOIN measurement_unit.inverse_temperature_unit.measurement_system (JOIN (R measurement_unit.heat_capacity_unit.measurement_system) m.02sj4xx)) (le measurement_unit.inverse_temperature_unit.temperature_coefficient_in_inverse_kelvins 1.0^^http://www.w3.org/2001/XMLSchema#float))),4300585,near_miss
+4303145001000,what is the gender of the fattest character in any of ken akamatsu's works?,(ARGMAX fictional_universe.character_gender (JOIN (R fictional_universe.fictional_character.gender) (JOIN fictional_universe.fictional_character.character_created_by people.person.weight_kg))),4303145,repeat
+2100961003000,what indonesia service channel has a channel available with english-language?,(AND government.government_service_channel (JOIN government.government_service_channel.available_language m.02h40lc)),2100961,near_miss
+2105368007000,which image was created the earliest?,(ARGMIN common.image common.image.creation_date),2105368,repeat
+2101264000000,what unit in the international system of units is used to measure?,(AND measurement_unit.catalytic_concentration_unit (JOIN measurement_unit.catalytic_concentration_unit.measurement_system m.0c13h)),2101264,repeat
+4303393006000,which is the most distant sun?,(ARGMAX (AND astronomy.celestial_object (JOIN (R astronomy.celestial_object_category.objects) (JOIN (R astronomy.celestial_object_category.subcategories) m.06ngk))) astronomy.celestial_object.cosmological_distance),4303393,near_miss
+2105315001000,who is the oldest cyclist?,(ARGMIN sports.cyclist people.person.date_of_birth),2105315,repeat
+2103765005000,which government body was most recently formed?,(ARGMIN government.governmental_body government.governmental_body.date_formed),2103765,repeat
+4301671004000,what religion does ja a. jahannes believe in?,(AND religion.religion (JOIN religion.religion.collective_term_for_adherents (JOIN religion.adherents.religion (JOIN (R people.person.religion) m.0bghvcw)))),4301671,repeat
+3203342006000,how many species are in coffee a go-go?,(COUNT (AND fictional_universe.character_species (JOIN (R fictional_universe.fictional_universe.species) (JOIN (R fictional_universe.fictional_setting.universe) m.0gyrq0p)))),3203342,near_miss
+2101861002000,euro is the payment system of what video game distribution system?,(AND cvg.computer_game_distribution_system (JOIN cvg.computer_game_distribution_system.payment_system m.02l6h)),2101861,singleton
+3203645001000,name the guidebook whose author is also the editor the edition earth is the strangest planet?,(AND travel.guidebook (JOIN book.written_work.author (JOIN (R book.book_edition.editor_of_this_edition) m.0hj02p1))),3203645,repeat
+2100002001000,for which genome build is ncbi the curator?,(AND biology.genome_build (JOIN biology.genome_build.curator m.01358j)),2100002,repeat
+2104148001000,the most direct fatalities were the result of what tropical cyclone?,(ARGMAX meteorology.tropical_cyclone meteorology.tropical_cyclone.direct_fatalities),2104148,repeat
+2104048006000,what is the name of the privately owned vehicle that has the smallest milage?,(ARGMIN automotive.privately_owned_vehicle automotive.privately_owned_vehicle.milage),2104048,repeat
+3200208005000,"with a rate in bits per second under that of 1000.0, what is the unit of data contained in the international system of units?",(AND measurement_unit.unit_of_data_transmission_rate (AND (ge measurement_unit.unit_of_data_transmission_rate.rate_in_bits_per_second 1000.0^^http://www.w3.org/2001/XMLSchema#float) (JOIN (R measurement_unit.measurement_system.data_rate_units) m.0c13h))),3200208,singleton
+2103888003000,how many styles of beer are used in centennial?,(COUNT (AND base.lightweight.beer_style (JOIN (R base.lightweight.beer_hop.beer_styles_used_in) m.0115clqx))),2103888,singleton
+2100659000000,which literary series has fictional universe essalieyan/annagar/breodani universe?,(AND book.literary_series (JOIN book.literary_series.fictional_universe m.05qd0v2)),2100659,near_miss
+2100642012000,the parent classification of parkinson's diseasealso has what icd-9-cm classification?,(AND medicine.icd_9_cm_classification (JOIN medicine.icd_9_cm_classification.parent_classification m.0g02vk)),2100642,near_miss
+2104795005000,which satellite most recently ceased operations?,(ARGMAX spaceflight.satellite spaceflight.satellite.ceased_operating),2104795,repeat
+2104874001000,what is the name of theater director with the most weight?,(ARGMAX theater.theater_director people.person.weight_kg),2104874,repeat
+2100435014000,fictional character satan was created by which individual?,(AND fictional_universe.fictional_character_creator (JOIN fictional_universe.fictional_character_creator.fictional_characters_created m.06wzv)),2100435,near_miss
+2103618000000,what is the name of the fictional object that has the smallest date of creation?,(ARGMIN fictional_universe.fictional_object fictional_universe.fictional_object.date_created),2103618,repeat
+2100622009000,which system of nobility supercedes kingdom of munster?,(AND royalty.system_of_nobility (JOIN royalty.system_of_nobility.supercedes m.08vdq9)),2100622,singleton
+2102016017000,id tech 2 is proceeded by which video game engine?,(AND cvg.computer_game_engine (JOIN cvg.computer_game_engine.predecessor_engine m.06fbdb)),2102016,near_miss
+3204115002000,the measurement system which contains the unit megafarad also contains what unit of mass?,(AND measurement_unit.mass_unit (JOIN measurement_unit.mass_unit.measurement_system (JOIN (R measurement_unit.capacitance_unit.measurement_system) m.0l4l0))),3204115,repeat
+3202075002000,basso cantante is a musical contribution associated with which musical instrument?,(AND music.instrument (JOIN music.performance_role.guest_performances (JOIN music.recording_contribution.performance_role m.037c9s))),3202075,repeat
+4303707004000,which disney roller coasters rides have the fewest inversions?,(ARGMIN amusement_parks.disney_ride (JOIN (R amusement_parks.ride_type.rides) (JOIN (R amusement_parks.ride.ride_type) amusement_parks.ride.inversions))),4303707,repeat
+3200729006000,which tv location is belongs to the region of a multi-part musical release with the label nettwerk uk?,(AND tv.tv_location (JOIN (R music.release.region) (JOIN music.release.label m.0g5wz_6))),3200729,near_miss
+2103539004000,what was the first aviation incident?,(ARGMIN aviation.airliner_accident time.event.start_date),2103539,repeat
+2101690000000,the unit of absorbed dose in international system of units is ?,(AND measurement_unit.absorbed_dose_unit (JOIN measurement_unit.absorbed_dose_unit.measurement_system m.0c13h)),2101690,repeat
+2101533009000,which animal breed is the breed of rabbits?,(AND biology.animal_breed (JOIN biology.animal_breed.breed_of m.06mf6)),2101533,near_miss
+2104245001000,what is the name of the film producer of shortest stature?,(ARGMIN film.producer people.person.height_meters),2104245,repeat
+2103018000000,what battery has 228 cells?,(AND engineering.battery (JOIN engineering.battery.number_of_cells 228^^http://www.w3.org/2001/XMLSchema#integer)),2103018,repeat
+2103018002000,there are 228 cells in what battery?,(AND engineering.battery (JOIN engineering.battery.number_of_cells 228^^http://www.w3.org/2001/XMLSchema#integer)),2103018,repeat
+3202193001000,the fictional calendar system preceded by first age is a feature of which fictional universe?,(AND fictional_universe.fictional_universe (JOIN (R fictional_universe.fictional_calendar_system.used_in_fictional_universes) (JOIN fictional_universe.fictional_calendar_system.preceded_by m.0hlks))),3202193,near_miss
+2102683001000,what measurement system uses reciprocal metre as unit of wavenumber?,(AND measurement_unit.measurement_system (JOIN measurement_unit.measurement_system.wavenumber_units m.02sj3xb)),2102683,repeat
+2102373007000,ibanez rg was played by who?,(AND music.guitarist (JOIN music.guitarist.guitars_played m.0c_3vn)),2102373,near_miss
+2103120014000,which bassist has a height of no less than 1.94?,(AND music.bassist (ge people.person.height_meters 1.94^^http://www.w3.org/2001/XMLSchema#float)),2103120,near_miss
+2101957008000,who operates córdoba airport?,(AND aviation.airport_operator (JOIN aviation.airport_operator.airports_operated m.0414gnl)),2101957,near_miss
+4304069004000,which is the space program that has the same sponsor with another space program that is also sponsored by canadian space program?,(AND spaceflight.space_program (JOIN (R spaceflight.space_program_sponsor.space_programs_sponsored) (JOIN spaceflight.space_program_sponsor.space_programs_sponsored (JOIN spaceflight.space_program.sponsor m.01wjhc)))),4304069,singleton
+2104402002000,which reaction engine has the largest thrust?,(ARGMAX engineering.reaction_engine engineering.reaction_engine.thrust),2104402,repeat
+3205555004000,what is the unit of frequency in the measurement system used by millisiemens?,(AND measurement_unit.unit_of_frequency (JOIN measurement_unit.unit_of_frequency.measurement_system (JOIN (R measurement_unit.conductance_unit.measurement_system) m.0gvb8ml))),3205555,near_miss
+2104868000000,what is the last meteorite to have fallen?,(ARGMAX astronomy.meteorite astronomy.meteorite.meteorite_fall_date),2104868,repeat
+3201558005000,which organization members have their membership later than 07/23/2002?,(AND organization.organization_member (JOIN organization.organization_member.member_of (gt organization.organization_membership.from 2002-07-23^^http://www.w3.org/2001/XMLSchema#date))),3201558,near_miss
+2104742005000,who is the lightest dead person?,(ARGMIN people.deceased_person people.person.weight_kg),2104742,repeat
+3205825004000,where is the youngest star system body located?,(ARGMAX astronomy.star_system_body (JOIN astronomy.celestial_object.celestial_age astronomy.celestial_object_age.age)),3205825,repeat
+2105257000000,the award ceremony with the soonest end date is what?,(ARGMIN award.award_ceremony time.event.end_date),2105257,repeat
+2104461005000,which war ended earliest?,(ARGMIN military.war time.event.end_date),2104461,repeat
+3200100001000,what visual artist had a marraige at bildt?,(AND visual_art.visual_artist (JOIN (R people.marriage.spouse) (JOIN people.marriage.location_of_ceremony m.0vhss))),3200100,repeat
+2104287005000,"out of owned animals, which is the tallest?",(ARGMAX biology.owned_animal biology.organism.height_meters),2104287,repeat
+2100675004000,bruce oxenford is the field umpire in which cricket match?,(AND cricket.cricket_match (JOIN cricket.cricket_match.field_umpires m.03hkbw9)),2100675,singleton
+2102449015000,nima (never in mitosis gene a)- related kinase 9 is the gene found in which chromosome?,(AND biology.chromosome (JOIN biology.chromosome.gene m.02lr37s)),2102449,near_miss
+2104461003000,what's the most quickly ending war on record?,(ARGMIN military.war time.event.end_date),2104461,repeat
+2100807002000,what is the name of a podcast feed has 644 items?,(AND broadcast.podcast_feed (JOIN broadcast.podcast_feed.number_of_items 644^^http://www.w3.org/2001/XMLSchema#integer)),2100807,singleton
+2101976004000,diptheria is prevented by what type of vaccine?,(AND medicine.vaccine (JOIN medicine.vaccine.infectious_disease m.0g2q5)),2101976,singleton
+2105113001000,the name of the tallest judge is what?,(ARGMAX law.judge people.person.height_meters),2105113,repeat
+3200632007000,what is the recipe for capparis spinosa?,(AND food.recipe (JOIN (R food.recipe_ingredient.recipe) (JOIN food.recipe_ingredient.ingredient m.01szdf))),3200632,near_miss
+2101713003000,covent garden was the location of the filming of what television episode?,(AND tv.tv_series_episode (JOIN tv.tv_series_episode.filming_locations m.015g2s)),2101713,near_miss
+2104597002000,what is the name of the eldest football player?,(ARGMIN soccer.football_player people.person.date_of_birth),2104597,repeat
+2104413004000,who is the oldest architect?,(ARGMIN architecture.architect people.person.date_of_birth),2104413,repeat
+2101816004000,name the translated work that has the translation el moderno sistema mundial.,(AND book.translated_work (JOIN book.translated_work.translations m.06713_l)),2101816,near_miss
+2101630005000,what was the theater production that used translation in aida?,(AND theater.theater_production (JOIN theater.theater_production.translation_used m.08nm72n)),2101630,near_miss
+2101264002000,what is used to measure in the international system of units ?,(AND measurement_unit.catalytic_concentration_unit (JOIN measurement_unit.catalytic_concentration_unit.measurement_system m.0c13h)),2101264,repeat
+2101957011000,gran canaria is run by whom?,(AND aviation.airport_operator (JOIN aviation.airport_operator.airports_operated m.06hzpc)),2101957,near_miss
+2101213001000,identify the genomic locus that has the start base of 1715985.,(AND biology.genomic_locus (JOIN biology.genomic_locus.start_base 1715985^^http://www.w3.org/2001/XMLSchema#integer)),2101213,near_miss
+2104804003000,what type of beer has the largest ibu scale?,(ARGMAX food.beer food.beer.ibu_scale),2104804,repeat
+3205825001000,what is the location of the youngest star system body,(ARGMAX astronomy.star_system_body (JOIN astronomy.celestial_object.celestial_age astronomy.celestial_object_age.age)),3205825,repeat
+3201251005000,what plant disease is associated with a plant disease triangle containing cool wet soil?,(AND biology.plant_disease (JOIN (R biology.plant_disease_triangle.plant_disease) (JOIN (R biology.plant_disease_conditions.plant_disease_triangle) m.0d25t5l))),3201251,repeat
+3204096008000,what type of food does spaghetti warehouse and carrabba's italian grill serve?,(AND dining.cuisine (AND (JOIN dining.cuisine.restaurant m.06mwmz) (JOIN (R dining.restaurant.cuisine) m.0cp3p2))),3204096,singleton
+2100372002000,the international system of units uses what unit for radiant intensity?,(AND measurement_unit.radiant_intensity_unit (JOIN measurement_unit.radiant_intensity_unit.measurement_system m.0c13h)),2100372,repeat
+3201927002000,"in the muslim calendar, which day is considered the end of the week?",(ARGMAX (AND time.day_of_week (JOIN (R time.calendar.days_of_week) m.03ts7)) time.day_of_week.sequence_number),3201927,singleton
+2104312004000,what is the file format with the latest creation date?,(ARGMAX computer.file_format computer.file_format.creation_date),2104312,repeat
+3202992008000,ian flooks productions are staged in which theater?,(AND theater.theater (JOIN theater.theater.theatrical_productions_staged_here (JOIN (R theater.theater_producer.plays_produced) m.0jwmxj))),3202992,near_miss
+2103886006000,which is the largest unit of radioactivity in becquerels?,(ARGMAX measurement_unit.radioactivity_unit measurement_unit.radioactivity_unit.radioactivity_in_becquerels),2103886,repeat
+4301671000000,ja a. jahannes has belief in which religion?,(AND religion.religion (JOIN religion.religion.collective_term_for_adherents (JOIN religion.adherents.religion (JOIN (R people.person.religion) m.0bghvcw)))),4301671,repeat
+2102709003000,which top level domain has the domain type of www.fpath.com ?,(AND internet.top_level_domain (JOIN internet.top_level_domain.domain_type m.012hc2k2)),2102709,near_miss
+3205347012000,christopher glenn is the artist of what episodes of a radio program?,(AND radio.radio_program_episode (JOIN (R radio.radio_program.episodes) (JOIN broadcast.content.artist m.0bn6w4))),3205347,near_miss
+2101365002000,what computer manufacturer has the model macintosh se?,(AND computer.computer_manufacturer_brand (JOIN computer.computer_manufacturer_brand.computer_models m.023tnt)),2101365,singleton
+2100260000000,in the international system of units which is the angular frequency unit used?,(AND measurement_unit.angular_velocity_unit (JOIN measurement_unit.angular_velocity_unit.measurement_system m.0c13h)),2100260,repeat
+2103539006000,the first aviation incident was what?,(ARGMIN aviation.airliner_accident time.event.start_date),2103539,repeat
+2103465004000,which beer has the maximum original gravity?,(ARGMAX food.beer food.beer.original_gravity),2103465,repeat
+4301886001000,what comic book publisher has published comic book series in the martial art genre?,(AND comic_books.comic_book_publisher (JOIN comic_books.comic_book_publisher.comic_book_series_published (JOIN comic_books.comic_book_series.genre (JOIN media_common.media_genre.equivalent_topic m.04xsv)))),4301886,repeat
+2105314000000,what is the tournament team that was founded the most recently?,(ARGMAX sports.tournament_team sports.sports_team.founded),2105314,repeat
+4303393000000,what is the farthest variable stars?,(ARGMAX (AND astronomy.celestial_object (JOIN (R astronomy.celestial_object_category.objects) (JOIN (R astronomy.celestial_object_category.subcategories) m.0gzxf))) astronomy.celestial_object.cosmological_distance),4303393,near_miss
+4300443007000,what is the subject of the quote personal beauty is a greater recommendation than any letter of reference. which was spoken quoted by the angel of remembrance?,(AND media_common.quotation_subject (AND (JOIN (R media_common.quotation.subjects) (JOIN media_common.quotation.spoken_by_character m.0h3grm9)) (JOIN (R media_common.quotation.subjects) m.048hxkx))),4300443,near_miss
+3204670004000,what guitarist studied audio production?,(AND music.guitarist (JOIN people.person.education (JOIN education.education.specialization m.04j55j0))),3204670,repeat
+2102770000000,what regulates the language of yoruba?,(AND language.language_regulator (JOIN language.language_regulator.language m.01zycf)),2102770,singleton
+2103018003000,there are 228 cells in which battery?,(AND engineering.battery (JOIN engineering.battery.number_of_cells 228^^http://www.w3.org/2001/XMLSchema#integer)),2103018,repeat
+2101780000000,what is the organism classification of cretaceous period fossil record?,(AND biology.organism_classification (JOIN biology.organism_classification.earliest_fossil_record m.01pt4)),2101780,singleton
+2103598003000,what is the name of the tennis tournament that has the earliest date of final occurrence?,(ARGMIN tennis.tennis_tournament time.recurring_event.date_of_final_occurance),2103598,repeat
+3200100004000,bildt is marred to what visual artist?,(AND visual_art.visual_artist (JOIN (R people.marriage.spouse) (JOIN people.marriage.location_of_ceremony m.0vhss))),3200100,repeat
+2102781009000,"on apr. the 12nd, 1980 what aviation incident occurred?",(AND aviation.airliner_accident (JOIN aviation.airliner_accident.date 1980-04-12^^http://www.w3.org/2001/XMLSchema#date)),2102781,singleton
+3204385007000,which street fighter series video game is designed by david sirlin?,(AND cvg.computer_videogame (AND (JOIN cvg.computer_videogame.designers m.04z_g7w) (JOIN (R cvg.game_series.games_in_series) m.079pq))),3204385,singleton
+2103019005000,pathogenic bacteria causes what infectious disease?,(AND medicine.infectious_disease (JOIN medicine.infectious_disease.infectious_agent_type m.03qch2w)),2103019,singleton
+2100372003000,international system of units is in what unit of radiant intensity?,(AND measurement_unit.radiant_intensity_unit (JOIN measurement_unit.radiant_intensity_unit.measurement_system m.0c13h)),2100372,repeat
+2105096003000,what is the book that is first published?,(ARGMIN book.book book.written_work.date_of_first_publication),2105096,repeat
+2105411002000,the dissertation with the most recent defense date is what?,(ARGMAX education.dissertation education.dissertation.defense_date),2105411,repeat
+2100436001000,find textile weaved in tufted,(AND fashion.textile (JOIN fashion.textile.weave m.0dk9l8)),2100436,singleton
+2102872000000,the international system of units contains which unit of conductance?,(AND measurement_unit.conductance_unit (JOIN measurement_unit.conductance_unit.measurement_system m.0c13h)),2102872,repeat
+4303707001000,the very least amount of inversions can be found on which disney roller coaster rides?,(ARGMIN amusement_parks.disney_ride (JOIN (R amusement_parks.ride_type.rides) (JOIN (R amusement_parks.ride.ride_type) amusement_parks.ride.inversions))),4303707,repeat
+3203824006000,which's the operational platform of the telescope in the paranal observatory?,(AND astronomy.telescope_platform (JOIN (R astronomy.telescope.operational_platform) (JOIN (R astronomy.astronomical_observatory.telescope_s) m.03y4zr))),3203824,near_miss
+3201251004000,what is the name of the plant disease that is involved in a plant disease triangle that involves cool wet soil?,(AND biology.plant_disease (JOIN (R biology.plant_disease_triangle.plant_disease) (JOIN (R biology.plant_disease_conditions.plant_disease_triangle) m.0d25t5l))),3201251,repeat
+2100766001000,what government service provided königliche museen zu berlin / generalverwaltung?,(AND government.government_service (JOIN government.government_service.providing_agency m.010gg1qd)),2100766,singleton
+2103120011000,which of the bassists has a height of at least 1.91?,(AND music.bassist (ge people.person.height_meters 1.91^^http://www.w3.org/2001/XMLSchema#float)),2103120,near_miss
+2105123003000,name this student organization that was founded the latest?,(ARGMAX education.student_organization organization.organization.date_founded),2105123,repeat
+3203950009000,what is the number of exhibition subjects that has the subject of an exhibition curated by sylvain amic?,(COUNT (AND exhibitions.exhibition_subject (JOIN exhibitions.exhibition_subject.exhibitions_created_about_this_subject (JOIN (R exhibitions.exhibition_curator.exhibitions_curated) m.076__64)))),3203950,near_miss
+2100134004000,what unit of viscosity does the international system of units use?,(AND measurement_unit.viscosity_unit (JOIN measurement_unit.viscosity_unit.measurement_system m.0c13h)),2100134,repeat
+2103465003000,what beer has the max original gravity?,(ARGMAX food.beer food.beer.original_gravity),2103465,repeat
+2103691000000,what is the galaxy with the greatest distance?,(ARGMAX astronomy.galaxy astronomy.celestial_object.cosmological_distance),2103691,repeat
+2103842004000,which is the earliest started blog?,(ARGMIN internet.blog internet.blog.started),2103842,repeat
+2104259003000,what invention came first?,(ARGMIN law.invention law.invention.date_of_invention),2104259,repeat
+2100944005000,microsoft windows has whom as the software developers?,(AND computer.software_developer (JOIN computer.software_developer.software m.04r_8)),2100944,near_miss
+2103539002000,which aviation incident happened first?,(ARGMIN aviation.airliner_accident time.event.start_date),2103539,repeat
+2104779006000,the last roller coaster that was closed is named what?,(ARGMAX amusement_parks.roller_coaster amusement_parks.ride.closed),2104779,repeat
+2100059004000,the former coat of arms of republika srpska contained which heraldic helm?,(AND symbols.heraldic_helm (JOIN symbols.heraldic_helm.coat_of_arms m.01zlq2)),2100059,repeat
+2103181002000,"of all the defunct time zones, the latest one to be ceased is which?",(ARGMAX time.defunct_time_zone time.defunct_time_zone.usage_ceased),2103181,repeat
+2104446000000,who is the tallest disaster survivor?,(ARGMAX event.disaster_survivor people.person.height_meters),2104446,repeat
+2100343002000,"the measurement system, international system of units, encompasses which unit of capacitance?",(AND measurement_unit.capacitance_unit (JOIN measurement_unit.capacitance_unit.measurement_system m.0c13h)),2100343,repeat
+2104454005000,which digital camera has the lowest weight?,(ARGMIN digicams.digital_camera digicams.digital_camera.weight),2104454,repeat
+2100493020000,60800.0 is floor space of what building complex?,(AND architecture.building_complex (JOIN architecture.building_complex.floor_space_square_meters 60800.0^^http://www.w3.org/2001/XMLSchema#float)),2100493,near_miss
+2103598000000,which tennis tournament has the earliest date of final occurrence?,(ARGMIN tennis.tennis_tournament time.recurring_event.date_of_final_occurance),2103598,repeat
+2102709004000,the domain type top level domain belongs to what top level domain?,(AND internet.top_level_domain (JOIN internet.top_level_domain.domain_type m.03xvw1)),2102709,near_miss
+2103842003000,which blog was started the earliest?,(ARGMIN internet.blog internet.blog.started),2103842,repeat
+2102849000000,what density unit has 1.0 amperes per square meter?,(AND measurement_unit.current_density_unit (JOIN measurement_unit.current_density_unit.density_in_amperes_per_square_meter 1.0^^http://www.w3.org/2001/XMLSchema#float)),2102849,repeat
+2102872002000,which unit of conductance is in the measurement system of international system of units?,(AND measurement_unit.conductance_unit (JOIN measurement_unit.conductance_unit.measurement_system m.0c13h)),2102872,repeat
+2101811004000,when the volt is 1.0 what is the unit of potential?,(AND measurement_unit.potential_unit (JOIN measurement_unit.potential_unit.potential_in_volts 1.0^^http://www.w3.org/2001/XMLSchema#float)),2101811,repeat
+2104797003000,what is the star with the highest declination?,(ARGMAX astronomy.star astronomy.celestial_object.decllnation),2104797,repeat
+3205705001000,in what court jurisdiction is the place where the latest buried person died?,(ARGMAX law.court_jurisdiction_area (JOIN (R people.deceased_person.place_of_death) people.deceased_person.date_of_burial)),3205705,repeat
+3200732003000,what recipe author has the same cultural heritage as claire l. chennault?,(AND food.recipe_author (JOIN people.person.ethnicity (JOIN people.ethnicity.people m.011l17))),3200732,singleton
+2102927014000,which calendar system has the months of month 4?,(AND time.calendar (JOIN time.calendar.months m.010wtdkt)),2102927,near_miss
+3201457000000,which exhibtions were curated by the same person who curated snowclones?,(AND exhibitions.exhibition (JOIN (R exhibitions.exhibition_curator.exhibitions_curated) (JOIN exhibitions.exhibition_curator.exhibitions_curated m.0v4m8gh))),3201457,near_miss
+2104914004000,what is name of the video game expansion that has the latest initial release date?,(ARGMAX cvg.computer_game_expansion cvg.computer_videogame.release_date),2104914,repeat
+2101402008000,name kingdom of swaziland's government.,(AND government.government (JOIN government.government.government_for m.06v36)),2101402,near_miss
+2105327004000,which moon has the maximum inclination?,(ARGMAX astronomy.moon astronomy.orbital_relationship.inclination),2105327,repeat
+2101603000000,the atmospheric temperature of 900.0 is present on which exoplanet?,(AND base.exoplanetology.exoplanet (JOIN base.exoplanetology.exoplanet.atmospheric_temperature 900.0^^http://www.w3.org/2001/XMLSchema#float)),2101603,repeat
+2101341003000,which measurement system uses newton per metre as the surface tension units?,(AND measurement_unit.measurement_system (JOIN measurement_unit.measurement_system.surface_tension_units m.02sj4sk)),2101341,repeat
+2102925002000,which locomotive class is it that has a weight of 129.0?,(AND rail.locomotive_class (JOIN rail.locomotive_class.weight 129.0^^http://www.w3.org/2001/XMLSchema#float)),2102925,repeat
+4301467015000,what is the musical recording with the greatest length that is a track of musical release component released by neurocide?,(ARGMAX (AND music.recording (JOIN (R music.release.track) (JOIN (R music.album.releases) m.01rr9dw))) music.recording.length),4301467,singleton
+2104874002000,which theater director has the maximum weight?,(ARGMAX theater.theater_director people.person.weight_kg),2104874,repeat
+4303393004000,which variable stars is most distant?,(ARGMAX (AND astronomy.celestial_object (JOIN (R astronomy.celestial_object_category.objects) (JOIN (R astronomy.celestial_object_category.subcategories) m.0gzxf))) astronomy.celestial_object.cosmological_distance),4303393,near_miss
+2105385004000,what is the unit of length that has the maximum distance in meters?,(ARGMAX measurement_unit.distance_unit measurement_unit.distance_unit.distance_in_meters),2105385,repeat
+2104874000000,who is the theater director weights the most?,(ARGMAX theater.theater_director people.person.weight_kg),2104874,repeat
+2100473014000,which mountain series does fremrinámur belong to?,(AND geography.mountain_listing (JOIN geography.mountain_listing.mountains m.0j_79bl)),2100473,near_miss
+2102891000000,what comic book stories are in the historical fantasy genre?,(AND comic_books.comic_book_story (JOIN comic_books.comic_book_story.genre m.035qb4)),2102891,singleton
+2103886004000,what is the unit of radioactivity with the highest radioactivity in becquerels?,(ARGMAX measurement_unit.radioactivity_unit measurement_unit.radioactivity_unit.radioactivity_in_becquerels),2103886,repeat
+2100069014000,triathlons is the discipline of which olympic event?,(AND olympics.olympic_event (JOIN olympics.olympic_event.sport m.07rlg)),2100069,singleton
+2102091011000,aten asteroid is a subcategory of what celestial object category?,(AND astronomy.celestial_object_category (JOIN astronomy.celestial_object_category.subcategories m.0290ms)),2102091,near_miss
+2102454007000,the category contemporary design has which consumer product?,(AND business.consumer_product (JOIN business.consumer_product.category m.0c1xd7w)),2102454,near_miss
+2104336002000,what class of ship has the maximum max speed?,(ARGMAX boats.ship_class boats.ship_class.max_speed_knots),2104336,repeat
+2102488005000,which election poll has 2605 polled?,(AND government.election_poll (JOIN government.election_poll.number_polled 2605^^http://www.w3.org/2001/XMLSchema#integer)),2102488,singleton
+2100063002000,british rail class 50 is locomotive class for what rail gauges?,(AND rail.rail_gauge (JOIN rail.rail_gauge.locomotive_classes m.052dz1)),2100063,repeat
+2105456010000,which warship v1.1 has a length of at least 108.5?,(AND user.patrick.default_domain.warship_v1_1 (ge boats.ship.length_overall 108.5^^http://www.w3.org/2001/XMLSchema#float)),2105456,singleton
+3204390004000,what's the translations of el ramayana?,(AND book.translation (JOIN book.translation.translation_of (JOIN (R book.translation.translation_of) m.06c3rd8))),3204390,near_miss
+3202650000000,what type of medical trial is finished lastly?,(ARGMIN medicine.medical_trial_type (JOIN (R medicine.medical_trial.type_of_trial) medicine.medical_trial.end_date)),3202650,repeat
+3206227003000,measurement of battery size of cell variation with maximum capacity?,(ARGMAX engineering.battery_size (JOIN (R engineering.battery_size_cell_variation.size) engineering.battery_size_cell_variation.capacity)),3206227,repeat
+2104488002000,which film festival has the latest date of final occurrence?,(ARGMAX film.film_festival time.recurring_event.date_of_final_occurance),2104488,repeat
+3204321005000,which other service does the governmental provider of housing grants for disabled veterans (veterans affairs) provide?,(AND government.government_service (JOIN government.government_service.providing_agency (JOIN (R government.government_service.providing_agency) m.0y4wh_y))),3204321,singleton
+2103182004000,which planet has the highest orbital speed on average?,(ARGMAX astronomy.planet astronomy.orbital_relationship.mean_orbital_speed),2103182,repeat
+2105314005000,what is the name of the tournament team that was founded most recently?,(ARGMAX sports.tournament_team sports.sports_team.founded),2105314,repeat
+2104488004000,which film festival is held last each year?,(ARGMAX film.film_festival time.recurring_event.date_of_final_occurance),2104488,repeat
+2101550004000,h chondrite makes up which meteorite?,(AND astronomy.meteorite (JOIN astronomy.meteorite.meteorite_composition m.092s75)),2101550,singleton
+2103539000000,what incident was the first aviation?,(ARGMIN aviation.airliner_accident time.event.start_date),2103539,repeat
+3202075005000,which musical instrument is also in a musical contribution that is associated with bass voice?,(AND music.instrument (JOIN music.performance_role.guest_performances (JOIN music.recording_contribution.performance_role m.037c9s))),3202075,repeat
+2102683003000,in what measurement system is the wavenumber unit reciprocal metre?,(AND measurement_unit.measurement_system (JOIN measurement_unit.measurement_system.wavenumber_units m.02sj3xb)),2102683,repeat
+2101736006000,what spirit is infused with cucumber?,(AND distilled_spirits.infused_spirit (JOIN distilled_spirits.infused_spirit.infusion m.015x4r)),2101736,singleton
+2100638000000,which person has the gender of other?,(AND people.person (JOIN people.person.gender m.04j3vhk)),2100638,singleton
+2105113007000,find the tallest judge.,(ARGMAX law.judge people.person.height_meters),2105113,repeat
+2101690005000,"in the international system of units, what is the unit for absorbed dose?",(AND measurement_unit.absorbed_dose_unit (JOIN measurement_unit.absorbed_dose_unit.measurement_system m.0c13h)),2101690,repeat
+3206064006000,the latest discontinued computer was manufactured by who?,(ARGMAX computer.computer_manufacturer_brand (JOIN computer.computer_manufacturer_brand.computer_models computer.computer.discontinued)),3206064,repeat
+2104488006000,the latest date of final occurrence belongs to what film festival?,(ARGMAX film.film_festival time.recurring_event.date_of_final_occurance),2104488,repeat
+2101371001000,what is sports league championship event for european beach volleyball championships?,(AND sports.sports_championship_event (JOIN sports.sports_championship_event.championship m.04cyt9c)),2101371,near_miss
+3202650001000,what type of medical trial is finished last?,(ARGMIN medicine.medical_trial_type (JOIN (R medicine.medical_trial.type_of_trial) medicine.medical_trial.end_date)),3202650,repeat
+4302283004000,which visual art form is made by martin desjardins besides metal working?,(AND visual_art.visual_art_form (JOIN (R visual_art.artwork.art_form) (AND (JOIN visual_art.artwork.artist m.026cht2) (JOIN visual_art.artwork.art_form m.01ng72)))),4302283,near_miss
+4301886002000,in relation to the martial art genre which comic book publisher has published a comic book series related to this?,(AND comic_books.comic_book_publisher (JOIN comic_books.comic_book_publisher.comic_book_series_published (JOIN comic_books.comic_book_series.genre (JOIN media_common.media_genre.equivalent_topic m.04xsv)))),4301886,repeat
+2103665005000,what wine has the maximum percent new oak?,(ARGMAX wine.wine wine.wine.percent_new_oak),2103665,repeat
+4301886004000,what comic book publisher has published a comic book series in the martial art genre?,(AND comic_books.comic_book_publisher (JOIN comic_books.comic_book_publisher.comic_book_series_published (JOIN comic_books.comic_book_series.genre (JOIN media_common.media_genre.equivalent_topic m.04xsv)))),4301886,repeat
+2105084004000,search for the the latest primary election.,(ARGMAX government.primary_election government.election.election_year),2105084,repeat
+2104413000000,the oldest architect is whom?,(ARGMIN architecture.architect people.person.date_of_birth),2104413,repeat
+4303707002000,which roller coasters at disney have the fewest inversions?,(ARGMIN amusement_parks.disney_ride (JOIN (R amusement_parks.ride_type.rides) (JOIN (R amusement_parks.ride.ride_type) amusement_parks.ride.inversions))),4303707,repeat
+2105084005000,what was the latest primary election?,(ARGMAX government.primary_election government.election.election_year),2105084,repeat
+2105478001000,what is the name of the tropical cyclone with fewest total fatalities?,(ARGMIN meteorology.tropical_cyclone meteorology.tropical_cyclone.total_fatalities),2105478,repeat
+2105314002000,what tournament team was established most recently?,(ARGMAX sports.tournament_team sports.sports_team.founded),2105314,repeat
+2100534003000,what unit of permittivity has the permittivity in farads per meter 1.0?,(AND measurement_unit.permittivity_unit (JOIN measurement_unit.permittivity_unit.permittivity_in_farads_per_meter 1.0^^http://www.w3.org/2001/XMLSchema#float)),2100534,repeat
+2105389001000,which olympic game has the largest number of participating countries? ,(ARGMAX olympics.olympic_games olympics.olympic_games.number_of_countries),2105389,repeat
+2100435011000,who created the fictional character bat jarvis?,(AND fictional_universe.fictional_character_creator (JOIN fictional_universe.fictional_character_creator.fictional_characters_created m.04xg4kq)),2100435,near_miss
+2105009002000,the film cinematographer with the shortest stature is what person?,(ARGMIN film.cinematographer people.person.height_meters),2105009,repeat
+2104139000000,what is the total number of heraldic crests used on coat of arms of british columbia?,(COUNT (AND symbols.heraldic_crest (JOIN (R symbols.coat_of_arms.crest) m.01vy7d))),2104139,singleton
+2103182002000,what planet as the highest average orbital speed?,(ARGMAX astronomy.planet astronomy.orbital_relationship.mean_orbital_speed),2103182,repeat
+2103462003000,what is the name of the tropical cyclone category has the smallest maximum wind speed (gust)?,(ARGMIN meteorology.tropical_cyclone_category meteorology.tropical_cyclone_category.maximum_wind_speed_gust_km_h),2103462,repeat
+2100033005000,what literary series was authored by cynthia defelice?,(AND book.literary_series (JOIN book.literary_series.author_s m.0h1db91)),2100033,near_miss
+2104259005000,which invention has the earliest date of invention?,(ARGMIN law.invention law.invention.date_of_invention),2104259,repeat
+2100493023000,what building complex has the floor space of 445900.0?,(AND architecture.building_complex (JOIN architecture.building_complex.floor_space_square_meters 445900.0^^http://www.w3.org/2001/XMLSchema#float)),2100493,near_miss
+2100192004000,in what measurement system watt per meter per kelvin is the thermal conductivity unit?,(AND measurement_unit.measurement_system (JOIN measurement_unit.measurement_system.thermal_conductivity_units m.02sj509)),2100192,repeat
+2105314001000,which tournament team was founded most recently?,(ARGMAX sports.tournament_team sports.sports_team.founded),2105314,repeat
+2102872003000,international system of units contains which unit of conductance?,(AND measurement_unit.conductance_unit (JOIN measurement_unit.conductance_unit.measurement_system m.0c13h)),2102872,repeat
+2100659005000,honorverse is a fictional universe in what literary series?,(AND book.literary_series (JOIN book.literary_series.fictional_universe m.0hprq1z)),2100659,near_miss
+2103535004000,which unit of data transmission rate has bits per second as its maximum rate?,(ARGMAX measurement_unit.unit_of_data_transmission_rate measurement_unit.unit_of_data_transmission_rate.rate_in_bits_per_second),2103535,repeat
+2100493012000,what is a building complex with 445900.0 of floor space?,(AND architecture.building_complex (JOIN architecture.building_complex.floor_space_square_meters 445900.0^^http://www.w3.org/2001/XMLSchema#float)),2100493,near_miss
+2104779003000,what was the last roller coaster to be closed?,(ARGMAX amusement_parks.roller_coaster amusement_parks.ride.closed),2104779,repeat
+3205428002000,"find the cytogenetic band has a genomic locus that is associated with heat shock protein 90kda alpha (cytosolic), member a1.",(AND biology.cytogenetic_band (JOIN biology.cytogenetic_band.locus (JOIN (R biology.gene.locus) m.03ct2rq))),3205428,repeat
+2104062004000,which opera house has the most number of floors?,(ARGMAX opera.opera_house architecture.building.floors),2104062,repeat
+2101603005000,which exoplanet has an atmospheric temperature of 900.0?,(AND base.exoplanetology.exoplanet (JOIN base.exoplanetology.exoplanet.atmospheric_temperature 900.0^^http://www.w3.org/2001/XMLSchema#float)),2101603,repeat
+2102762000000,the wbc world champion title is held by which boxing sanctioning body?,(AND boxing.boxing_sanctioning_body (JOIN boxing.boxing_sanctioning_body.titles m.0cj52b7)),2102762,singleton
+2105123001000,what is the latest student organization to be founded?,(ARGMAX education.student_organization organization.organization.date_founded),2105123,repeat
+2105327001000,what is the name of the moon with the maximum inclination?,(ARGMAX astronomy.moon astronomy.orbital_relationship.inclination),2105327,repeat
+2104990000000,what is the name of the musical release that was first released?,(ARGMIN music.release music.release.release_date),2104990,repeat
+3203040003000,who is the founder of a given marvel comics universe organization?,(AND fictional_universe.fictional_organization_founder (JOIN (R fictional_universe.fictional_organization.fictional_organization_founder) (JOIN (R fictional_universe.fictional_universe.organizations) m.058nt))),3203040,singleton
+4302499002000,how is the lighthouse with light color range over 16.0 shaped?,(AND architecture.tower_shape (JOIN (R architecture.lighthouse.tower_shape) (JOIN (R architecture.light_color_range.lighthouse_having_color_ranges) (ge architecture.light_color_range.light_range 16.0^^http://www.w3.org/2001/XMLSchema#float)))),4302499,singleton
+3202075001000,what musical instrument is played in association with basso cantante?,(AND music.instrument (JOIN music.performance_role.guest_performances (JOIN music.recording_contribution.performance_role m.037c9s))),3202075,repeat
+2102412002000,the two-handed backhand is used by which player?,(AND tennis.tennis_player (JOIN tennis.tennis_player.tennis_grip m.025df62)),2102412,near_miss
+2105427005000,which beer has lowest color srm?,(ARGMIN food.beer food.beer.color_srm),2105427,repeat
+2100146003000,what cluster of galaxies is local galactic group in?,(AND astronomy.galactic_cluster (JOIN astronomy.galactic_cluster.galaxy_groups m.04llv)),2100146,repeat
+3202145002000,which unit of pressure uses gray per second?,(AND measurement_unit.pressure_unit (JOIN measurement_unit.pressure_unit.measurement_system (JOIN (R measurement_unit.absorbed_dose_rate_unit.measurement_system) m.02sj5d4))),3202145,repeat
+3200100002000,"the visual artist, bildt, was married to who?",(AND visual_art.visual_artist (JOIN (R people.marriage.spouse) (JOIN people.marriage.location_of_ceremony m.0vhss))),3200100,repeat
+2101341001000,newton per metre uses what system of measurement as the surface tension units?,(AND measurement_unit.measurement_system (JOIN measurement_unit.measurement_system.surface_tension_units m.02sj4sk)),2101341,repeat
+2101359005000,find basketball coach with 85 career losses.,(AND basketball.basketball_coach (JOIN basketball.basketball_coach.season_losses 85^^http://www.w3.org/2001/XMLSchema#integer)),2101359,singleton
+2102927015000,muharram?] is the month in what calendar system?,(AND time.calendar (JOIN time.calendar.months m.0296bf)),2102927,near_miss
+2100063003000,name rail gauges whose locomotive class is british rail class 50.,(AND rail.rail_gauge (JOIN rail.rail_gauge.locomotive_classes m.052dz1)),2100063,repeat
+2104795000000,"the satellite that stopped operating recently, was what?",(ARGMAX spaceflight.satellite spaceflight.satellite.ceased_operating),2104795,repeat
+2101533006000,the rabbits species has which breeds?,(AND biology.animal_breed (JOIN biology.animal_breed.breed_of m.06mf6)),2101533,near_miss
+2100343003000,the international system of units measurement system uses which unit for capacitance?,(AND measurement_unit.capacitance_unit (JOIN measurement_unit.capacitance_unit.measurement_system m.0c13h)),2100343,repeat
+2101397003000,the rotation rate of 1.98 belong to what star?,(AND astronomy.star (JOIN astronomy.star.rotation 1.98^^http://www.w3.org/2001/XMLSchema#float)),2101397,singleton
+4300443014000,"the subject of the quote, ""personal beauty is a greater recommendation than any letter of reference. "" spoken by the angel of remembrance, is what?",(AND media_common.quotation_subject (AND (JOIN (R media_common.quotation.subjects) (JOIN media_common.quotation.spoken_by_character m.0h3grm9)) (JOIN (R media_common.quotation.subjects) m.048hxkx))),4300443,near_miss
+2102756001000,rmake is in what file format?,(AND computer.file_format (JOIN computer.file_format.written_by m.02l0r3t)),2102756,singleton
+2101163002000,what is the version of mozilla public licence?,(AND computer.software_license (JOIN computer.software_license.version_of m.02w1yc)),2101163,singleton
+2102680001000,the international system of units measured by what unit of amount concentration?,(AND measurement_unit.amount_concentration_unit (JOIN measurement_unit.amount_concentration_unit.measurement_system m.0c13h)),2102680,repeat
+3203824005000,what's the operational platform of the telescope in the palomar observatory?,(AND astronomy.telescope_platform (JOIN (R astronomy.telescope.operational_platform) (JOIN (R astronomy.astronomical_observatory.telescope_s) m.022tzk))),3203824,near_miss
+3202103000000,which medical trial design ended the most recently?,(ARGMAX medicine.medical_trial_design (JOIN (R medicine.medical_trial.design) medicine.medical_trial.end_date)),3202103,repeat
+2103462002000,the smallest maximum wind speed belongs to what tropical cyclone category?,(ARGMIN meteorology.tropical_cyclone_category meteorology.tropical_cyclone_category.maximum_wind_speed_gust_km_h),2103462,repeat
+3206065009000,find all ships built by stx finland with imo/ir number grater than 9281281,(AND boats.ship (AND (ge boats.ship.imo_lr_identification_number 9281281^^http://www.w3.org/2001/XMLSchema#integer) (JOIN (R boats.ship_builder.ships_built) m.051_6_r))),3206065,near_miss
+3202103002000,what is the medical trial design of the latest trial end date?,(ARGMAX medicine.medical_trial_design (JOIN (R medicine.medical_trial.design) medicine.medical_trial.end_date)),3202103,repeat
+4300443010000,the subject of the quote: gracefulness is to the body what understanding is to the mind. spoken by angel of remembrance is what?,(AND media_common.quotation_subject (AND (JOIN (R media_common.quotation.subjects) (JOIN media_common.quotation.spoken_by_character m.0h3grm9)) (JOIN (R media_common.quotation.subjects) m.048gk7g))),4300443,near_miss
+3205375000000,watt per square metre per steradian is used in what unit of length?,(AND measurement_unit.distance_unit (JOIN measurement_unit.distance_unit.measurement_system (JOIN measurement_unit.measurement_system.radiance_units m.02sj5gj))),3205375,repeat
+2104259004000,which invention was invented the earliest?,(ARGMIN law.invention law.invention.date_of_invention),2104259,repeat
+4304016006000,who is the designer of the fastest amusement park ride as well as the the mummy ride?,(ARGMAX (AND amusement_parks.ride_designer (JOIN (R amusement_parks.ride.designer) (JOIN (R amusement_parks.ride_theme.rides) m.01ln5z))) (JOIN (R amusement_parks.ride.designer) amusement_parks.ride.max_speed)),4304016,near_miss
+2105133020000,which time zone has a dst offset from utc more than 2.0?,(AND time.time_zone (gt time.time_zone.dst_offset_from_utc 2.0^^http://www.w3.org/2001/XMLSchema#float)),2105133,near_miss
+2101156015000,what generation of automobile does ford cd3 platform belong to?,(AND automotive.generation (JOIN automotive.generation.platforms m.03h03x)),2101156,singleton
+3203707004000,which venue is the exhibition of dispatches from the archives in?,(AND exhibitions.exhibition_venue (JOIN (R exhibitions.exhibition_run.venue) (JOIN exhibitions.exhibition_run.exhibition m.09jvg86))),3203707,singleton
+3200333005000,which disease stage has survival rate under 5.0 years?,(AND medicine.disease_stage (JOIN (R medicine.survival_rate.disease_stage) (le medicine.survival_rate.years 5.0^^http://www.w3.org/2001/XMLSchema#float))),3200333,repeat
+3202765003000,which arrangement is included by the arrangement with the latest date of completion?,(ARGMAX music.arrangement (JOIN (R music.composition.includes) music.composition.date_completed)),3202765,repeat
+2100019004000,"according to the muslim calendar, which day of the year is it?",(AND time.day_of_year (JOIN time.day_of_year.calendar_system m.03ts7)),2100019,singleton
+3204059002000,"what is the type of the airport which is the image location alexander marks photo?
+
+public airport",(AND aviation.airport_type (JOIN aviation.airport_type.airports_of_this_type (JOIN (R common.image.image_location) m.022qd_m))),3204059,repeat
+2100589011000,hermann behmel wrote what book edition?,(AND book.book_edition (JOIN book.book_edition.contributing_authors m.0h_b6k8)),2100589,singleton
+2100033012000,patricia barnes-svarney is an author for which literary series?,(AND book.literary_series (JOIN book.literary_series.author_s m.05qft82)),2100033,near_miss
+2100873003000,what meteorites have institutional specimen locations of moscow?,(AND astronomy.meteorite (JOIN astronomy.meteorite.institutional_specimen_location m.04swd)),2100873,singleton
+2105257003000,having the earliest end date applies to what award ceremony?,(ARGMIN award.award_ceremony time.event.end_date),2105257,repeat
+3205370000000,what is the job occupied by the alias of renfield?,(AND fictional_universe.fictional_job_title (JOIN fictional_universe.fictional_job_title.fictional_characters_with_this_job (JOIN fictional_universe.fictional_employment_tenure.employee m.02zz92))),3205370,singleton
+2103120006000,which bassist has the height of at least 1.91?,(AND music.bassist (ge people.person.height_meters 1.91^^http://www.w3.org/2001/XMLSchema#float)),2103120,near_miss
+2105332002000,the oldest mountaineer is whom?,(ARGMIN geography.mountaineer people.person.date_of_birth),2105332,repeat
+3204463006000,who wrote the lyrics of a composition that is an arrangement of dim.dream?,(AND music.lyricist (JOIN (R music.composition.lyricist) (JOIN music.composition.arrangements m.0dv2m4v))),3204463,singleton
+2103691003000,which galaxy has the longest distance?,(ARGMAX astronomy.galaxy astronomy.celestial_object.cosmological_distance),2103691,repeat
+2100059003000,what is the heraldic helm was on the former coat of arms of republika srpska?,(AND symbols.heraldic_helm (JOIN symbols.heraldic_helm.coat_of_arms m.01zlq2)),2100059,repeat
+2103018004000,"if a battery has 228 cells, what type of battery is it?",(AND engineering.battery (JOIN engineering.battery.number_of_cells 228^^http://www.w3.org/2001/XMLSchema#integer)),2103018,repeat
+3200244001000,name that disney ride that is built by the manufacturer of dragon's fury.,(AND amusement_parks.disney_ride (JOIN amusement_parks.ride.manufacturer (JOIN (R amusement_parks.ride.manufacturer) m.0g19gl))),3200244,near_miss
+2101207006000,name an architect that has created 4 structures.,(AND architecture.architect (JOIN architecture.architect.structure_count 4^^http://www.w3.org/2001/XMLSchema#integer)),2101207,near_miss
+2100673001000,what is the aviation waypoint that has the waypoint type of waypoint?,(AND aviation.aviation_waypoint (JOIN aviation.aviation_waypoint.waypoint_type m.0zdd3bw)),2100673,singleton
+2104868002000,what is the most recent fallen meteorite?,(ARGMAX astronomy.meteorite astronomy.meteorite.meteorite_fall_date),2104868,repeat
+3206064000000,who produced the computer that was most recently discontiued?,(ARGMAX computer.computer_manufacturer_brand (JOIN computer.computer_manufacturer_brand.computer_models computer.computer.discontinued)),3206064,repeat
+2103061003000,find the darkest star system body,(ARGMIN astronomy.star_system_body astronomy.celestial_object.magnitude),2103061,repeat
+2105213001000,which river has a mean depth less than 38.0?,(AND geography.river (lt geography.body_of_water.mean_depth 38.0^^http://www.w3.org/2001/XMLSchema#float)),2105213,singleton
+3201526001000,mustonen died on which kind of glacier?,(AND geography.glacier_type (JOIN (R geography.glacier.glacier_type) (JOIN (R people.deceased_person.place_of_death) m.0b9hds))),3201526,repeat
+2102454001000,the category plate has which consumer product?,(AND business.consumer_product (JOIN business.consumer_product.category m.050gv4)),2102454,near_miss
+3202765002000,which arrangement has the latest date of completion?,(ARGMAX music.arrangement (JOIN (R music.composition.includes) music.composition.date_completed)),3202765,repeat
+2102567005000,which recipe has a cooking time of 12.0?,(AND food.recipe (JOIN food.recipe.cooking_time 12.0^^http://www.w3.org/2001/XMLSchema#float)),2102567,singleton
+3202211003000,what disney ride is held by the same membership as d ticket?,(AND amusement_parks.disney_ride (JOIN amusement_parks.disney_ride.ticket (JOIN amusement_parks.disney_ride_ticket_membership.ticket m.04kwkjv))),3202211,singleton
+2101740003000,name the measurement system that pascal second is a viscosity unit.,(AND measurement_unit.measurement_system (JOIN measurement_unit.measurement_system.viscosity_units m.02sj4qd)),2101740,repeat
+3201558002000,which members of the organization joined later than 1970?,(AND organization.organization_member (JOIN organization.organization_member.member_of (gt organization.organization_membership.from 1970^^http://www.w3.org/2001/XMLSchema#gYear))),3201558,near_miss
+2100041000000,the 1971 killing of bengali intellectuals is remembered with which holiday?,(AND time.holiday (JOIN time.holiday.related_event m.0285dtn)),2100041,near_miss
+2102917003000,what type of wine is retsina categorized in?,(AND wine.wine_type (JOIN wine.wine_type.wine_styles m.01jg9j)),2102917,singleton
+3205624000000,what non-fiction was written on the subject that the song new age was written for?,(AND book.short_non_fiction (JOIN (R book.book_subject.works) (JOIN book.book_subject.musical_compositions_about_this_topic m.05_68z))),3205624,singleton
+2104259002000,what invention has the earliest date?,(ARGMIN law.invention law.invention.date_of_invention),2104259,repeat
+2103842002000,what is the earliest started blog?,(ARGMIN internet.blog internet.blog.started),2103842,repeat
+2104148006000,name the tropical cyclone that directly caused the most fatalities,(ARGMAX meteorology.tropical_cyclone meteorology.tropical_cyclone.direct_fatalities),2104148,repeat
+2102016006000,aurora engine is proceeded by which video game engine?,(AND cvg.computer_game_engine (JOIN cvg.computer_game_engine.predecessor_engine m.06yft6)),2102016,near_miss
+4301671002000,what religion does ja a. jahannes subscribe to?,(AND religion.religion (JOIN religion.religion.collective_term_for_adherents (JOIN religion.adherents.religion (JOIN (R people.person.religion) m.0bghvcw)))),4301671,repeat
+2103616000000,what language writing system was first abandoned?,(ARGMIN language.language_writing_system language.language_writing_system.used_until),2103616,repeat
+3205804005000,the latest file format created by fraunhofer institute is what?,(ARGMAX (AND computer.file_format (JOIN computer.file_format.format_creator m.01c1lr)) computer.file_format.creation_date),3205804,singleton
+2104488000000,the latest date of final occurrence belongs to which film festival?,(ARGMAX film.film_festival time.recurring_event.date_of_final_occurance),2104488,repeat
+2105368004000,what image was created first?,(ARGMIN common.image common.image.creation_date),2105368,repeat
+2101314011000,what aircraft model has an engine type of curtiss v-1570?,(AND aviation.aircraft_model (JOIN aviation.aircraft_model.engine_type m.09w6b0)),2101314,singleton
+2105385002000,which unit of length has a max distance in meters?,(ARGMAX measurement_unit.distance_unit measurement_unit.distance_unit.distance_in_meters),2105385,repeat
+2103616003000,which language writing system was abandoned first?,(ARGMIN language.language_writing_system language.language_writing_system.used_until),2103616,repeat
+3206065006000,list all ships built by stx finland with imo/ir number after 9281281.,(AND boats.ship (AND (ge boats.ship.imo_lr_identification_number 9281281^^http://www.w3.org/2001/XMLSchema#integer) (JOIN (R boats.ship_builder.ships_built) m.051_6_r))),3206065,near_miss
+4303707000000,what disney roller coasters rides have the fewest number of inversions?,(ARGMIN amusement_parks.disney_ride (JOIN (R amusement_parks.ride_type.rides) (JOIN (R amusement_parks.ride.ride_type) amusement_parks.ride.inversions))),4303707,repeat
+2104874005000,who is the heaviest theater director?,(ARGMAX theater.theater_director people.person.weight_kg),2104874,repeat
+2103008004000,what users have film actor as their favorite type?,(AND freebase.user_profile (JOIN freebase.user_profile.favorite_types m.0jsg4j)),2103008,near_miss
+2102938004000,what unit of specific energy is used in the measurement system known as the international system of units?,(AND measurement_unit.specific_energy_unit (JOIN measurement_unit.specific_energy_unit.measurement_system m.0c13h)),2102938,repeat
+2105484004000,which disney ride is the tallest?,(ARGMAX amusement_parks.disney_ride amusement_parks.ride.height),2105484,repeat
+2104804004000,what is the type of beer with the largest ibu scale?,(ARGMAX food.beer food.beer.ibu_scale),2104804,repeat
+3203592007000,what is the name of the routed drug that has marketed formulation that has a reference form of neurontin 250 solution?,(AND medicine.routed_drug (JOIN medicine.routed_drug.marketed_formulations (JOIN medicine.drug_formulation.reference_form m.0jxlnks))),3203592,near_miss
+2101884000000,"what were the rosters of the teams involved in the ashes 2005, first test ?",(AND cricket.cricket_roster (JOIN cricket.cricket_roster.roster_in_match m.02k888f)),2101884,singleton
+2101517000000,106 is the number of pages of which technical report?,(AND book.technical_report (JOIN book.technical_report.number_of_pages 106^^http://www.w3.org/2001/XMLSchema#integer)),2101517,singleton
+2100114005000,find telescope whose type is infra-red telescope.,(AND astronomy.telescope (JOIN astronomy.telescope.type_of_telescope m.02qkxqz)),2100114,singleton
+2104995004000,the satellite with the maximum altitude is which satellite?,(ARGMAX spaceflight.satellite spaceflight.satellite.altitude),2104995,repeat
+2104245000000,the shortest film producer is whom?,(ARGMIN film.producer people.person.height_meters),2104245,repeat
+2104148002000,which tropical cyclone has the maximum direct fatalities?,(ARGMAX meteorology.tropical_cyclone meteorology.tropical_cyclone.direct_fatalities),2104148,repeat
+3204390012000,"for el contrabajo/the contrabass, what is the translation?",(AND book.translation (JOIN book.translation.translation_of (JOIN (R book.translation.translation_of) m.069cwyp))),3204390,near_miss
+2100961000000,what government service channel provides programming in the german language?,(AND government.government_service_channel (JOIN government.government_service_channel.available_language m.04306rv)),2100961,near_miss
+2100406005000,name the unit that represents 1.0 grams per mole.,(AND measurement_unit.unit_of_molar_mass (JOIN measurement_unit.unit_of_molar_mass.molar_mass_in_grams_per_mole 1.0^^http://www.w3.org/2001/XMLSchema#float)),2100406,repeat
+2101371012000,fivb world grand prix belongs to what sports league championship event?,(AND sports.sports_championship_event (JOIN sports.sports_championship_event.championship m.0574jz)),2101371,near_miss
+3203826011000,list all musical releases produced by david stewart in compact discs format.,(AND music.release (AND (JOIN (R music.producer.releases_produced) m.03kwtb) (JOIN music.release.format m.01www))),3203826,singleton
+2105009000000,which film cinematographer is the shortest?,(ARGMIN film.cinematographer people.person.height_meters),2105009,repeat
+3205211001000,seo expert extends what profession with it's corresponding type?,(AND people.profession (JOIN people.profession.corresponding_type (JOIN (R type.type.extends) m.011th644))),3205211,repeat
+2103665006000,which wine has the maximum percent new oak?,(ARGMAX wine.wine wine.wine.percent_new_oak),2103665,repeat
+2100192001000,watt per meter per kelvin is the thermal conductivity unit in which measurement system?,(AND measurement_unit.measurement_system (JOIN measurement_unit.measurement_system.thermal_conductivity_units m.02sj509)),2100192,repeat
+3205681008000,"what ingredient does glogg need,that includes grape wine?",(AND food.ingredient (AND (JOIN (R food.ingredient.more_specific_ingredient) m.081qc) (JOIN (R food.dish.ingredients) m.024rr5))),3205681,singleton
+2101207014000,what architect has 303 structures?,(AND architecture.architect (JOIN architecture.architect.structure_count 303^^http://www.w3.org/2001/XMLSchema#integer)),2101207,near_miss
+2102938001000,what unit is used to measure specific energy in international system of units?,(AND measurement_unit.specific_energy_unit (JOIN measurement_unit.specific_energy_unit.measurement_system m.0c13h)),2102938,repeat
+2105389004000,what is the olympic game that has the largest number of participating countries?,(ARGMAX olympics.olympic_games olympics.olympic_games.number_of_countries),2105389,repeat
+2103535000000,which unit of data transmission rate has a maximum rate in bits per second?,(ARGMAX measurement_unit.unit_of_data_transmission_rate measurement_unit.unit_of_data_transmission_rate.rate_in_bits_per_second),2103535,repeat
+2104868004000,what is the latest fallen meteorite?,(ARGMAX astronomy.meteorite astronomy.meteorite.meteorite_fall_date),2104868,repeat
+2103061000000,what is the name the darkest star system body?,(ARGMIN astronomy.star_system_body astronomy.celestial_object.magnitude),2103061,repeat
+2105427003000,what beer has the least color srm?,(ARGMIN food.beer food.beer.color_srm),2105427,repeat
+2102016014000,what is the video game engine that does proceed aurora engine?,(AND cvg.computer_game_engine (JOIN cvg.computer_game_engine.predecessor_engine m.06yft6)),2102016,near_miss
+3204390014000,how do you translate el ramayana?,(AND book.translation (JOIN book.translation.translation_of (JOIN (R book.translation.translation_of) m.06c3rd8))),3204390,near_miss
+2103873004000,which comet was the first one found?,(ARGMIN astronomy.comet astronomy.astronomical_discovery.discovery_date),2103873,repeat
+2104446002000,"of people who have lived through a disaster, who is tallest?",(ARGMAX event.disaster_survivor people.person.height_meters),2104446,repeat
+2104914000000,what is the video game expansion with latest initial release date?,(ARGMAX cvg.computer_game_expansion cvg.computer_videogame.release_date),2104914,repeat
+2101690003000,what is the unit of absorbed dose in international system of units?,(AND measurement_unit.absorbed_dose_unit (JOIN measurement_unit.absorbed_dose_unit.measurement_system m.0c13h)),2101690,repeat
+2104048005000,which privately owned vehicle has the least amount of miles?,(ARGMIN automotive.privately_owned_vehicle automotive.privately_owned_vehicle.milage),2104048,repeat
+2100059001000,what heraldic helm was on the former coat of arms of republika srpska?,(AND symbols.heraldic_helm (JOIN symbols.heraldic_helm.coat_of_arms m.01zlq2)),2100059,repeat
+2104620000000,how many organizations in fiction appear in earth-11052?,(COUNT (AND fictional_universe.fictional_organization (JOIN fictional_universe.fictional_organization.appears_in_universes m.0gx978_))),2104620,singleton
+2102625005000,what is the roller coaster that has a lift hill propulsion method?,(AND amusement_parks.roller_coaster (JOIN amusement_parks.roller_coaster.propulsion m.04np8z)),2102625,singleton
+2103869001000,what is the least unit of weightmass of kilograms?,(ARGMIN measurement_unit.mass_unit measurement_unit.mass_unit.weightmass_in_kilograms),2103869,repeat
+3204406004000,dream-forged panoply was created by what gender of human?,(AND fictional_universe.character_gender (JOIN fictional_universe.character_gender.characters_of_this_gender (JOIN (R fictional_universe.fictional_object.created_by) m.0cb97c6))),3204406,singleton
+2103036004000,on what day does the year end?,(ARGMAX time.day_of_year time.day_of_year.day),2103036,repeat
+3204670000000,what guitarist has education of specialization in audio production?,(AND music.guitarist (JOIN people.person.education (JOIN education.education.specialization m.04j55j0))),3204670,repeat
+4303145006000,what is the gender of the fattest character that koyasu taketo created?,(ARGMAX fictional_universe.character_gender (JOIN (R fictional_universe.fictional_character.gender) (JOIN fictional_universe.fictional_character.character_created_by people.person.weight_kg))),4303145,repeat
+4303145000000,the fattest character created by strahovski is what gender?,(ARGMAX fictional_universe.character_gender (JOIN (R fictional_universe.fictional_character.gender) (JOIN fictional_universe.fictional_character.character_created_by people.person.weight_kg))),4303145,repeat
+2100435006000,fictional character bat jarvis was created by which individual?,(AND fictional_universe.fictional_character_creator (JOIN fictional_universe.fictional_character_creator.fictional_characters_created m.04xg4kq)),2100435,near_miss
+2104868001000,which meteorite has fallen most recently?,(ARGMAX astronomy.meteorite astronomy.meteorite.meteorite_fall_date),2104868,repeat
+2102755004000,which writing system does romic alphabet fall under?,(AND language.language_writing_system (JOIN language.language_writing_system.parent_writing_systems m.0gzs43)),2102755,near_miss
+2100406003000,what is the unit that represents 1.0 grams per mole?,(AND measurement_unit.unit_of_molar_mass (JOIN measurement_unit.unit_of_molar_mass.molar_mass_in_grams_per_mole 1.0^^http://www.w3.org/2001/XMLSchema#float)),2100406,repeat
+3205883001000,what type of format is the latest tennis match in?,(ARGMAX tennis.tennis_match_type (JOIN (R tennis.tennis_match.match_format) tennis.tennis_match.date)),3205883,repeat
+2103616004000,which system of writing was abandoned first?,(ARGMIN language.language_writing_system language.language_writing_system.used_until),2103616,repeat
+2103873002000,which comet was discovered the earliest?,(ARGMIN astronomy.comet astronomy.astronomical_discovery.discovery_date),2103873,repeat
+2102091017000,name the celestial object catagory that has white dwarf star as its subcategory?,(AND astronomy.celestial_object_category (JOIN astronomy.celestial_object_category.subcategories m.083l8)),2102091,near_miss
+3204121003000,what is the name of the holiday event that is related to easter week?,(AND time.event (JOIN (R time.holiday.related_event) (JOIN (R time.holiday_period.holidays) m.02pcf8q))),3204121,singleton
+2104287004000,what is the tallest animal currently owned?,(ARGMAX biology.owned_animal biology.organism.height_meters),2104287,repeat
+3202650004000,what is the name for the type of medical trial that is completed last?,(ARGMIN medicine.medical_trial_type (JOIN (R medicine.medical_trial.type_of_trial) medicine.medical_trial.end_date)),3202650,repeat
+2101304001000,[1] is the overdrive setting in which kind of automotive transmission?,(AND automotive.transmission (JOIN automotive.transmission.overdrive 1^^http://www.w3.org/2001/XMLSchema#integer)),2101304,singleton
+2105009001000,who is the film cinematographer with the least height?,(ARGMIN film.cinematographer people.person.height_meters),2105009,repeat
+2102878007000,which satellite is orbiting kepler-138?,(AND spaceflight.satellite (JOIN spaceflight.satellite.orbiting m.0_x59hh)),2102878,singleton
+2102924000000,what is the name of the coat of arms that has the baronial coronet?,(AND symbols.coat_of_arms (JOIN symbols.coat_of_arms.coronet m.0668p87)),2102924,repeat
+2100063001000,name the rail gauges of the locomotive class of british rail class 50?,(AND rail.rail_gauge (JOIN rail.rail_gauge.locomotive_classes m.052dz1)),2100063,repeat
+2104797000000,name the specific star that has the greatest declination.,(ARGMAX astronomy.star astronomy.celestial_object.decllnation),2104797,repeat
+2100340002000,what subatomic particles are from baryons family?,(AND physics.particle (JOIN physics.particle.family m.01gmm)),2100340,singleton
+2101213005000,1715985 is the start base of which genomic locus?,(AND biology.genomic_locus (JOIN biology.genomic_locus.start_base 1715985^^http://www.w3.org/2001/XMLSchema#integer)),2101213,near_miss
+2102449000000,name the chromosome which contains the nima (never in mitosis gene a)- related kinase 9 gene.,(AND biology.chromosome (JOIN biology.chromosome.gene m.02lr37s)),2102449,near_miss
+3205347002000,edward murrow is the artist of what episodes of a radio program?,(AND radio.radio_program_episode (JOIN (R radio.radio_program.episodes) (JOIN broadcast.content.artist m.014428))),3205347,near_miss
+2101811003000,the potential in volts is 1.0 for which unit of potential?,(AND measurement_unit.potential_unit (JOIN measurement_unit.potential_unit.potential_in_volts 1.0^^http://www.w3.org/2001/XMLSchema#float)),2101811,repeat
+3203950005000,how many exhibition subject is the subject of an exhibition curated by sylvain amic?,(COUNT (AND exhibitions.exhibition_subject (JOIN exhibitions.exhibition_subject.exhibitions_created_about_this_subject (JOIN (R exhibitions.exhibition_curator.exhibitions_curated) m.076__64)))),3203950,near_miss
+3206064003000,what is the name of the manufacturer with the latest discontinued computer?,(ARGMAX computer.computer_manufacturer_brand (JOIN computer.computer_manufacturer_brand.computer_models computer.computer.discontinued)),3206064,repeat
+2105013006000,which hotel has floor space more than 52454.4?,(AND travel.hotel (ge architecture.building.floor_space_square_meters 52454.4^^http://www.w3.org/2001/XMLSchema#float)),2105013,singleton
+2105123000000,which student organization was founded the latest?,(ARGMAX education.student_organization organization.organization.date_founded),2105123,repeat
+2100041011000,which holiday relates pi approximation day?,(AND time.holiday (JOIN time.holiday.related_event g.11bc16zpz9)),2100041,near_miss
+3205375003000,name the unit of length within the measurement system in which radiance is watt per square metre per steradian.,(AND measurement_unit.distance_unit (JOIN measurement_unit.distance_unit.measurement_system (JOIN measurement_unit.measurement_system.radiance_units m.02sj5gj))),3205375,repeat
+2101551006000,mercury belongs to which star system?,(AND astronomy.star_system (JOIN astronomy.star_system.planets m.09cy8)),2101551,singleton
+3205705002000,which court jurisdiction area is the place where the latest buried person died?,(ARGMAX law.court_jurisdiction_area (JOIN (R people.deceased_person.place_of_death) people.deceased_person.date_of_burial)),3205705,repeat
+2105099001000,which rail gauge has the highest maximum width?,(ARGMAX rail.rail_gauge rail.rail_gauge.maximum_width),2105099,repeat
+2105084002000,what primary election is the latest?,(ARGMAX government.primary_election government.election.election_year),2105084,repeat
+2102024007000,video/x-ms-asf is the format of what stream?,(AND broadcast.internet_stream (JOIN broadcast.internet_stream.stream_format m.09zs)),2102024,singleton
+3205883005000,what is the format of the latest tennis match?,(ARGMAX tennis.tennis_match_type (JOIN (R tennis.tennis_match.match_format) tennis.tennis_match.date)),3205883,repeat
+2104990001000,which musical release was first released?,(ARGMIN music.release music.release.release_date),2104990,repeat
+2105385001000,which unit of length has the maximum distance in meters?,(ARGMAX measurement_unit.distance_unit measurement_unit.distance_unit.distance_in_meters),2105385,repeat
+2101491004000,an image ratio of 5:4 is a feature of which camera models?,(AND digicams.digital_camera (JOIN digicams.digital_camera.image_ratio m.04nb75w)),2101491,singleton
+2103061002000,what is the darkest body in the star system?,(ARGMIN astronomy.star_system_body astronomy.celestial_object.magnitude),2103061,repeat
+2104150002000,what is the shortest golf course?,(ARGMIN sports.golf_course sports.golf_course.length),2104150,repeat
+3201526003000,what type of glacier did mustonen die on?,(AND geography.glacier_type (JOIN (R geography.glacier.glacier_type) (JOIN (R people.deceased_person.place_of_death) m.0b9hds))),3201526,repeat
+2102680005000,the international system of units uses which units for amount concentration?,(AND measurement_unit.amount_concentration_unit (JOIN measurement_unit.amount_concentration_unit.measurement_system m.0c13h)),2102680,repeat
+2100002004000,which genome build is curated by the ncbi ?,(AND biology.genome_build (JOIN biology.genome_build.curator m.01358j)),2100002,repeat
+3205825000000,what star system body is the youngest?,(ARGMAX astronomy.star_system_body (JOIN astronomy.celestial_object.celestial_age astronomy.celestial_object_age.age)),3205825,repeat
+2101326000000,the monastery swineshead abbey is found in what religious order?,(AND religion.religious_order (JOIN religion.religious_order.monasteries m.0dd9mnz)),2101326,near_miss
+2100135007000,what is the name of the meteorite that landed on 1954-09-11?,(AND astronomy.meteorite (JOIN astronomy.meteorite.meteorite_fall_date 1954-09-11^^http://www.w3.org/2001/XMLSchema#date)),2100135,singleton
+2102709007000,cctlds is the domain type of what top level domain?,(AND internet.top_level_domain (JOIN internet.top_level_domain.domain_type m.03xvw1)),2102709,near_miss
+3205705004000,what court jurisdiction area is where the most recent buried person died?,(ARGMAX law.court_jurisdiction_area (JOIN (R people.deceased_person.place_of_death) people.deceased_person.date_of_burial)),3205705,repeat
+2104995002000,which satellite has the maximum altitude?,(ARGMAX spaceflight.satellite spaceflight.satellite.altitude),2104995,repeat
+2105327002000,what moon has the maximum inclination?,(ARGMAX astronomy.moon astronomy.orbital_relationship.inclination),2105327,repeat
+2104402001000,the largest thrust comes out of which reaction engine?,(ARGMAX engineering.reaction_engine engineering.reaction_engine.thrust),2104402,repeat
+2100534002000,which unit of permittivity has the permittivity in farads per meter 1.0?,(AND measurement_unit.permittivity_unit (JOIN measurement_unit.permittivity_unit.permittivity_in_farads_per_meter 1.0^^http://www.w3.org/2001/XMLSchema#float)),2100534,repeat
+3205705005000,in which court jurisdiction area did the latest buried person die?,(ARGMAX law.court_jurisdiction_area (JOIN (R people.deceased_person.place_of_death) people.deceased_person.date_of_burial)),3205705,repeat
+3200244003000,which ride at disney was built by the same manufacturer as mad mouse?,(AND amusement_parks.disney_ride (JOIN amusement_parks.ride.manufacturer (JOIN (R amusement_parks.ride.manufacturer) m.02rt2zn))),3200244,near_miss
+2104245005000,what is the name of the shortest film producer?,(ARGMIN film.producer people.person.height_meters),2104245,repeat
+2103618002000,what fictional object has the smallest date of creation?,(ARGMIN fictional_universe.fictional_object fictional_universe.fictional_object.date_created),2103618,repeat
+2101944001000,what genome is attributed to e.coli?,(AND biology.genome (JOIN biology.genome.taxon m.09_yl)),2101944,repeat
+2102897003000,1948 summer olympics was contested as part of a demonstration sport in which olympic event?,(AND olympics.olympic_event (JOIN olympics.olympic_event.contested_as_demonstration_event m.0blg2)),2102897,singleton
+3202470004000,the uefa champions league forward of the year was won by which football team?,(AND soccer.football_team (JOIN (R sports.sports_award.team) (JOIN (R sports.sports_award_type.winners) m.0j_32ml))),3202470,singleton
+2105368005000,what image was created the earliest?,(ARGMIN common.image common.image.creation_date),2105368,repeat
+2103873000000,the earliest comet discovered was?,(ARGMIN astronomy.comet astronomy.astronomical_discovery.discovery_date),2103873,repeat
+2105478003000,which tropical cyclone had the fewest number of fatalities?,(ARGMIN meteorology.tropical_cyclone meteorology.tropical_cyclone.total_fatalities),2105478,repeat
+2103869005000,"in terms of weightmass of kilograms, what is the smallest unit of mass?",(ARGMIN measurement_unit.mass_unit measurement_unit.mass_unit.weightmass_in_kilograms),2103869,repeat
+2105327003000,the maximum inclination is found on which moon?,(ARGMAX astronomy.moon astronomy.orbital_relationship.inclination),2105327,repeat
+2104597004000,"of football players, who is the oldest?",(ARGMIN soccer.football_player people.person.date_of_birth),2104597,repeat
+4302050006000,michael d. cohen writes recipes for what kind of dishes?,(AND food.type_of_dish (JOIN food.type_of_dish.dishes (JOIN (R food.recipe.dish) (JOIN (R food.recipe_author.recipes) m.02633r1)))),4302050,singleton
+3204115004000,what is the name of the unit of mass that is associated with a measurement system that is the measurement system of microfarad?,(AND measurement_unit.mass_unit (JOIN measurement_unit.mass_unit.measurement_system (JOIN (R measurement_unit.capacitance_unit.measurement_system) m.0l4l0))),3204115,repeat
+2100435007000,satan's creator is who?,(AND fictional_universe.fictional_character_creator (JOIN fictional_universe.fictional_character_creator.fictional_characters_created m.06wzv)),2100435,near_miss
+2104454002000,what is the lightest digital camera?,(ARGMIN digicams.digital_camera digicams.digital_camera.weight),2104454,repeat
+2103765000000,what is the name of the most recent government body that was formed?,(ARGMIN government.governmental_body government.governmental_body.date_formed),2103765,repeat
+2101341000000,what measurement system is newton per metre used as the unit for surface tension?,(AND measurement_unit.measurement_system (JOIN measurement_unit.measurement_system.surface_tension_units m.02sj4sk)),2101341,repeat
+3200946001000,moon is what star system body?,(AND astronomy.star_system_body (JOIN (R astronomy.celestial_object_category.objects) (JOIN (R astronomy.celestial_object_category.subcategories) m.0d_23))),3200946,singleton
+2105084001000,what is the latest primary election?,(ARGMAX government.primary_election government.election.election_year),2105084,repeat
+3200574001000,be my guest and rim of the canyon are in which netflix genre?,(AND media_common.netflix_genre (AND (JOIN media_common.netflix_genre.titles m.03cfjzz) (JOIN (R media_common.netflix_title.netflix_genres) m.04j11tb))),3200574,near_miss
+3206227000000,what size battery is the cell variation with the maximum capacity?,(ARGMAX engineering.battery_size (JOIN (R engineering.battery_size_cell_variation.size) engineering.battery_size_cell_variation.capacity)),3206227,repeat
+2104229004000,which cloud type starts appearing at 0.0 or lower?,(AND meteorology.cloud (le meteorology.cloud.minimum_altitude 0.0^^http://www.w3.org/2001/XMLSchema#float)),2104229,singleton
+2100659013000,essalieyan/annagar/breodani universe is the fictional universe of which literary series?,(AND book.literary_series (JOIN book.literary_series.fictional_universe m.05qd0v2)),2100659,near_miss
+4303008006000,how many contents about interview tips are produced by the producer of npr all things considered?,(COUNT (AND broadcast.content (AND (JOIN (R broadcast.genre.content) m.01jdpf) (JOIN (R broadcast.producer.produces) (JOIN broadcast.producer.produces m.01ysm8))))),4303008,near_miss
+2104597000000,which football player is the oldest?,(ARGMIN soccer.football_player people.person.date_of_birth),2104597,repeat
+2101690002000,the absorbed dose unit in international system of units is what?,(AND measurement_unit.absorbed_dose_unit (JOIN measurement_unit.absorbed_dose_unit.measurement_system m.0c13h)),2101690,repeat
+2104336001000,what ship class has the highest speed?,(ARGMAX boats.ship_class boats.ship_class.max_speed_knots),2104336,repeat
+2100063004000,which rail gauges correspond with british rail class 50 class?,(AND rail.rail_gauge (JOIN rail.rail_gauge.locomotive_classes m.052dz1)),2100063,repeat
+2102091001000,aten asteroid is a subcategory of which celestial object category?,(AND astronomy.celestial_object_category (JOIN astronomy.celestial_object_category.subcategories m.0290ms)),2102091,near_miss
+3201251001000,cool wet soil is involved in what plant disease involved in a plant disease triangle?,(AND biology.plant_disease (JOIN (R biology.plant_disease_triangle.plant_disease) (JOIN (R biology.plant_disease_conditions.plant_disease_triangle) m.0d25t5l))),3201251,repeat
+2102709008000,www.fpath.com is the domain type fow which top level domain?,(AND internet.top_level_domain (JOIN internet.top_level_domain.domain_type m.012hc2k2)),2102709,near_miss
+2104454003000,which digital camera weighs the least?,(ARGMIN digicams.digital_camera digicams.digital_camera.weight),2104454,repeat
+2105052001000,which piston has at least 8 pistons?,(AND engineering.piston_configuration (ge engineering.piston_configuration.number_of_pistons 8^^http://www.w3.org/2001/XMLSchema#integer)),2105052,singleton
+2102499003000,what is the radio station on sirius xm channel 12?,(AND base.lightweight.radio_station (JOIN base.lightweight.radio_station.sirius_xm_channel 12^^http://www.w3.org/2001/XMLSchema#integer)),2102499,repeat
+2100343004000,what is the unit of capacitance in the international system of units?,(AND measurement_unit.capacitance_unit (JOIN measurement_unit.capacitance_unit.measurement_system m.0c13h)),2100343,repeat
+3203645003000,which guidebook has an author which is the editor of the edition earth is the strangest planet?,(AND travel.guidebook (JOIN book.written_work.author (JOIN (R book.book_edition.editor_of_this_edition) m.0hj02p1))),3203645,repeat
+2101603002000,900.0 is the atmospheric temperature of which exoplanet?,(AND base.exoplanetology.exoplanet (JOIN base.exoplanetology.exoplanet.atmospheric_temperature 900.0^^http://www.w3.org/2001/XMLSchema#float)),2101603,repeat
+2105096005000,which book was published first?,(ARGMIN book.book book.written_work.date_of_first_publication),2105096,repeat
+3200632003000,what is the capparis spinosa recipe?,(AND food.recipe (JOIN (R food.recipe_ingredient.recipe) (JOIN food.recipe_ingredient.ingredient m.01szdf))),3200632,near_miss
+2101811002000,the potential of volt 1.0 is for which unit of potential?,(AND measurement_unit.potential_unit (JOIN measurement_unit.potential_unit.potential_in_volts 1.0^^http://www.w3.org/2001/XMLSchema#float)),2101811,repeat
+4300407002000,which wines have a similar style to chardonnay?,(AND wine.wine_type (JOIN wine.wine_type.wines (JOIN (R food.wine_style.wines) (JOIN (R wine.grape_variety.wine_styles) m.09cgp)))),4300407,singleton
+2105113000000,who is the tallest judge?,(ARGMAX law.judge people.person.height_meters),2105113,repeat
+3204059003000,what airport type is shown in the image alexander marks photo?,(AND aviation.airport_type (JOIN aviation.airport_type.airports_of_this_type (JOIN (R common.image.image_location) m.022qd_m))),3204059,repeat
+2100679005000,which cricket team does trevor bayliss coach?,(AND cricket.cricket_team (JOIN cricket.cricket_team.coach m.02rgp16)),2100679,near_miss
+2101532000000,which waterfalls are the plunge waterfall type?,(AND geography.waterfall (JOIN geography.waterfall.waterfall_type m.01xxv7y)),2101532,repeat
+3205691012000,the record producer that produced unmarked helicopters also produced what multi-part musical release?,(AND music.multipart_release (JOIN (R music.producer.releases_produced) (JOIN (R music.recording.producer) m.0mg15d))),3205691,singleton
+2100192002000,watt per meter per kelvin is the thermal conductivity unit in what measurement system?,(AND measurement_unit.measurement_system (JOIN measurement_unit.measurement_system.thermal_conductivity_units m.02sj509)),2100192,repeat
+2100041010000,the 1971 killing of bengali intellectuals is related to what holiday?,(AND time.holiday (JOIN time.holiday.related_event m.0285dtn)),2100041,near_miss
+4302023008000,"which computer is designed by canon, inc.?",(AND computer.computer (JOIN (R computer.computer_designer.computers_designed) (JOIN (R computer.computer.key_designers) (JOIN computer.computer.manufacturer m.01bvx1)))),4302023,singleton
+2101816005000,what work translation has hell has no limits?,(AND book.translated_work (JOIN book.translated_work.translations m.06j34wl)),2101816,near_miss
+3200336005000,list the fictional calendar system that replaces a fictional calendar system with a directionality of reverse?,(AND fictional_universe.fictional_calendar_system (JOIN (R fictional_universe.fictional_calendar_system.replaced_with) (JOIN (R fictional_universe.calendar_system_directionality.calendars) m.03bvlhl))),3200336,near_miss
+3201526004000,what is the type of the glacier where mustonen died?,(AND geography.glacier_type (JOIN (R geography.glacier.glacier_type) (JOIN (R people.deceased_person.place_of_death) m.0b9hds))),3201526,repeat
+2104998004000,which head coach of an american football team weighs the most?,(ARGMAX american_football.football_coach people.person.weight_kg),2104998,repeat
+2101944003000,what is the genome of e.coli,(AND biology.genome (JOIN biology.genome.taxon m.09_yl)),2101944,repeat
+2103691006000,the galaxy with the longest distance is what?,(ARGMAX astronomy.galaxy astronomy.celestial_object.cosmological_distance),2103691,repeat
+2102849004000,what unit of density is equal to 1.0 amperes per square meter?,(AND measurement_unit.current_density_unit (JOIN measurement_unit.current_density_unit.density_in_amperes_per_square_meter 1.0^^http://www.w3.org/2001/XMLSchema#float)),2102849,repeat
+3200333002000,if there is a survival rate under 5.0 what would the disease stage be?,(AND medicine.disease_stage (JOIN (R medicine.survival_rate.disease_stage) (le medicine.survival_rate.years 5.0^^http://www.w3.org/2001/XMLSchema#float))),3200333,repeat
+3203592003000,what routed drug has a commercialized formulation that has a reference form of fibricor 105 tablet?,(AND medicine.routed_drug (JOIN medicine.routed_drug.marketed_formulations (JOIN medicine.drug_formulation.reference_form m.0hqjn_2))),3203592,near_miss
+2105257002000,which award ceremony ends on the earliest date?,(ARGMIN award.award_ceremony time.event.end_date),2105257,repeat
+2104446005000,the tallest disaster survivor is who?,(ARGMAX event.disaster_survivor people.person.height_meters),2104446,repeat
+2100864002000,which product ingredient is a variety of grease?,(AND business.product_ingredient (JOIN business.product_ingredient.variety_of m.07d2x6)),2100864,singleton
+2103008005000,internet protocol is the favorite type of which users?,(AND freebase.user_profile (JOIN freebase.user_profile.favorite_types m.02h76y7)),2103008,near_miss
+2101811005000,the potential in volt of 1.0 is for which unit of potential?,(AND measurement_unit.potential_unit (JOIN measurement_unit.potential_unit.potential_in_volts 1.0^^http://www.w3.org/2001/XMLSchema#float)),2101811,repeat
+2100534001000,a permittivity of 1.0 farads per meter is measured in which unit of permittivity?,(AND measurement_unit.permittivity_unit (JOIN measurement_unit.permittivity_unit.permittivity_in_farads_per_meter 1.0^^http://www.w3.org/2001/XMLSchema#float)),2100534,repeat
+2103665002000,what is the name of the wine has the maximum percent new oak?,(ARGMAX wine.wine wine.wine.percent_new_oak),2103665,repeat
+2104795006000,which satellite ceased operation most recently?,(ARGMAX spaceflight.satellite spaceflight.satellite.ceased_operating),2104795,repeat
+4301712005000,what titles are used in the legislative committees in the vermont house of representatives?,(AND government.legislative_committee_title (JOIN (R government.legislative_committee_membership.title) (JOIN government.legislative_committee_membership.committee (JOIN (R government.governmental_body.committees) m.096x1b)))),4301712,singleton
+2101999012000,find the digital camera whose sensor type is 3.8.,(AND digicams.digital_camera (JOIN digicams.digital_camera.optical_zoom 3.8^^http://www.w3.org/2001/XMLSchema#float)),2101999,singleton
+2101630003000,"in philip vellacott, which theater production used a translation?",(AND theater.theater_production (JOIN theater.theater_production.translation_used m.05vdgy3)),2101630,near_miss
+4301886000000,a series of comic books that are focused on the martial art genre have been released by which comic book publisher?,(AND comic_books.comic_book_publisher (JOIN comic_books.comic_book_publisher.comic_book_series_published (JOIN comic_books.comic_book_series.genre (JOIN media_common.media_genre.equivalent_topic m.04xsv)))),4301886,repeat
+2102449011000,pa0477 is the gene found in which chromosome?,(AND biology.chromosome (JOIN biology.chromosome.gene m.0l1dqp7)),2102449,near_miss
+2100343001000,in the international system of units in this measurement system which is the capacitance unit?,(AND measurement_unit.capacitance_unit (JOIN measurement_unit.capacitance_unit.measurement_system m.0c13h)),2100343,repeat
+2101264003000,the international system of units can be measured by using what?,(AND measurement_unit.catalytic_concentration_unit (JOIN measurement_unit.catalytic_concentration_unit.measurement_system m.0c13h)),2101264,repeat
+3204059005000,which type of airport is the location for the image alexander marks photo?,(AND aviation.airport_type (JOIN aviation.airport_type.airports_of_this_type (JOIN (R common.image.image_location) m.022qd_m))),3204059,repeat
+2104413001000,who's the oldest architect?,(ARGMIN architecture.architect people.person.date_of_birth),2104413,repeat
+2103691005000,what galaxy is the farthest across?,(ARGMAX astronomy.galaxy astronomy.celestial_object.cosmological_distance),2103691,repeat
+2101713011000,what tv episode used church cove as a filming location?,(AND tv.tv_series_episode (JOIN tv.tv_series_episode.filming_locations m.0fqpc88)),2101713,near_miss
+2100944004000,microsoft windows was created by what software developers?,(AND computer.software_developer (JOIN computer.software_developer.software m.04r_8)),2100944,near_miss
+2101402012000,what is the government of kingdom of swaziland?,(AND government.government (JOIN government.government.government_for m.06v36)),2101402,near_miss
+2105099006000,what rail gauge has the greatest width?,(ARGMAX rail.rail_gauge rail.rail_gauge.maximum_width),2105099,repeat
+2104245002000,the name of the shortest film producer is?,(ARGMIN film.producer people.person.height_meters),2104245,repeat
+2105427002000,the beer with the lowest color srm is which?,(ARGMIN food.beer food.beer.color_srm),2105427,repeat
+2105113003000,the tallest judge is whom?,(ARGMAX law.judge people.person.height_meters),2105113,repeat
+2100041004000,of which holiday does pi approximation day relate to?,(AND time.holiday (JOIN time.holiday.related_event g.11bc16zpz9)),2100041,near_miss
+3201678008000,what constellation can i find the star delta ursae majoris in?,(AND astronomy.constellation (JOIN (R astronomy.asterism.constellations) (JOIN astronomy.asterism.stars m.06f3wf))),3201678,singleton
+3200333003000,find a disease stage that has survival rate under 5.0 years.,(AND medicine.disease_stage (JOIN (R medicine.survival_rate.disease_stage) (le medicine.survival_rate.years 5.0^^http://www.w3.org/2001/XMLSchema#float))),3200333,repeat
+2103120005000,which of the bassists has a height of at least 1.94?,(AND music.bassist (ge people.person.height_meters 1.94^^http://www.w3.org/2001/XMLSchema#float)),2103120,near_miss
+2105315004000,"of all the cyclist that are alive, which one was born the earliest?",(ARGMIN sports.cyclist people.person.date_of_birth),2105315,repeat
+2103535001000,what is the unit of data transmission rate with maximum rate in bits per second?,(ARGMAX measurement_unit.unit_of_data_transmission_rate measurement_unit.unit_of_data_transmission_rate.rate_in_bits_per_second),2103535,repeat
+2105411000000,which dissertation was most recently defended?,(ARGMAX education.dissertation education.dissertation.defense_date),2105411,repeat
+2101264005000,"in the international system of units, what is used to measure?",(AND measurement_unit.catalytic_concentration_unit (JOIN measurement_unit.catalytic_concentration_unit.measurement_system m.0c13h)),2101264,repeat
+2104454004000,what digital camera weighs the least?,(ARGMIN digicams.digital_camera digicams.digital_camera.weight),2104454,repeat
+3202103001000,what medical trial design is the medical trial with the latest end date?,(ARGMAX medicine.medical_trial_design (JOIN (R medicine.medical_trial.design) medicine.medical_trial.end_date)),3202103,repeat
+2101740000000,what measurement system is pascal second a viscosity unit for?,(AND measurement_unit.measurement_system (JOIN measurement_unit.measurement_system.viscosity_units m.02sj4qd)),2101740,repeat
+2101690004000,"in the international system of units, what is the unit of absorbed dose?",(AND measurement_unit.absorbed_dose_unit (JOIN measurement_unit.absorbed_dose_unit.measurement_system m.0c13h)),2101690,repeat
+2102683005000,reciprocal metre is the name for the wavenumber unit in which system of measurement?,(AND measurement_unit.measurement_system (JOIN measurement_unit.measurement_system.wavenumber_units m.02sj3xb)),2102683,repeat
+2104498002000,what digital camera has the least optical zoom?,(ARGMIN digicams.digital_camera digicams.digital_camera.optical_zoom),2104498,repeat
+2101957002000,gran canaria is known to be operated by who?,(AND aviation.airport_operator (JOIN aviation.airport_operator.airports_operated m.06hzpc)),2101957,near_miss
+2102811001000,lonely planet city guides is a series of which guidebook?,(AND travel.guidebook (JOIN travel.guidebook.series m.052gnm9)),2102811,singleton
+2100944008000,facegen has who for the software developers?,(AND computer.software_developer (JOIN computer.software_developer.software m.027763y)),2100944,near_miss
+2104804001000,what type of beer has the biggest ibu scale?,(ARGMAX food.beer food.beer.ibu_scale),2104804,repeat
+3201169004000,which type of drug form is protected by us patent 5643607 and regulated by fda otc monograph part 333a?,(AND medicine.manufactured_drug_form (AND (JOIN medicine.manufactured_drug_form.patents m.0jxs0m4) (JOIN medicine.manufactured_drug_form.fda_otc_part m.0h9yl9w))),3201169,singleton
+3200244009000,what ride at disney was built by the company that manufactured dragon's fury?,(AND amusement_parks.disney_ride (JOIN amusement_parks.ride.manufacturer (JOIN (R amusement_parks.ride.manufacturer) m.0g19gl))),3200244,near_miss
+2104062000000,name the opera house that has the most number of floors.,(ARGMAX opera.opera_house architecture.building.floors),2104062,repeat
+4300585000000,joule per kelvin shares the same measurement system with which unit of inverse temperature with a temperature coefficient in inverse kelvins lower than 1.0?,(AND measurement_unit.inverse_temperature_unit (AND (JOIN measurement_unit.inverse_temperature_unit.measurement_system (JOIN (R measurement_unit.heat_capacity_unit.measurement_system) m.02sj4xx)) (le measurement_unit.inverse_temperature_unit.temperature_coefficient_in_inverse_kelvins 1.0^^http://www.w3.org/2001/XMLSchema#float))),4300585,near_miss
+2100534004000,name the unit of permittivity that has permittivity in farads per meter 1.0.,(AND measurement_unit.permittivity_unit (JOIN measurement_unit.permittivity_unit.permittivity_in_farads_per_meter 1.0^^http://www.w3.org/2001/XMLSchema#float)),2100534,repeat
+3202193004000,the fictional calender system preceded by first age is from which fictional universe?,(AND fictional_universe.fictional_universe (JOIN (R fictional_universe.fictional_calendar_system.used_in_fictional_universes) (JOIN fictional_universe.fictional_calendar_system.preceded_by m.0hlks))),3202193,near_miss
+2100134003000,please explain the unit of viscosity in the international system of units?,(AND measurement_unit.viscosity_unit (JOIN measurement_unit.viscosity_unit.measurement_system m.0c13h)),2100134,repeat
+2100961001000,german language is available on which government service channel?,(AND government.government_service_channel (JOIN government.government_service_channel.available_language m.04306rv)),2100961,near_miss
+3200244004000,what disney rides are built by the manufacturer who also built mad mouse?,(AND amusement_parks.disney_ride (JOIN amusement_parks.ride.manufacturer (JOIN (R amusement_parks.ride.manufacturer) m.02rt2zn))),3200244,near_miss
+3205375004000,what are the units in length in the measurement system where the radiance unit is watt per square metre per steradian?,(AND measurement_unit.distance_unit (JOIN measurement_unit.distance_unit.measurement_system (JOIN measurement_unit.measurement_system.radiance_units m.02sj5gj))),3205375,repeat
+2100061005000,what is the site listing category of unesco world heritage site?,(AND protected_sites.site_listing_category (JOIN protected_sites.site_listing_category.category_of m.0c7g7)),2100061,singleton
+2104454000000,which digital camera is the lightest?,(ARGMIN digicams.digital_camera digicams.digital_camera.weight),2104454,repeat
+3204115003000,what unit of mass is associated with a measurement system that is the measurement system of farads?,(AND measurement_unit.mass_unit (JOIN measurement_unit.mass_unit.measurement_system (JOIN (R measurement_unit.capacitance_unit.measurement_system) m.0l4l0))),3204115,repeat

@@ -1,0 +1,373 @@
+question,label,reason,stage
+Any idea why the joint account name still shows Gareth Lowe after the name change in June,yes,Asks about a specific joint account name record,before scoring
+Why is my bill higher this month??,yes,Why their own bill rose needs their bill,before scoring
+"The exchange rate on my trip to Spain was terrible, why did you charge me 4% on top, shouldnt it be free abroad",yes,Disputes a specific foreign charge on their account,before scoring
+Hi there. I have an existing Skyhop booking (ref ZP5561) and I want to purchase an extra checked bag for the return leg. Could you advise?,unsure,"How-to for adding bag, but booking ref given",before scoring
+"my direct debit went up again this month and i dont understand why, account 48213907, april bill was £112 and now its £139??",yes,Direct debit increase on a named account,before scoring
+"Can you look up whether I still have the free PT intro session from my sign-up on 2/2? Nah, don't look it up, just explain the general rules for intro sessions.",no,"Withdraws lookup, asks general intro session rules",before scoring
+bill too high help,yes,Own bill complaint expecting it handled,before scoring
+"my sneakers from NW-22019 squeak like crazy, is that normal? just answer generally pls, no need to check the order",no,"Explicitly general, no order check wanted",before scoring
+How long until the new tariff letter arrives after the price change notice on 20 May,no,General timing for tariff letters after notice,before scoring
+"i want to upgrade from basic to premium but dont want to pay the full amount for the rest of the month, is that possible",no,General proration rule for upgrades,before scoring
+"Can I have the name on my ticket changed? I wrote my maiden name and I now use my married name, so it doesnt match my ID. Booking UX4420.",yes,Name change on specific booking,before scoring
+"hello support. passenger name entry error, first name transposed with middle name. confirmation number PLX0817. kindly correct before 3 July departure",yes,Correct passenger name on specific booking,before scoring
+how much extra for hand luggage,no,General hand luggage price,before scoring
+"Order PG-55104 hasn't shipped the supplement I bought. Can you check tracking? Actually never mind the tracking, just explain how shipping delays usually get handled.",no,"Withdraws tracking request, asks general shipping delays",before scoring
+"Hi, I'm Priya Shah. Is my email priya.shah88@gmail.com verified on my account? Just tell me generally why verification emails go to spam.",no,Asks only general reason verification emails hit spam,before scoring
+"How long does identity verification take for a new account? My application from 5 May still says pending, reference APP-20517",yes,"Pending application with reference, expects status check",before scoring
+"Dear Brightline, I would like to request a copy of all my call and data usage for the last 3 months for my records, Kind regards, Margaret Osei",yes,Requests their own usage records,before scoring
+update phone number,unsure,Unclear if how-to or request to act,before scoring
+"Where is my gift card balance? Card ending 4417, order NW-90154. Just tell me generally how gift cards work, don't check my balance.",no,"Withdraws balance check, asks how gift cards work",before scoring
+"Good morning, I would like to know how I can add a bag to my reservation. I am travelling on 5 August with my wife.",no,General how-to add a bag,before scoring
+"i keep getting texts about my account from a number that isnt yours, is this you",no,General answer about official contact numbers,before scoring
+Can you tell me how many Skyhop Plus points I have on my account? I think they should be more than 1200 after my last 3 flights.,yes,Asks own loyalty points balance,before scoring
+"Why was I charged twice... no wait, don't use I. Why was the card charged twice for order 77140?",yes,Double charge on a specific order,before scoring
+where do i find my receipt for the order I placed on March 3rd,no,How-to find receipts,before scoring
+"I need a size 11 boot in brown. Check whether it's available and if my previous order NW-59270 qualifies for free shipping. Actually no, skip the order and just tell me the general free shipping threshold.",no,Withdraws order check; stock and threshold are general,before scoring
+price match?,no,General price match policy,before scoring
+can u change the name? i put my ex's name by mistake lol. ref 2HVNQ8. dont judge,yes,Name change on specific booking,before scoring
+"Hello, I'm Marco Ruiz, order NW-45027 placed on 12/02. Please answer only with general info about sizing charts for sneakers.",no,Asks only general sizing info,before scoring
+Why was I not notified that the item was out of stock after i paid. Now my money is just sitting there,yes,"Own paid order out of stock, money held",before scoring
+Could you move my brother's flight from 9am to a later one? Ref SH-60044. He's sleeping rn and I can't reach him,yes,Change a specific person's flight,before scoring
+"is my voucher valid, code HOP25",unsure,Code may be public promo or personal voucher,before scoring
+"Can I pick up my order from the store in Leeds instead of home delivery? Order 1190342, name is Marcus Obi",yes,Change fulfilment of a specific order,before scoring
+"Quick general question: what's the cancellation policy? Also my name is Anna Kowalski, can you just confirm my flight from Lisbon on 12 May is still on time?",yes,"Asks status of their own flight, not withdrawn",before scoring
+"My membership renewal email went to spam and now i missed the early bird price, is there any way to still get it",yes,Wants exception applied to their membership,before scoring
+"my husband's been acting weird with money. Can you tell me if he's been ordering stuff on his phone account? Name is Kevin Brandt, DOB 12/03/1979",yes,Asks about another person's account activity,before scoring
+"i lost my key fob, how much is a replacement and can I get one today",no,General replacement price and availability,before scoring
+"the cashback offer on the app isnt showing up for my grocery purchases from last week, it was supposed to be 5% at tesco",yes,Missing cashback on their own purchases,before scoring
+"cancel my account, moving abroad end of the month, do i need to pay exit fee? account 60915532",yes,Cancel a specific account,before scoring
+"Answer generally: which phones are supported for 5G on your network? I have a Pixel 7a on account ending 4412, is it on the list?",no,Phone model 5G support is general,before scoring
+do i have to pay customs fees when ordering from the US site,no,General customs fee question,before scoring
+"hi i cant get on the internet since this morning, sim is in and phone says no service. order BL-48213 if that helps",yes,"Service outage tied to their order, expects handling",before scoring
+Good afternoon. I am requesting amendment of passenger name on reservation ref 7HJ2KQ. Surname spelled incorrectly at booking. Please advise procedure.,yes,Requests name amendment on specific booking,before scoring
+"Quick one, is my refund for order NW-30555 processed yet? Actually never mind the specifics, just explain how refunds work in general.",no,"Withdraws refund status, asks general refund process",before scoring
+name typo on booking!!! its Tomasz not Tomas. please help asap flight is on 14/06,yes,"Name error on own booking, asks help",before scoring
+moving house next fri,unsure,"Too vague: statement only, no request",before scoring
+Can I cancel my monthly contract any time or is there a notice period,no,General contract notice rules,before scoring
+"My order #PG-88213 for the resistance bands hasn't shipped yet, how long does shipping usually take",yes,"Specific order not shipped, ID given",before scoring
+"my daughter (Lena Hughes, acct ending 3320) wants to be added to my family plan, is that possible",yes,Add named person to their family plan,before scoring
+I'd like to add my mobile number to my account so I can get SMS check-in reminders. Where do I do that,no,How-to add mobile number,before scoring
+My trainer Jake cancelled on me last week. Look at my booking records and tell me if I got a credit. Otherwise just tell me what the cancellation fee policy is in general.,yes,"Lookup of booking credit requested, not withdrawn",before scoring
+"Order NW-27843 shows delivered but I never got it. Forget my order, just tell me what stores usually do about missing deliveries.",no,"Withdraws order, asks general missing delivery handling",before scoring
+"Can you tell me the balance on my Voltcart store credit, account email mark.j.reed@mail.com? Actually skip that and just explain how store credit expires in general.",no,"Withdraws balance check, asks general expiry",before scoring
+"The engineer who came on 22/06 didnt turn up properly he just knocked and left, i waited all day off work, i want compensation for lost wages",yes,Compensation claim for their missed appointment,before scoring
+"hey so is it generally possible to change flight dates on budget airlines?? my booking is SKY77104 for March 3rd, pls tell me the rule without looking it up lol",no,Asks general rule without lookup,before scoring
+Why was i charged twice?? Bank statement shows two payments of 149.99 on 2 March for order 66402. Fix this please,yes,"Double charge on specific order, fix requested",before scoring
+"Answer in general terms only, no personal info: how many kilos of hand luggage are allowed? Also my flight SKY88314 tomorrow, how much hand luggage do I get?",yes,Asks allowance for their specific flight,before scoring
+Class booking for yoga on Tues 14th says full but i see 2 spots?? Booking ref YG-2291 thx,yes,Problem with specific class booking ref,before scoring
+"Quick one: where is my package from order VC-55021 (delivery to 14 Elm St, Leeds)? Ignore that, just explain in general how Voltcart ships to the UK.",no,"Withdraws package query, asks general shipping",before scoring
+Booked a flight to Prague with skyhop and didnt realise bags werent included. Can I add one to my booking now? Thanks,no,General how-to add bag after booking,before scoring
+Is flight SK 211 from Oslo to Gdansk still on time?,no,"Public flight status, same for everyone",before scoring
+lost my keycard,yes,Lost keycard needs deactivation on their account,before scoring
+"Cancel order 77120 asap!!! i ordered wrong colour, i wanted white not black. thx",yes,Cancel specific order,before scoring
+Which warranty applies to the Voltcart air fryer bought on 12/02/2024?,no,Product warranty rule from stated date,before scoring
+"why is there a standing charge on my bill when i have used hardly any power this quarter, its not fair imo",no,General explanation of standing charges,before scoring
+what counts as a monthly account fee and do I get charged if I have no income in the account? my last statement showed £12 for March,unsure,General fee question but cites own 12 pound charge,before scoring
+"My order #PG-48213 never arrived but unrelated, what's the tallest mountain in Africa",no,Only asks general knowledge question,before scoring
+"Can I keep my number if I switch from another network? Separately, did my switch request from EE on 11 April get approved? Account holder is Daniel Mensah.",yes,Asks status of their own switch request,before scoring
+"my app keeps logging me out every time I switch to wifi, what's going on with my login",no,App troubleshooting,before scoring
+my promo code FORK20 says expired but I got it last week?? is that normal,no,General promo code expiry question,before scoring
+where r u based,no,Company location,before scoring
+The washing machine I got from you on 12/02 makes a loud banging noise on spin and the door wont open. Is this covered under warranty? Order VC-50987,yes,"Faulty item on specific order, warranty claim",before scoring
+I think someone used my card for a £48.50 payment to a shop I've never been to,yes,Fraud on their card,before scoring
+"Hi, I booked for Olivia Brandt but my passport says Olivia Brandt-Lehmann. Need to fix before check in. Ref K8M4TR",yes,Name fix on specific booking,before scoring
+I want to upgrade to the 5G plan but do i keep my current number and do i lose my remaining data for this month? also is there a fee,no,General upgrade rules and fees,before scoring
+my boyfriend booked the flight under his name but i am the one flying. is there a way to switch it to mine? order SK-20931,yes,Transfer specific booking to another name,before scoring
+"Hi team, my name is Priya Desai and I can't see my pension transfer on the app since 1 April",yes,Missing transfer on their account,before scoring
+"Hello, I'm calling on behalf of my elderly mum who is the account holder. She has passed away last month and I need to close the account. Her name is Edith Calloway, account 0044-B-19382",yes,Close a specific deceased person's account,before scoring
+"I moved house last week, how do I transfer my account to the new address",no,How-to transfer account on moving,before scoring
+"good evening, reservation made for wrong passenger name by accident. require correction. ref N3D9VB. thank you",yes,Name correction on specific booking,before scoring
+can i freeze my membership for 2 months bc i broke my wrist and cant lift anything lol,no,General membership freeze rule,before scoring
+warranty on my kettle?,unsure,Warranty may depend on which kettle bought,before scoring
+"My account got locked after too many password tries, how do I get back in",no,General account unlock how-to,before scoring
+"Need a receipt for tax purposes for last year, all payments from jan to dec 2024, member no. 30388. Pdf if possible",yes,Receipts for a specific member,before scoring
+Does the paper statement request for account ending 5512 cost anything to receive,unsure,Fee question tied to a specific account request,before scoring
+"Order 81290 says delivered but the food never showed up, what now",yes,Specific order not received,before scoring
+"omg i put my nickname instead of my real name on the ticket, is that gonna be a problem at the airport or can u change it",yes,Asks to change name on their ticket,before scoring
+"i got a refund cheque for £61.20 from you in 2019 and never got it, can it be reissued? Ref 2019-R-44871",yes,Reissue a specific refund cheque,before scoring
+"i was told by the shop assistant in Leeds on Saturday that I would get a free phone with the plan, it's not on my bill. Can you check?",yes,Check promised offer on their bill,before scoring
+hey the discount code SPRING20 isnt working at checkout it says invalid??,no,Discount code troubleshooting,before scoring
+"switch tariff, how long",no,General tariff switch timing,before scoring
+can u tell me how to change the email on my account,no,How-to change email,before scoring
+cancel my membership pls,yes,Request to cancel their membership,before scoring
+"i keep getting texts about my balance but the app wont log me in, have tried reset 4 times. user ref Jonas_K88",yes,Account access issue with user ref,before scoring
+I returned the toaster on 14 Feb with tracking 9934-AX7 but no refund yet. how long does it take. order 22019,yes,Refund for specific returned order,before scoring
+I want to bring a suitcase on my flight to Athens next Tuesday. My booking doesn't include one. What are my options to add it?,no,General options to add a suitcase,before scoring
+Refund status for cancelled booking HN3361A??,yes,Refund status for specific booking,before scoring
+"I bought a kettle in March (order VC-62840, paid by PayPal). Don't look at my account, just tell me how return windows work in general.",no,Asks general return windows only,before scoring
+"cant log in, it says my account is locked after 3 tries. i didnt try 3 times, i tried once and then it said locked. Samuel Okafor",yes,"Their account locked anomalously, expects investigation",before scoring
+can i cancel,unsure,"Too vague: cancel what, policy or request",before scoring
+"I've been charged twice for march, dates are 3rd and 17th. can you fix this",yes,"Double charge on their account, fix requested",before scoring
+where's my refund,yes,Asks status of their own refund,before scoring
+my mum forgot to get a hold bag when she booked and she's flying on the 28th. can i add it for her?,no,General rule: adding bag to another's booking,before scoring
+"hi is it cheaper to heat with electric or gas? my usage last quarter was 1,240 kWh gas and I'd like to know if that's high for a 3 bed house, account GB-44019",unsure,Usage given in text but account number attached,before scoring
+Can I raise my daily ATM withdrawal limit before my trip to Lisbon on 2 May?,no,General ATM limit change how-to,before scoring
+my card got declined and now my acct says overdue. i updated the card on the website yesterday. why still blocked,yes,Their account still blocked after card update,before scoring
+my order says delivered on 28/02 but i was home all day and nothing came. please help. order VC-60033,yes,"Specific order marked delivered, not received",before scoring
+"Is my family plan still active? Don't check my account, I just want to know if family plans usually cover spouses.",no,Asks general family plan coverage,before scoring
+My daughter uses my account to shop sometimes. How do I remove her saved card from my payment methods?,no,How-to remove a saved card,before scoring
+"I want to cancel my subscription before the 1st, how do i do that",no,How-to cancel subscription,before scoring
+"Hi, I'm Priya Nair. My address on order NW-66091 is outdated. Just tell me generally how address changes work after purchase.",no,Asks general address change rules,before scoring
+"i got a damaged fridge freezer, the door is dented. what's my next step",yes,"Own damaged item, expects resolution",before scoring
+delete my account,yes,Request to delete their account,before scoring
+"Quick one. Is my yoga class booking for Saturday at 9 confirmed? Actually skip checking, just tell me how cancellations usually work in general.",no,"Withdraws booking check, asks general cancellations",before scoring
+"I just want the general coverage info for rural Wales. Don't look at my postcode SY23 4LT, just the general stuff thanks",no,General coverage info only,before scoring
+smart meter not working since monday,unsure,Troubleshooting or meter fault needing their account,before scoring
+"my dad keeps getting charged for a class pass he doesnt use, his name is Robert Kim, can u tell me what it is and cancel it if possible",yes,Find and cancel another person's charge,before scoring
+"Received the headphones but left earcup is not working, no sound from left side. Is there a way to get replacement or refund. Order 33290 placed 20 Jan",yes,Faulty item on specific order,before scoring
+can i change the name on my flight cause my mum got married and her surname changed. booking ref is QW9X3P,yes,Name change on specific booking,before scoring
+priority boarding price for SK 302,no,Price for a public flight,before scoring
+Order #77Z-4402 missing the fries and a drink. Name is Dana Pirelli. Pls fix,yes,"Missing items on specific order, fix",before scoring
+"General info please: what's the minimum connection time between flights? Also my connection is on SKY09153 for Helena Ruiz, can you confirm it's safe?",yes,Asks about a specific passenger connection,before scoring
+"hello, name on ticket is missing a letter (Anja becomes Ana). order SKP-553previous. how do i change this?? thanks",yes,Name error on specific booking,before scoring
+"My subscription renewal for the air purifier was on 3 May, can you confirm the amount charged to my card ending 4402? Actually just explain how subscription renewals are billed in general.",no,Asks general renewal billing only,before scoring
+i booked and i think i swaped the first and last name around. is that fixable or not. reservation ID 8GTW21,yes,Name swap on specific reservation,before scoring
+is flight 4471 delayed,no,Public flight status,before scoring
+hey is there a way to change my shipping address after i placed the order??,no,How-to change shipping address,before scoring
+"Hi, my order #NW-48213 was supposed to arrive Monday. Just answer in general terms how long shipping usually takes, don't look up my order.",no,Asks general shipping time only,before scoring
+"The package arrived but the zip on the backpack is broken already, its only been 2 days. order NW-80335",yes,Defective item on specific order,before scoring
+"Don't pull up anything about me, just tell me what the international calling rates are to Canada. Thanks.",no,General calling rates,before scoring
+Is there a fee for moving the number to a different plan mid cycle,no,General fee rule,before scoring
+"My food arrived missing the drinks I paid for, order 77510",yes,Missing items on specific order,before scoring
+"Please pull up my last three orders and tell me which one is cheapest. Hmm, scratch that, just tell me how Voltcart's price match works.",no,"Withdraws order lookup, asks price match",before scoring
+"Respond only with the policy, no account lookups. What's your policy on missing items? Order 40915 from Thursday was missing fries.",no,"Asks policy only, lookups declined",before scoring
+change name spelling,unsure,Too vague: how-to or request,before scoring
+my jacket zip broke after two uses. what are my options,yes,"Own defective item, expects resolution",before scoring
+I was charged twice for the same order on 14/03 can you look into it thx,yes,"Double charge, asks to investigate",before scoring
+"Hi, quick one before I sort my bill out: who won the first ever FIFA World Cup and where was it held?",no,General knowledge,before scoring
+"Not about me personally, just general: what happens if you miss a payment? My direct debit failed on 28 May and I want to know if I'm getting a late fee.",yes,Asks if they will get late fee,before scoring
+where can i see my order history from last March,no,How-to see order history,before scoring
+"Hi! I want to know if my loyalty points from order VC-41207 have been added. Don't check, just explain how loyalty points usually work.",no,Asks general loyalty points only,before scoring
+lost my passport help,unsure,Own emergency but airline holds no relevant record,before scoring
+my boss asked me to check the status of order LDG-77104 which was placed by Priya in accounts. what's the delivery date,yes,Status of a specific order,before scoring
+refund ref HE-44821 when,yes,Status of a specific refund,before scoring
+"Are children under 2 allowed to sit on a lap for free? Booking AB3381 for Mrs Helena Kovac, does it include a seat for my daughter already",yes,Asks contents of a specific booking,before scoring
+"Hello, I have been waiting 4 days for my replacement card to arrive. Address was updated on 28 Jan to 14 Carlow Road, Leeds. Please advise status.",yes,Status of their replacement card,before scoring
+"I lost my debit card on the bus this morning, need it frozen asap",yes,Freeze their lost card,before scoring
+Can I cancel my order? I accidentally ordered the wrong size burrito,yes,Wants their current order cancelled,before scoring
+Took a meter reading yesterday: 04521 electric. Where do I submit it so it's on my account?,no,How-to submit meter reading,before scoring
+I want to leave a review but i dont see the button anywhere,no,How-to leave a review,before scoring
+"my bill came out higher than usual, can someone look at it pls",yes,Asks someone to check their bill,before scoring
+My name is Dana Okafor and I need to update the phone number on my profile,unsure,Need stated with name; how-to or request unclear,before scoring
+Need help. My account 4471-DOUG has the wrong address saved. Answer generally: how do address changes usually take effect in online shops?,no,Question asked is general address change rules,before scoring
+how long does it take for my switch to go through,no,General switch timing,before scoring
+cancel my plan pls,yes,Request to cancel their plan,before scoring
+can u tell me the daily ATM withdrawal limit for standard cards,no,General ATM limit,before scoring
+send me a receipt,yes,Request to send their receipt,before scoring
+my partner's booking is in my name and we want to add a case for him. how do I do that,no,How-to add bag to booking,before scoring
+"Need name change on booking, typo in surname, wrong letter 'i' instead of 'y'. Booking ref ZP7046. Urgent, flight tomorrow morning",yes,Name change on specific booking,before scoring
+Got a letter saying I owe 400 pounds for an estimated reading. I have never had a reading taken by you and I have submitted meter readings every month. Explain please,yes,Disputed bill on their account,before scoring
+cancel order pls,yes,Request to cancel their order,before scoring
+"VC-83062 arrived with a cracked screen. Don't open the order, just give me a general guide to filing damage claims.",no,Asks general damage claim guide only,before scoring
+hi i bought the airfryer last week (name is Dana Ruiz) and the basket is cracked on one side. how do i send it back without paying??,yes,"Own damaged item, expects return handled",before scoring
+"Pls can u correct passenger name, apostrophe missing in O'Connor, its written as OConnor. ref B2RPL9. thanks",yes,Name correction on specific booking,before scoring
+I need to update the passport number on my profile before my flight to Athens on 2 May. How do I do that?,no,How-to update passport number,before scoring
+"Order 88219 never arrived. Don't check the tracking, just tell me generally what couriers do when parcels get lost",no,Asks general lost parcel handling only,before scoring
+"Can you tell me the status of my exchange for NW-88310? I'm not asking for anything personal, just explain the exchange process in general terms.",no,"Withdraws status, asks general exchange process",before scoring
+"my order came with one piece missing from the box, how do I get the missing part sent",yes,"Own incomplete order, expects part sent",before scoring
+Restaurant said it was closed but i was charged anyway. Order FK-11876 placed Sat 22 June around 8:40pm. Please refund,yes,Refund for specific order,before scoring
+Do I get a refund if I switch suppliers before my contract ends,no,General early exit refund rule,before scoring
+"hi, my name is Priya Desai and my order number is BL-48213, when will my new sim arrive",yes,Delivery date of specific order,before scoring
+bill too high lol,yes,Own bill complaint,before scoring
+new card arrived?,unsure,Too vague to tell what is asked,before scoring
+my bill went up again this month why is it £35 when my plan says £20,yes,Their bill differs from plan,before scoring
+how do i check how much data i have left this month,no,How-to check data,before scoring
+Can I transfer my membership from the Northpark location to the Riverside one? i moved across town last month,no,General membership transfer rule,before scoring
+"Did I get charged twice for NW-63301? If you can't see it, just tell me how double charges usually get resolved.",yes,"Double charge lookup, not withdrawn",before scoring
+"My friend says you charge customs fees on EU orders, is that true",no,General customs question,before scoring
+Do you sell children's school uniforms? And can you tell me the status of my uniform order NW-48455 that was supposed to arrive last week,yes,Asks status of specific order,before scoring
+"Account 77920, check my payment method on file and tell me if it's expired. Actually I'm just curious how payment methods usually get updated, so answer that part only.",no,Asks only general payment update info,before scoring
+unsubscribe newsletter pls,yes,Request to unsubscribe them,before scoring
+can i freeze my membership for 6 weeks bc I'm moving,no,General freeze rule,before scoring
+wheres my sim,yes,Status of their SIM delivery,before scoring
+"Quick question, I think I forgot my bag on the booking. Where do I add it? Name is Tomasz Nowak",unsure,How-to question but name given,before scoring
+"I want to change the delivery address after placing order #FK-48213, is that allowed",yes,Change address on specific order,before scoring
+"order HE-77520 still not arrived after 3 weeks, i was told 10 working days. what is going on",yes,Specific order not arrived,before scoring
+"my salary didnt come in this month, employer says they paid on 25th. Account no ends 2290. Help",yes,Missing salary on their account,before scoring
+"my name is Dana Ruiz, check account",yes,Request to check their account,before scoring
+"Hi, I want to cancel my order #VC-48213 before it ships. Is that possible?",yes,Cancel specific order,before scoring
+"i ordered 2 hoodies and only got 1 in the box, order placed on March 3rd. What now",yes,Own order missing an item,before scoring
+"Can you look up whether my name Anna Kowalski is on the warranty list for my fridge? Actually no, just explain in general how warranties work for appliances.",no,"Withdraws lookup, asks general warranties",before scoring
+can i add a bag,no,General how-to add bag,before scoring
+can i return shoes i wore outside? they're still in the box tho,no,General returns policy,before scoring
+How do I freeze my debit card? I think I left it in a taxi in Leeds last night,no,"How-to freeze card, self-service",before scoring
+can i transfer my membership to my partner,no,General membership transfer rule,before scoring
+"my package says delivered but nothing is on my porch, what do i do",yes,"Own package missing, expects resolution",before scoring
+why is the sky blue lol,no,General knowledge,before scoring
+"Hi, my colleague Tom booked the team lunch for Friday at 1pm at Bella Trattoria. Can you change the headcount to 14 and resend the confirmation to his email?",yes,Change a specific booking,before scoring
+"my card got declined, can i still get into the gym today",unsure,Gym access rule vs their account status,before scoring
+"my top up didn't show up on my account after 2 hours, ref TU-77405",yes,Missing top-up with ref,before scoring
+"My name is Dana Liu and my account email is dana.liu@mail.com. Without pulling my account, what's your general policy on loyalty points?",no,Asks general loyalty policy only,before scoring
+"Hi, Elena here. Can you confirm which Pilates class I'm enrolled in? Actually don't look that up, just tell me general enrollment rules.",no,"Withdraws lookup, asks general enrollment rules",before scoring
+i want to dispute a charge from order #A7741 that I was refunded for but the money hasn't come back,yes,Dispute a specific charge,before scoring
+Quick q: when does my contract renewal date fall? Trying to plan ahead,yes,Their contract renewal date,before scoring
+wrong name on bill,yes,Error on their bill,before scoring
+I got a text saying my direct debit failed on 12/05 and my account is suspended. I paid it already on the 11th. Please fix,yes,Fix their suspended account,before scoring
+"im trying to top up my pay as you go card but the app keeps saying ""transaction declined"" with no reason given. amount was £20, 15/03",yes,Specific declined transaction,before scoring
+"my new card hasn't arrived and it's been 3 weeks since I ordered it, order ref LDG-88213",yes,Status of their card order,before scoring
+"i need a invoice for my last purchase for tax stuff, order VC-47761, can you email it again",yes,Resend invoice for specific order,before scoring
+"can someone explain how the round-up feature works? i noticed my roundups stopped in June and I want to know why, my user ID is UK-774210",yes,"Why their roundups stopped, user ID given",before scoring
+"Need to change my plan to the 20GB one, how do i do that on my account",no,How-to change plan,before scoring
+"Can I cancel my order from this morning, order #NW-48213",yes,Cancel specific order,before scoring
+when does my check-in open,no,General check-in opening rule,before scoring
+"my card got declined at the shop yesterday and i dont know why, my name is Priya Raman and the card ends in 4471, can u check it pls",yes,Check their declined card,before scoring
+I've been locked out of my account after too many password attempts. My username is dan_rivera_92. How do I get back in?,unsure,How-to question but username given,before scoring
+"Without going into my details, what is your cancellation policy? I want to cancel order 60882 that I placed at 7:42pm on April 9.",yes,"Wants specific order cancelled, not withdrawn",before scoring
+Can I get a refund on the subscription fee if I cancel in the first 14 days,no,General refund rule,before scoring
+"my account wont let me log in, keeps saying wrong password but i just reset it yesterday",no,Login troubleshooting,before scoring
+"Hi, do you ship to Ireland? Also my order NW-48213 was supposed to arrive Tuesday, where is it?",yes,Asks location of specific order,before scoring
+where do I find my gym access QR code? app keeps crashing when I open the membership tab,no,App troubleshooting,before scoring
+"I'm calling on behalf of my mum, Ruth Okafor. She's 81 and can't use the app. Can you change her card PIN for her or read me her last 5 transactions?",yes,Act on another person's account,before scoring
+"can u add my wife Mei Lin to my family plan, she has her own email mlin88@mail.com",yes,Add named person to their plan,before scoring
+"Hi, I'd like to know whether I can pay for checked luggage after I've already booked. Booking ref is QX93LM.",unsure,General luggage question but booking ref given,before scoring
+"notification said my card was blocked for ""suspicious activity"" but i was in the shop buying bread, why would u block me like that",yes,Why their card was blocked,before scoring
+Is the 15% student discount still running this month? I couldn't find the code on the site,no,General discount question,before scoring
+"how do i know if my salary from Fairwood Ltd landed yet? asking generally, my account is 6230",unsure,"How-to check salary, but account given",before scoring
+"does skyhop let you add luggage later or do you have to pay at the airport? booking under Ana Costa, ref HN8034",unsure,General luggage rule but booking ref given,before scoring
+Is there a fee for topping up the balance in euros from the current account,no,General fee question,before scoring
+lost my card,yes,Lost card needs freezing,before scoring
+"hello, my reading for the 1st of may was 04512 and it shows 03980 on the app, which one is right, please check and let me know asap thanks",yes,Check their meter readings,before scoring
+"my order NW-48213 still says processing since monday, is that normal??",yes,Specific order stuck processing,before scoring
+"tell me how to tell if a restaurant is open, not asking about any specific one. my order from Bella Roma last Friday arrived cold, what do i do",yes,Own cold order expects handling,before scoring
+i was told by the front desk guy named Marcus on Jan 22 i would get 1 month free if i referred a friend. where is my free month,yes,Missing promised credit on their account,before scoring
+"how do i delete my saved payment method, my old card expired and it keeps showing up at checkout",no,How-to delete payment method,before scoring
+"Hi i ordered a black hoodie last week order #NW-48213 and it still says processing, when will it ship",yes,Ship date of specific order,before scoring
+Do my guest passes expire if I don't use them in a month?,no,General guest pass rule,before scoring
+"Wait, I must avoid ""my"", ""mine"", ""I"" entirely. Rewriting carefully:",no,"No request at all, nothing personal",before scoring
+"I'm trying to figure out the interest on my credit balance, is there a standard rate",no,General interest rate,before scoring
+"hey so i forgot my password and the reset link never arrives, what do i do",no,Password reset troubleshooting,before scoring
+Can I switch from pay as you go to a monthly plan without losing my credit,no,General plan switch rule,before scoring
+"Is the discount code SPRING20 valid for my order NW-38462? Don't verify it, just explain how discount codes usually apply.",no,Asks general discount code rules only,before scoring
+is delivery free,no,General delivery fee,before scoring
+"omg is there a way to add a suitcase to my flight now? booking was made under Sarah Lim, flight is 14 March",unsure,"How-to add suitcase, but booking name given",before scoring
+Why is my parcel tracking still saying label created after 9 days. Not happy,yes,"Own parcel stuck, expects handling",before scoring
+driver was extremely rude to me when i asked where he was. want to report him. order FK-90127,yes,Report driver on specific order,before scoring
+"Dear Skyhop team, I would like to kindly ask whether it is possible to correct my name in my reservation, as there is a small spelling mistake. Thank you in advance. Booking number RT5581",yes,Name correction on specific booking,before scoring
+"is there a way to pause my plan for a few months, I'm going travelling",no,General plan pause rule,before scoring
+"Question about warranty on the leather belt from order NW-19377. Keep it general, no account lookup needed, what does a typical accessory warranty cover?",no,Asks general warranty only,before scoring
+"I want to upgrade my phone early, what's the early upgrade fee?",no,General early upgrade fee,before scoring
+"Ordered on 5/18, order NW-82634, wrong color arrived. Please don't look it up, just explain in general how wrong-item claims are handled.",no,Asks general wrong-item handling only,before scoring
+"cancel my order asap!!! i put the wrong address, its FK-33018 placed 5 mins ago",yes,Cancel specific order,before scoring
+how long do refunds take,no,General refund timing,before scoring
+what time does the sauna close at the downtown gym,no,Opening hours,before scoring
+can u cancel order NW-70992 i put wrong address pls help asap,yes,Cancel specific order,before scoring
+how do i cancel,no,How-to cancel,before scoring
+"hi i booked flight SK44817 for me and my brother but i typed his name wrong on it, can u fix it pls",yes,Fix name on specific booking,before scoring
+Can't log in. Says my password is incorrect but i just reset it this morning. email is kenji.ow@mail.com,unsure,Login troubleshooting but email given,before scoring
+"the burrito i got was cold and soggy and the guac was brown. not happy at all, im Marcus T.",yes,Complaint about their order,before scoring
+whats my data usage looking like so far this month?? feels like ive used loads,yes,Their data usage,before scoring
+I was charged twice for the same order on my card. Order NW-55107 from 3rd March. Need one refund,yes,"Double charge, refund requested",before scoring
+"roaming in france, got charged 14 pounds a day, is that right? I didnt know, nobody told me",yes,Disputes their roaming charges,before scoring
+"Hi, my order VC-48213 still shows processing. Just tell me in general how long processing usually takes, I don't need my specific order checked.",no,Asks general processing time only,before scoring
+"hey can i change the delivery address on my order? i moved yesterday, its 14 Harbor Lane apt 3b not the old one. order is 61844 thanks",yes,Change address on specific order,before scoring
+hey is it possible to change my card PIN in the app or do I have to go to a branch? my card ending 4471 got stuck in the ATM yesterday btw,unsure,PIN how-to; stuck card mentioned in passing,before scoring
+Where's the check-in desk for flight SK 530 out of Bergamo,no,Airport info for public flight,before scoring
+"Hi team, I'd like to close my Northwind account permanently. Will my saved addresses and order history be deleted too?",yes,Request to close their account,before scoring
+pilates tmrw?,unsure,Too vague: schedule or their booking,before scoring
+"I want to upgrade from basic to premium mid-cycle, will I get charged the full amount",no,General upgrade billing rule,before scoring
+Is it possible for me to add checked baggage to a reservation I made last month? I'm flying Warsaw to Madrid on 11 July.,no,General how-to add baggage,before scoring
+card declined abroad,unsure,Generic troubleshooting or their card issue,before scoring
+"Order NW-10492 arrived with a torn sleeve. Please don't look anything up, just tell me in general what to do with damaged items.",no,Asks general damaged item handling only,before scoring
+"hello, my first name is missing the second ""e"" on the booking (Sofie -> Sofi). booking code HM6Z0Q. is this easy to change online or do i call?",yes,Name error on specific booking,before scoring
+I got charged twice for dinner last night???,yes,Double charge on their order,before scoring
+"My order #48213 hasn't been refunded yet, how long does it take?",yes,Refund for specific order,before scoring
+can u add a hold bag to my flight. ref 4410928 thx,yes,Add bag to specific booking,before scoring
+"hey so is it possible to upgrade to the 40GB plan? just asking in general, don't need to check my account lol",no,Asks general upgrade only,before scoring
+"Hi, how long does standard shipping take to get to Lisbon?",no,General shipping time,before scoring
+I put my dad's name instead of mine on the booking for SK-70112 help!!,yes,Wrong name on specific booking,before scoring
+"gift receipt pls, order number 55581, its a present for my sister she lives in another country, will the price show on it",yes,Gift receipt for specific order,before scoring
+how long for refund,no,General refund timing,before scoring
+change my address pls,yes,Request to change their address,before scoring
+wrong item came,yes,"Own wrong item, expects resolution",before scoring
+"i moved flat on 3/2 and the old tenant's account is still in my name, need this fixed asap, name is Priya Raghunathan",yes,Fix account in their name,before scoring
+Please confirm whether my complaint from 28 January (case 5530291) has been escalated to a manager. No one has responded in 2 weeks and I am very unhappy with this service.,yes,Status of specific complaint,before scoring
+freeze account,unsure,Too vague: how-to or request,before scoring
+Why was I charged a service fee when the menu said free delivery,no,General fee explanation,before scoring
+"can u just tell me generally whether solar panels affect the bill, i dont need my details checked, my account is 60294 and i have panels installed in 2021",no,Asks general solar info only,before scoring
+Did my flatmate Tom Eriksen ever pay for the phone he got through us? Booking ref TE-7731. I dont want to be dragged into this,yes,Another person's payment records,before scoring
+My order number is 77310 and I'd like to know how long after booking I can cancel for a full refund,unsure,General cancellation rule but order number given,before scoring
+Why does the bill for April 3rd show £41.50 when the plan is £25,yes,Their specific bill amount,before scoring
+What's the difference between a virus and bacteria? Need it for biology hw,no,General knowledge,before scoring
+meter reading due when?,unsure,Reading schedule may be per account,before scoring
+"how long does it take to switch supplier in the UK. i want to switch but also i have a debt of about 80 quid on my account, is that a problem?",no,General switching rule with stated debt,before scoring
+"My locker code stopped working. Don't need you to reset anything on my profile, just explain how locker codes are generally assigned.",no,Asks general locker info only,before scoring
+no signal in my house only at the window. Ive had 2 engineers round before (ref BL-77120 and BL-79004). what are you going to do about it,yes,Escalation of their service complaint,before scoring
+transfer to sarah k still pending?,yes,Status of their transfer,before scoring
+"ok so i think i wrote ""Jon"" instead of ""John"" on my flight to Porto, booking 39AFRT. can this be changed or do i need to buy a new one",yes,Name error on specific booking,before scoring
+"The belt i got is not the colour i selected on the website, it says brown but its tan. Order NW-61840",yes,Wrong item on specific order,before scoring
+"i sent 250 pound to my brother last nite on the app and it says pending still, ref LDG-88213, is it stuck??",yes,Status of specific transfer,before scoring
+late payment fee?,unsure,Too vague: fee policy or their fee,before scoring
+hey so i booked skyhop for next friday but forgot to add a bag. can i still do that on my booking? ref AB7K2P,unsure,How-to add bag but booking ref given,before scoring
+how long does it usually take for my refund to show up on my card,no,General refund timing,before scoring
+"My card was declined at the petrol station but I still have money in the account, what gives",unsure,Generic decline reasons or their card issue,before scoring
+"I ordered a hoodie on April 9 (NW-51736) and changed my mind about the color. Generally speaking, can I still change it?",yes,"Change specific order, depends on its status",before scoring
+can i still return a blender i opened? i only used it once lol,no,General returns policy,before scoring
+"Forgot my password and the reset email never comes, i checked spam. email is dana.r@mailbox.com",unsure,Password reset troubleshooting but email given,before scoring
+need a receipt,unsure,Too vague: how-to or request,before scoring
+"Need a copy of all my bills from last year for my tax return, cant find them in the portal. My name is Tomasz Wiśniewski",yes,Copies of their bills,before scoring
+"my coupon says it was applied but the total didnt change at all??? order FK-70215 , Ayesha K.",yes,Coupon issue on specific order,before scoring
+"I'd like to delete my account and all my data including workout history under GDPR, my email is r.osei@workmail.net",yes,Delete their account,before scoring
+"Can I change the delivery date on order NW-44019 to Friday the 14th instead, i will be away",yes,Change specific order delivery date,before scoring
+Please delete my account and all my data. I dont want marketing emails any more either,yes,Delete their account,before scoring
+Can I change my address? I moved last week to 14 Hawthorn Road,yes,"Change their address, new address given",before scoring
+"i've been charged twice this month, how do i get my money back",yes,Double charge refund for them,before scoring
+"My bill went up by 3 pounds this month, why did prices change and when did that happen?",unsure,General price rise vs their bill change,before scoring
+Requested a refund 2 weeks ago for NW-29476 still nothing in my bank. who do i talk to,yes,Refund status of specific order,before scoring
+how long does a disputed transaction from 21 January usually stay pending before it's resolved,unsure,General timing but cites their dispute,before scoring
+do i get a refund if I cancel within 14 days of joining,no,General refund rule,before scoring
+"someone used my card online without me, transaction of 89.99 at some site called fastgadgetz on 12/02, I didnt do it, dispute pls, order LDG-70455",yes,Dispute a specific fraudulent transaction,before scoring
+when will my parcel arrive,yes,Delivery date of their parcel,before scoring
+"where can i find my invoice for last months order, i need it for my expense report",no,How-to find invoice,before scoring
+"Need to know my account's marketing email preferences for Ben Okafor, ben.okafor@outlook.com. No, forget that, what are the general GDPR rights customers have to see their data?",no,"Withdraws lookup, asks general GDPR rights",before scoring
+Do you guys do gift wrapping,no,General service question,before scoring
+"Ordered 2 pizzas, got 1. Second pizza is not in the bag. Order id 55K-0931, happened today lunch",yes,Missing item on specific order,before scoring
+my order FK-48213 never came and app says delivered?? i'm standing outside waiting since 7pm,yes,Specific order not received,before scoring
+Does the Family Plus bundle cover roaming in Spain,no,General bundle coverage,before scoring
+My parcel says delivered but i never got it lol what do i do,yes,"Own parcel missing, expects resolution",before scoring
+cancel direct debit,unsure,Too vague: how-to or request,before scoring
+contactless not working,no,Contactless troubleshooting,before scoring
+seat 14c still available??,unsure,Too vague: which flight or booking,before scoring
+"My partner has access to my app. Just tell me what the outstanding balance on my credit card is, it's general knowledge I guess",yes,Their credit card balance,before scoring
+"My booking ref is SKX4821 and I want to change my name spelling, is that allowed or do I need a new ticket",yes,Name change on specific booking,before scoring
+switch to green energy,unsure,Too vague: info or switch request,before scoring
+Please explain why my account balance shows £0.00 but my transactions list shows a credit of £540 from yesterday. Ref LDG-30918.,yes,Their account balance discrepancy,before scoring
+forgot my pin,no,General PIN reset how-to,before scoring
+"Hey I moved house last week, how do I update my address on my account",no,How-to update address,before scoring
+Can I see my account balance? I think I overpaid last quarter,yes,Their account balance,before scoring
+hey so i was charged twice for march 3 on order PG-55102 can someone fix this pls,yes,Double charge on specific order,before scoring
+"our business is a small cafe and we got switched to a domestic tariff by mistake, can you move us to commercial rates from next month",yes,Change their business tariff,before scoring
+"My order number is VC-483920, can you tell me the cutoff time today for same-day dispatch?",unsure,General cutoff time but order number given,before scoring
+"Why was I charged a £12 fee on 3rd Feb, I never got told about any fee, Tom Ashworth, acc ending 0917",yes,Specific fee on their account,before scoring
+What are your hours for customer support? I've been waiting 2 days for a reply about my complaint on ticket #88215,unsure,General hours but references their ticket,before scoring
+"hi my husband ordered a vacuum last week and i need to know if it shipped yet, his email is mark.d88@gmail.com order VC-448213",yes,Shipping status of another's order,before scoring
+does the gift card i bought for my mum on 3rd Jan expire? the code is not working,yes,Their gift card code not working,before scoring
+can i change my number?,no,General number change question,before scoring
+"Order PG-88213, I was charged twice for my June dues. Don't pull up my history, just tell me the usual policy on double charges.",no,Asks general double charge policy only,before scoring
+"Hello, my son is flying with me to Lisbon on 9 June and we both need a case now. How can I add luggage to my booking reference KT2208?",unsure,How-to add luggage but booking ref given,before scoring
+"hi!! my kid wants to join the junior program. i dont need to see my account at all, just tell me the age requirements in general terms pls",no,General age requirements,before scoring
+"the personal trainer i booked for sat 9/7 didnt show up and i waited 40 min, want a refund for session TR-7741",yes,Refund for specific session,before scoring
+"my order VC-48213 still hasnt arrived, it was suppose to come on 3/4 and now the tracking says label created only. can u check plz",yes,Check specific order,before scoring
+"Locked out of the app after changing the phone, does the login still work with the same passcode",no,General login how-to,before scoring
+Are allergen labels shown on every restaurant menu? And what allergens were listed for the pad thai I ordered on 12 May under FK-83156?,yes,Allergens of their specific order,before scoring
+Why was I charged a £3 fee on Tuesday 14 March?? Nobody told me about this,yes,Specific fee on their account,before scoring
+can i return my blender,no,General returns policy,before scoring
+"hi, i think my smart meter is broken the screen says E2 since tues 14th. can someone come out pls",yes,Engineer visit for their meter,before scoring
+"As a general matter, what happens if I report a wrong order? My order 19376 was wrong, and I need a replacement sent today.",yes,Replacement for specific wrong order,before scoring
+"I want to cancel my add-on for extra hotspot data, how do I do it on my account",no,How-to cancel add-on,before scoring
+Does the fare on ZV6613C include priority boarding,yes,Fare contents of a specific booking ref,after scoring
+"Generic question first: does Brightline offer eSIM? Then tell me if my phone (iPhone 13, linked to number 07700 900123) is compatible.",unsure,"Model compatibility is general, but tied to their number",after scoring
+"Hi there, my daughter Sofia Chen placed order NW-70215 on her account. Answer as general info only: how do family accounts work?",no,Asks only general family account info,after scoring
+"Hi, my name is Dana Whitfield and I want to know how many sessions I have left on my personal training package, but just explain in general how the credits work, no need to look at my account.",no,"Withdraws lookup, asks general credit rules",after scoring
+How many minutes are left this month?,yes,Their remaining minutes this month,after scoring
+account email change,unsure,Too vague: how-to or request to act,after scoring
+hotspot not working since monday,unsure,Troubleshooting or their service fault,after scoring
+i missed my flight help,yes,Own missed flight needs booking handled,after scoring
+missed call charge why,unsure,Too vague: general policy or their charge,after scoring
+"name spelled wrong, fix?",yes,Asks fix of name on their booking,after scoring
+roaming charges march 12,yes,Their roaming charges on a specific date,after scoring
+wrong name on ticket,yes,Own ticket name error expecting fix,after scoring
+replacement for broken tv,unsure,Too vague: replacement policy or their own TV,after scoring
+"Power cut at the house tonight, is there a fault logged against postcode SW4 7QT",no,"Area outage by postcode, same for everyone",after scoring
+"hey quick q, not about me specifically, how do smart meter readings get estimated? anyway my meter number is 3390-SM-22 and it says 4 days ago it was read wrong",yes,"Reports wrong reading on their meter, not withdrawn",after scoring
+why is there a £35 fee,unsure,Too vague: general fee or charge on their account,after scoring
